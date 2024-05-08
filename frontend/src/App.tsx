@@ -1,17 +1,21 @@
 
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Stays } from './pages/Stays';
+import { Experiences } from './pages/Experiences';
+import { OnlineExperiences } from './pages/OnlineExperiences';
+import {TopNavbar} from './components/topNavbar/TopNavbar'
 
 
-function App() {
-  
-
-  return (
-    <>
-     
-      <h1>Add floder structure</h1>
-      <h2>AirBnb</h2>
-
-    </>
-  )
-}
-
-export default App
+export const App: React.FC = () => {
+    return (
+        <Router>
+            <TopNavbar />
+            <Routes>
+                <Route path="/" element={<Stays />} />
+                <Route path="/experiences" element={<Experiences />} />
+                <Route path="/online-experiences" element={<OnlineExperiences />} />
+            </Routes>
+        </Router>
+    );
+};
