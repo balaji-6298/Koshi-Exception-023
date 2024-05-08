@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      
-      
+      <h1>Airbnb</h1>
     </>
   )
 }
