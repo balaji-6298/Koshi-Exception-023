@@ -1,5 +1,5 @@
 import React from 'react';
 
 export const Stays=() => {
-    return <h2>Stays Page</h2>;
+    return <h2 style={{marginLeft:"400px"}}>Stays Page</h2>;
 };
