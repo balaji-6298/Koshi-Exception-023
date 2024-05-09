@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const Stays: React.FC = () => {
-    return <h2>Stays Page</h2>;
+export const Stays=() => {
+    return <h2 style={{marginLeft:"400px"}}>Stays Page</h2>;
 };
