@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const Navbar: React.FC = () => {
+export const TopNavbar: React.FC = () => {
     return (
         <div>
             <h2>My App</h2>
