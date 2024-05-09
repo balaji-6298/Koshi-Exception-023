@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const Experiences: React.FC = () => {
+export const Experiences= () => {
     return <h2>Experiences Page</h2>;
 };
