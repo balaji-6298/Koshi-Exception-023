@@ -1,1 +1,687 @@
-{}
+{
+    "rentals": [
+      {
+        "id": "1",
+        "url": "https://www.airbnb.co.in/la-serena-chile/stays/beachfront",
+        "location": "La Serena",
+        "type": "Beachfront rentals",
+        "price": "$100",
+        "rating": 4.5
+      },
+      {
+        "id": "2",
+        "url": "https://www.airbnb.co.in/dubai-united-arab-emirates/stays/apartments",
+        "location": "Dubai",
+        "type": "Flat rentals",
+        "price": "$150",
+        "rating": 4.8
+      },
+      {
+        "id": "3",
+        "url": "https://www.airbnb.co.in/birmingham-united-kingdom/stays/houses",
+        "location": "Birmingham",
+        "type": "House rentals",
+        "price": "$120",
+        "rating": 4.2
+      },
+      {
+        "id": "4",
+        "url": "https://www.airbnb.co.in/brighton-brighton-and-hove-united-kingdom/stays/beach-houses",
+        "location": "Brighton",
+        "type": "Beach house rentals",
+        "price": "$200",
+        "rating": 4.6
+      },
+      {
+        "id": "5",
+        "url": "https://www.airbnb.co.in/bude-united-kingdom/stays",
+        "location": "Bude",
+        "type": "Holiday rentals",
+        "price": "$90",
+        "rating": 4.0
+      },
+      {
+        "id": "6",
+        "url": "https://www.airbnb.co.in/newcastle-upon-tyne-united-kingdom/stays",
+        "location": "Newcastle upon Tyne",
+        "type": "Holiday rentals",
+        "price": "$110",
+        "rating": 4.3
+      },
+      {
+        "id": "7",
+        "url": "https://www.airbnb.co.in/padstow-united-kingdom/stays/cottages",
+        "location": "Padstow",
+        "type": "Cottage rentals",
+        "price": "$130",
+        "rating": 4.7
+      },
+      {
+        "id": "8",
+        "url": "https://www.airbnb.co.in/south-west-england-united-kingdom/stays/houses",
+        "location": "South West England",
+        "type": "House rentals",
+        "price": "$140",
+        "rating": 4.4
+      },
+      {
+        "id": "9",
+        "url": "https://www.airbnb.co.in/whitby-united-kingdom/stays",
+        "location": "Whitby",
+        "type": "Holiday rentals",
+        "price": "$95",
+        "rating": 4.1
+      },
+      {
+        "id": "10",
+        "url": "https://www.airbnb.co.in/fort-myers-fl/stays/beach-houses",
+        "location": "Fort Myers",
+        "type": "Beach house rentals",
+        "price": "$180",
+        "rating": 4.9
+      },
+      {
+        "id": "11",
+        "url": "https://www.airbnb.co.in/jacksonville-fl/stays/condos",
+        "location": "Jacksonville",
+        "type": "Apartment rentals",
+        "price": "$160",
+        "rating": 4.7
+      },
+      {
+        "id": "12",
+        "url": "https://www.airbnb.co.in/kissimmee-fl/stays/beachfront",
+        "location": "Kissimmee",
+        "type": "Beachfront rentals",
+        "price": "$200",
+        "rating": 4.6
+      },
+      {
+        "id": "13",
+        "url": "https://www.airbnb.co.in/longboat-key-fl/stays/villas",
+        "location": "Longboat Key",
+        "type": "Villa rentals",
+        "price": "$250",
+        "rating": 4.9
+      },
+      {
+        "id": "14",
+        "url": "https://www.airbnb.co.in/orlando-fl/stays/condos",
+        "location": "Orlando",
+        "type": "Apartment rentals",
+        "price": "$170",
+        "rating": 4.8
+      },
+      {
+        "id": "15",
+        "url": "https://www.airbnb.co.in/st-petersburg-fl/stays/pet-friendly",
+        "location": "St Petersburg",
+        "type": "Pet-friendly rentals",
+        "price": "$120",
+        "rating": 4.4
+      },
+      {
+        "id": "16",
+        "url": "https://www.airbnb.co.in/st-augustine-fl/stays/beach-houses",
+        "location": "St. Augustine",
+        "type": "Beach house rentals",
+        "price": "$190",
+        "rating": 4.7
+      },
+      {
+        "id": "17",
+        "url": "https://www.airbnb.co.in/the-villages-fl/stays/pet-friendly",
+        "location": "The Villages",
+        "type": "Pet-friendly rentals",
+        "price": "$110",
+        "rating": 4.2
+      },
+      {
+        "id": "18",
+        "url": "https://www.airbnb.co.in/dahlonega-ga/stays",
+        "location": "Dahlonega",
+        "type": "Holiday rentals",
+        "price": "$100",
+        "rating": 4.6
+      },
+      {
+        "id": "19",
+        "url": "https://www.airbnb.co.in/crete-greece/stays/apartments",
+        "location": "Crete",
+        "type": "Flat rentals",
+        "price": "$150",
+        "rating": 4.8
+      },
+      {
+        "id": "20",
+        "url": "https://www.airbnb.co.in/mykonos-greece/stays/beachfront",
+        "location": "Mykonos",
+        "type": "Beachfront rentals",
+        "price": "$200",
+        "rating": 4.9
+      },
+      {
+        "id": "21",
+        "url": "https://www.airbnb.co.in/santorini-greece/stays/villas",
+        "location": "Santorini",
+        "type": "Villa rentals",
+        "price": "$250",
+        "rating": 4.7
+      },
+      {
+        "id": "22",
+        "url": "https://www.airbnb.co.in/oahu-hi/stays/beachfront",
+        "location": "O‘ahu",
+        "type": "Beachfront rentals",
+        "price": "$180",
+        "rating": 4.5
+      },
+      {
+        "id": "23",
+        "url": "https://www.airbnb.co.in/capri-italy/stays/apartments",
+        "location": "Capri",
+        "type": "Flat rentals",
+        "price": "$160",
+        "rating": 4.6
+      },
+      {
+        "id": "24",
+        "url": "https://www.airbnb.co.in/bar-harbor-me/stays/cottages",
+        "location": "Bar Harbor",
+        "type": "Cottage rentals",
+        "price": "$130",
+        "rating": 4.2
+      },
+      {
+        "id": "25",
+        "url": "https://www.airbnb.co.in/mackinac-island-mi/stays/lakehouses",
+        "location": "Mackinac Island",
+        "type": "Lakehouse rentals",
+        "price": "$220",
+        "rating": 4.8
+      },
+      {
+        "id": "26",
+        "url": "https://www.airbnb.co.in/st-joseph-mi/stays/cabins",
+        "location": "St. Joseph",
+        "type": "Cabin rentals",
+        "price": "$170",
+        "rating": 4.5
+      },
+      {
+        "id": "27",
+        "url": "https://www.airbnb.co.in/larsmont-mn/stays",
+        "location": "Larsmont",
+        "type": "Holiday rentals",
+        "price": "$90",
+        "rating": 4.0
+      },
+      {
+        "id": "28",
+        "url": "https://www.airbnb.co.in/las-vegas-nv/stays",
+        "location": "Las Vegas",
+        "type": "Holiday rentals",
+        "price": "$150",
+        "rating": 4.6
+      },
+      {
+        "id": "29",
+        "url": "https://www.airbnb.co.in/madrid-nm/stays",
+        "location": "Madrid",
+        "type": "Holiday rentals",
+        "price": "$120",
+        "rating": 4.4
+      },
+      {
+        "id": "30",
+        "url": "https://www.airbnb.co.in/santa-fe-nm/stays/condos",
+        "location": "Santa Fe",
+        "type": "Apartment rentals",
+        "price": "$160",
+        "rating": 4.7
+      },
+      {
+        "id": "31",
+        "url": "https://www.airbnb.co.in/bermagui-australia/stays/pet-friendly",
+        "location": "Bermagui",
+        "type": "Pet-friendly rentals",
+        "price": "$110",
+        "rating": 4.3
+      },
+      {
+        "id": "32",
+        "url": "https://www.airbnb.co.in/evans-head-australia/stays",
+        "location": "Evans Head",
+        "type": "Holiday rentals",
+        "price": "$95",
+        "rating": 4.1
+      },
+      {
+        "id": "33",
+        "url": "https://www.airbnb.co.in/sawtell-australia/stays/beach-houses",
+        "location": "Sawtell",
+        "type": "Beach house rentals",
+        "price": "$180",
+        "rating": 4.6
+      },
+      {
+        "id": "34",
+        "url": "https://www.airbnb.co.in/young-australia/stays",
+        "location": "Young",
+        "type": "Holiday rentals",
+        "price": "$90",
+        "rating": 4.0
+      },
+      {
+        "id": "35",
+        "url": "https://www.airbnb.co.in/ocracoke-nc/stays/pet-friendly",
+        "location": "Ocracoke",
+        "type": "Pet-friendly rentals",
+        "price": "$120",
+        "rating": 4.2
+      },
+      {
+        "id": "36",
+        "url": "https://www.airbnb.co.in/florence-or/stays/condos",
+        "location": "Florence",
+        "type": "Apartment rentals",
+        "price": "$150",
+        "rating": 4.5
+      },
+      {
+        "id": "37",
+        "url": "https://www.airbnb.co.in/lakeside-or/stays",
+        "location": "Lakeside",
+        "type": "Holiday rentals",
+        "price": "$100",
+        "rating": 4.3
+      },
+      {
+        "id": "38",
+        "url": "https://www.airbnb.co.in/lincoln-city-or/stays",
+        "location": "Lincoln City",
+        "type": "Holiday rentals",
+        "price": "$110",
+        "rating": 4.4
+      },
+      {
+        "id": "39",
+        "url": "https://www.airbnb.co.in/paphos-cyprus/stays",
+        "location": "Paphos",
+        "type": "Holiday rentals",
+        "price": "$130",
+        "rating": 4.6
+      },
+      {
+        "id": "40",
+        "url": "https://www.airbnb.co.in/maleny-australia/stays",
+        "location": "Maleny",
+        "type": "Holiday rentals",
+        "price": "$90",
+        "rating": 4.0
+      },
+      {
+        "id": "41",
+        "url": "https://www.airbnb.co.in/stanthorpe-australia/stays/pet-friendly",
+        "location": "Stanthorpe",
+        "type": "Pet-friendly rentals",
+        "price": "$110",
+        "rating": 4.2
+      },
+      {
+        "id": "42",
+        "url": "https://www.airbnb.co.in/newport-ri/stays/beach-houses",
+        "location": "Newport",
+        "type": "Beach house rentals",
+        "price": "$200",
+        "rating": 4.8
+      },
+      {
+        "id": "43",
+        "url": "https://www.airbnb.co.in/glasgow-united-kingdom/stays/houses",
+        "location": "Glasgow",
+        "type": "House rentals",
+        "price": "$120",
+        "rating": 4.5
+      },
+      {
+        "id": "44",
+        "url": "https://www.airbnb.co.in/scottish-highlands-united-kingdom/stays",
+        "location": "Scottish Highlands",
+        "type": "Holiday rentals",
+        "price": "$110",
+        "rating": 4.4
+      },
+      {
+        "id": "45",
+        "url": "https://www.airbnb.co.in/st-andrews-united-kingdom/stays",
+        "location": "St Andrews",
+        "type": "Holiday rentals",
+        "price": "$100",
+        "rating": 4.3
+      },
+      {
+        "id": "46",
+        "url": "https://www.airbnb.co.in/mclaren-vale-australia/stays/houses",
+        "location": "McLaren Vale",
+        "type": "House rentals",
+        "price": "$140",
+        "rating": 4.7
+      },
+      {
+        "id": "47",
+        "url": "https://www.airbnb.co.in/wallaroo-australia/stays",
+        "location": "Wallaroo",
+        "type": "Holiday rentals",
+        "price": "$95",
+        "rating": 4.1
+      },
+      {
+        "id": "48",
+        "url": "https://www.airbnb.co.in/charleston-sc/stays/beach-houses",
+        "location": "Charleston",
+        "type": "Beach house rentals",
+        "price": "$180",
+        "rating": 4.6
+      },
+      {
+        "id": "49",
+        "url": "https://www.airbnb.co.in/hvar-croatia/stays/apartments",
+        "location": "Hvar",
+        "type": "Flat rentals",
+        "price": "$160",
+        "rating": 4.5
+      },
+      {
+        "id": "50",
+        "url": "https://www.airbnb.co.in/saint-john-us-virgin-islands/stays",
+        "location": "Saint John",
+        "type": "Holiday rentals",
+        "price": "$120",
+        "rating": 4.4
+      },
+      {
+        "id": "51",
+        "url": "https://www.airbnb.co.in/chattanooga-tn/stays",
+        "location": "Chattanooga",
+        "type": "Holiday rentals",
+        "price": "$100",
+        "rating": 4.3
+      },
+      {
+        "id": "52",
+        "url": "https://www.airbnb.co.in/concan-tx/stays/houses",
+        "location": "Concan",
+        "type": "House rentals",
+        "price": "$140",
+        "rating": 4.7
+      },
+      {
+        "id": "53",
+        "url": "https://www.airbnb.co.in/fredericksburg-tx/stays/houses",
+        "location": "Fredericksburg",
+        "type": "House rentals",
+        "price": "$130",
+        "rating": 4.6
+      },
+      {
+        "id": "54",
+        "url": "https://www.airbnb.co.in/new-braunfels-tx/stays/houses",
+        "location": "New Braunfels",
+        "type": "House rentals",
+        "price": "$150",
+        "rating": 4.8
+      },
+      {
+        "id": "55",
+        "url": "https://www.airbnb.co.in/rockport-tx/stays/beach-houses",
+        "location": "Rockport",
+        "type": "Beach house rentals",
+        "price": "$180",
+        "rating": 4.5
+      },
+      {
+        "id": "56",
+        "url": "https://www.airbnb.co.in/waco-tx/stays/apartments",
+        "location": "Waco",
+        "type": "Flat rentals",
+        "price": "$160",
+        "rating": 4.4
+      },
+      {
+        "id": "57",
+        "url": "https://www.airbnb.co.in/forest-of-dean-district-united-kingdom/stays",
+        "location": "Forest of Dean District",
+        "type": "Holiday rentals",
+        "price": "$110",
+        "rating": 4.2
+      },
+      {
+        "id": "58",
+        "url": "https://www.airbnb.co.in/jersey/stays/beach-houses",
+        "location": "Jersey",
+        "type": "Beach house rentals",
+        "price": "$200",
+        "rating": 4.7
+      },
+      {
+        "id": "59",
+        "url": "https://www.airbnb.co.in/lyme-regis-united-kingdom/stays/apartments",
+        "location": "Lyme Regis",
+        "type": "Flat rentals",
+        "price": "$160",
+        "rating": 4.6
+      },
+      {
+        "id": "60",
+        "url": "https://www.airbnb.co.in/manchester-united-kingdom/stays/cottages",
+        "location": "Manchester",
+        "type": "Cottage rentals",
+        "price": "$130",
+        "rating": 4.5
+      },
+      {
+        "id": "61",
+        "url": "https://www.airbnb.co.in/seaview-united-kingdom/stays",
+        "location": "Seaview",
+        "type": "Holiday rentals",
+        "price": "$100",
+        "rating": 4.3
+      },
+      {
+        "id": "62",
+        "url": "https://www.airbnb.co.in/southwold-united-kingdom/stays",
+        "location": "Southwold",
+        "type": "Holiday rentals",
+        "price": "$110",
+        "rating": 4.4
+      },
+      {
+        "id": "63",
+        "url": "https://www.airbnb.co.in/staithes-united-kingdom/stays",
+        "location": "Staithes",
+        "type": "Holiday rentals",
+        "price": "$120",
+        "rating": 4.5
+      },
+      {
+        "id": "64",
+        "url": "https://www.airbnb.co.in/wells-next-the-sea-united-kingdom/stays/houses",
+        "location": "Wells-next-the-Sea",
+        "type": "House rentals",
+        "price": "$140",
+        "rating": 4.6
+      },
+      {
+        "id": "65",
+        "url": "https://www.airbnb.co.in/st-george-ut/stays",
+        "location": "St. George",
+        "type": "Holiday rentals",
+        "price": "$100",
+        "rating": 4.2
+      },
+      {
+        "id": "66",
+        "url": "https://www.airbnb.co.in/burlington-vt/stays",
+        "location": "Burlington",
+        "type": "Holiday rentals",
+        "price": "$110",
+        "rating": 4.3
+      },
+      {
+        "id": "67",
+        "url": "https://www.airbnb.co.in/killington-vt/stays",
+        "location": "Killington",
+        "type": "Holiday rentals",
+        "price": "$120",
+        "rating": 4.4
+      },
+      {
+        "id": "68",
+        "url": "https://www.airbnb.co.in/lexington-vt/stays",
+        "location": "Lexington",
+        "type": "Holiday rentals",
+        "price": "$130",
+        "rating": 4.5
+      },
+      {
+        "id": "69",
+        "url": "https://www.airbnb.co.in/ocie-nc/stays/cabins",
+        "location": "Ocie",
+        "type": "Cabin rentals",
+        "price": "$140",
+        "rating": 4.6
+      },
+      {
+        "id": "70",
+        "url": "https://www.airbnb.co.in/seaside-heights-nj/stays/beach-houses",
+        "location": "Seaside Heights",
+        "type": "Beach house rentals",
+        "price": "$150",
+        "rating": 4.7
+      },
+      {
+        "id": "71",
+        "url": "https://www.airbnb.co.in/wildwood-nj/stays/apartments",
+        "location": "Wildwood",
+        "type": "Flat rentals",
+        "price": "$160",
+        "rating": 4.8
+      },
+      {
+        "id": "72",
+        "url": "https://www.airbnb.co.in/cedar-city-ut/stays",
+        "location": "Cedar City",
+        "type": "Holiday rentals",
+        "price": "$90",
+        "rating": 4.0
+      },
+      {
+        "id": "73",
+        "url": "https://www.airbnb.co.in/moab-ut/stays/cottages",
+        "location": "Moab",
+        "type": "Cottage rentals",
+        "price": "$110",
+        "rating": 4.2
+      },
+      {
+        "id": "74",
+        "url": "https://www.airbnb.co.in/park-city-ut/stays",
+        "location": "Park City",
+        "type": "Holiday rentals",
+        "price": "$120",
+        "rating": 4.3
+      },
+      {
+        "id": "75",
+        "url": "https://www.airbnb.co.in/salt-lake-city-ut/stays",
+        "location": "Salt Lake City",
+        "type": "Holiday rentals",
+        "price": "$130",
+        "rating": 4.4
+      },
+      {
+        "id": "76",
+        "url": "https://www.airbnb.co.in/springdale-ut/stays/houses",
+        "location": "Springdale",
+        "type": "House rentals",
+        "price": "$140",
+        "rating": 4.5
+      },
+      {
+        "id": "77",
+        "url": "https://www.airbnb.co.in/aberystwyth-united-kingdom/stays",
+        "location": "Aberystwyth",
+        "type": "Holiday rentals",
+        "price": "$100",
+        "rating": 4.2
+      },
+      {
+        "id": "78",
+        "url": "https://www.airbnb.co.in/lewisburg-wv/stays",
+        "location": "Lewisburg",
+        "type": "Holiday rentals",
+        "price": "$110",
+        "rating": 4.3
+      },
+      {
+        "id": "79",
+        "url": "https://www.airbnb.co.in/snowshoe-wv/stays/houses",
+        "location": "Snowshoe",
+        "type": "House rentals",
+        "price": "$120",
+        "rating": 4.4
+      },
+      {
+        "id": "80",
+        "url": "https://www.airbnb.co.in/wisconsin-dells-wi/stays",
+        "location": "Wisconsin Dells",
+        "type": "Holiday rentals",
+        "price": "$130",
+        "rating": 4.5
+      }
+    ],
+    "admin":[{
+        "id": 1,
+        "username": "Admin",
+        "email": "admin@gmail.com",
+        "password": "admin"
+
+    }
+    ],
+    "users":[{
+        "id":1,
+        "username":"Madhu",
+        "email":"madhu@gmail.com",
+        "password":"madhu123"
+
+    },
+    {
+        "id":2,
+        "username":"Balaji",
+        "email":"balaji@gmail.com",
+        "password":"balaji123"
+      },
+      {
+        "id":3,
+        "username":"Vibha",
+        "email":"vibha@gmail.com",
+        "password":"vibha123"
+      },
+      {
+        "id":4,
+        "username":"Mayur",
+        "email":"mayur@gmail.com",
+        "password":"mayur123"
+      },
+      {
+        "id":5,
+        "username":"Indrani",
+        "email":"indrani@gmail.com",
+        "password":"indrani123"
+      }
+
+
+]
+  }
+  
