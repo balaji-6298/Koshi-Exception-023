@@ -1,6 +1,7 @@
 import { Box, Link as ChakraLink, Flex } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
+
 export const TopNavbar = () => {
   return (
    
@@ -19,4 +20,5 @@ export const TopNavbar = () => {
       </Flex>
     </Box>
   );
+
 };
