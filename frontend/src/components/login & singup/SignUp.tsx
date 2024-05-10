@@ -10,6 +10,7 @@ export function SignUp() {
   const navigate = useNavigate();
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
+    console.log(name, value);
     setUserData({
       ...userData,
       [name]: value,
@@ -23,7 +24,7 @@ export function SignUp() {
       .then((res) => {
         console.log(res);
         navigate("/login");
-      }) //need to change
+      }) 
       .catch((error) => console.log(error));
   };
 
