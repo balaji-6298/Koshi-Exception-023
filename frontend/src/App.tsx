@@ -1,13 +1,16 @@
 
-import { Routes, Route } from "react-router-dom"; 
+import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar"
+import {  Routes, Route } from "react-router-dom"; 
 import { Stays } from "./pages/Stays";
 import { Experiences } from "./pages/Experiences";
 import { OnlineExperiences } from "./pages/OnlineExperiences";
 import { TopNavbar } from "./components/topNavbar/TopNavbar";
 import { AllRoutes } from "./components/allRoutes/AllRoutes";
+
 const App = () => {
   return (
     <>
+      <BottomNavbar/>
       <TopNavbar />
       <AllRoutes />
       <Routes>
