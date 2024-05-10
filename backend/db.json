@@ -1,686 +1,1211 @@
-{
-  "rentals": [
-    {
-      "id": "1",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltced225f702d88c5c/5fd42f908593bc52457eeca2/US_LaSerena_Chile_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "La Serena",
-      "type": "Beachfront rentals",
-      "price": "$100",
-      "rating": 4.5
-    },
-    {
-      "id": "2",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5d50b90bd2bb4dbb/61bae70b9793463f93f41eb8/AU_Dubai_UAE_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Dubai",
-      "type": "Flat rentals",
-      "price": "$150",
-      "rating": 4.8
-    },
-    {
-      "id": "3",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltec19f88f6fb50adc/5fd42b357c43e43bf41973b5/UK_Birmingham_UK_Header.jpeg?width=1440&quality=70&auto=webp",
-      "location": "Birmingham",
-      "type": "House rentals",
-      "price": "$120",
-      "rating": 4.2
-    },
-    {
-      "id": "4",
-      "url": "https://a0.muscache.com/im/pictures/f48f0cca-2382-461a-88ec-f490d1b11101.jpg?im_w=1440",
-      "location": "Brighton",
-      "type": "Beach house rentals",
-      "price": "$200",
-      "rating": 4.6
-    },
-    {
-      "id": "5",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt631054a39f6e160b/5fd43145ee448a54fd0cdd57/UK_Bude_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Bude",
-      "type": "Holiday rentals",
-      "price": "$90",
-      "rating": 4.0
-    },
-    {
-      "id": "6",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt4707abae22c75216/5fd4319c69cce544cffa623d/UK_NewcastleUponTyne_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Newcastle upon Tyne",
-      "type": "Holiday rentals",
-      "price": "$110",
-      "rating": 4.3
-    },
-    {
-      "id": "7",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt0133ec730c111c99/5fd42d9650460c30dd540e60/UK_Padstow_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Padstow",
-      "type": "Cottage rentals",
-      "price": "$130",
-      "rating": 4.7
-    },
-    {
-      "id": "8",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt75bc530af4dd41de/5fdbb415e7fdff751b791c96/UK_SouthWestEngland_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "South West England",
-      "type": "House rentals",
-      "price": "$140",
-      "rating": 4.4
-    },
-    {
-      "id": "9",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltdf2eb593abc86867/5fdbb5c4a7955d1a6a88f689/UK_Whitby_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Whitby",
-      "type": "Holiday rentals",
-      "price": "$95",
-      "rating": 4.1
-    },
-    {
-      "id": "10",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltdf2eb593abc86867/5fdbb5c4a7955d1a6a88f689/UK_Whitby_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Fort Myers",
-      "type": "Beach house rentals",
-      "price": "$180",
-      "rating": 4.9
-    },
-    {
-      "id": "11",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6431226b87eede05/5fb782af97f9f35d942ed32d/US_Jacksonville_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Jacksonville",
-      "type": "Apartment rentals",
-      "price": "$160",
-      "rating": 4.7
-    },
-    {
-      "id": "12",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6f4a650c6d4c40f9/5fd42da8bed5bf30e30c66eb/UK_Kissimmee_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Kissimmee",
-      "type": "Beachfront rentals",
-      "price": "$200",
-      "rating": 4.6
-    },
-    {
-      "id": "13",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt4ff6fd04439c1b11/5fd42f8ed0df66524b5d4122/US_Longboat_Key_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Longboat Key",
-      "type": "Villa rentals",
-      "price": "$250",
-      "rating": 4.9
-    },
-    {
-      "id": "14",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3e9d12875b971f07/5fd91f1a752123476ba0519c/US_Orlando_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Orlando",
-      "type": "Apartment rentals",
-      "price": "$170",
-      "rating": 4.8
-    },
-    {
-      "id": "15",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt137d80298e8ac500/61667080e29d690734ff0538/US_St._Petersburg_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "St Petersburg",
-      "type": "Pet-friendly rentals",
-      "price": "$120",
-      "rating": 4.4
-    },
-    {
-      "id": "16",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt4269dc13381e7406/5fd433c659bd313bf8313573/US_StAugustineBeach_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "St. Augustine",
-      "type": "Beach house rentals",
-      "price": "$190",
-      "rating": 4.7
-    },
-    {
-      "id": "17",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt19eb44ef9cb583a4/5fd42a1c90483e3eb51c37fd/US_TheVillages_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "The Villages",
-      "type": "Pet-friendly rentals",
-      "price": "$110",
-      "rating": 4.2
-    },
-    {
-      "id": "18",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb96aa053158092ca/6139e2d0773f99381f742c2c/US_Dahlonega_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Dahlonega",
-      "type": "Holiday rentals",
-      "price": "$100",
-      "rating": 4.6
-    },
-    {
-      "id": "19",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blta8a361d580b4d7b4/5fd42b7ad0df66524b5d40fe/UK_Crete_Greece_Header.jpeg?width=1440&quality=70&auto=webp",
-      "location": "Crete",
-      "type": "Flat rentals",
-      "price": "$150",
-      "rating": 4.8
-    },
-    {
-      "id": "20",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltab0a03eda3eb928d/5fdb9a92b529867fcec24369/UK_Mykonos_Greece_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Mykonos",
-      "type": "Beachfront rentals",
-      "price": "$200",
-      "rating": 4.9
-    },
-    {
-      "id": "21",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc4076bf86a618ee6/5fb782aa72a3526f28dbda92/UK_Santorini_Greece_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Santorini",
-      "type": "Villa rentals",
-      "price": "$250",
-      "rating": 4.7
-    },
-    {
-      "id": "22",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5544d7fdf0cd8b23/5fdba0bae7fdff751b791c2c/US_WSL-232967_08_0315_R.jpg?width=1440&quality=70&auto=webp",
-      "location": "O‘ahu",
-      "type": "Beachfront rentals",
-      "price": "$180",
-      "rating": 4.5
-    },
-    {
-      "id": "23",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltec68d150fe060dfb/6139e2682a5af126b3663b59/US_Capri_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Capri",
-      "type": "Flat rentals",
-      "price": "$160",
-      "rating": 4.6
-    },
-    {
-      "id": "24",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt46f4ba76845a14f5/5fb72977c1502b76a169e277/US_BarHarbor_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Bar Harbor",
-      "type": "Cottage rentals",
-      "price": "$130",
-      "rating": 4.2
-    },
-    {
-      "id": "25",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf9b5d7b5202fe63d/5fd4335e752123476ba042c8/US_MackinacIsland_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Mackinac Island",
-      "type": "Lakehouse rentals",
-      "price": "$220",
-      "rating": 4.8
-    },
-    {
-      "id": "26",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt1b155afa3defa687/5fd42a1750460c30dd540e3c/US_StJoseph_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "St. Joseph",
-      "type": "Cabin rentals",
-      "price": "$170",
-      "rating": 4.5
-    },
-    {
-      "id": "27",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5e6623e07ccedbe8/5fd432e015555a337d775092/US_Larsmont_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Larsmont",
-      "type": "Holiday rentals",
-      "price": "$90",
-      "rating": 4.0
-    },
-    {
-      "id": "28",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt75a638e3a737f5ea/61bae72b9d4a976169b6fe04/AU_LasVegas_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Las Vegas",
-      "type": "Holiday rentals",
-      "price": "$150",
-      "rating": 4.6
-    },
-    {
-      "id": "29",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt1e78b938854363e9/5fdbb9291ebd9777b168e58b/AdobeStock_338407310.jpeg?width=1440&quality=70&auto=webp",
-      "location": "Madrid",
-      "type": "Holiday rentals",
-      "price": "$120",
-      "rating": 4.4
-    },
-    {
-      "id": "30",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3a58525a010e43a2/5fb729a109ed4c6f277eee6d/US_SantaFe_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Santa Fe",
-      "type": "Apartment rentals",
-      "price": "$160",
-      "rating": 4.7
-    },
-    {
-      "id": "31",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6dd494cd1b7b76ee/5fd42cd5e53f3355047dd158/AU_Bermagui_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Bermagui",
-      "type": "Pet-friendly rentals",
-      "price": "$110",
-      "rating": 4.3
-    },
-    {
-      "id": "32",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb93565f747ae01e3/5fd42cd5752123476ba04298/AU_EvansHead_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Evans Head",
-      "type": "Holiday rentals",
-      "price": "$95",
-      "rating": 4.1
-    },
-    {
-      "id": "33",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt751fddc88cb790ec/5fd4306bd5cc7947663418b5/AU_Sawtell_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Sawtell",
-      "type": "Beach house rentals",
-      "price": "$180",
-      "rating": 4.6
-    },
-    {
-      "id": "34",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt0d5d8a2d86fda75c/5fd430bed5cc7947663418b9/AU_Young_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Young",
-      "type": "Holiday rentals",
-      "price": "$90",
-      "rating": 4.0
-    },
-    {
-      "id": "35",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blte8d13b646e64b575/5fd42fd459bd313bf8313557/US_Ocracoke_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Ocracoke",
-      "type": "Pet-friendly rentals",
-      "price": "$120",
-      "rating": 4.2
-    },
-    {
-      "id": "36",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltbbbd8b598cac4660/5fd42e7950460c30dd540e74/US_Florence_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Florence",
-      "type": "Apartment rentals",
-      "price": "$150",
-      "rating": 4.5
-    },
-    {
-      "id": "37",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blta70c6eb83a920a61/5fd42c3bbed5bf30e30c66d5/US_Lakeside_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Lakeside",
-      "type": "Holiday rentals",
-      "price": "$100",
-      "rating": 4.3
-    },
-    {
-      "id": "38",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blta2ea6ea440e1125c/5fd432dee53f3355047dd18c/US_LincolnCity_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Lincoln City",
-      "type": "Holiday rentals",
-      "price": "$110",
-      "rating": 4.4
-    },
-    {
-      "id": "39",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt44451560d1f5ec87/5fd42d8c7c43e43bf41973cd/UK_Paphos_Cyprus_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Paphos",
-      "type": "Holiday rentals",
-      "price": "$130",
-      "rating": 4.6
-    },
-    {
-      "id": "40",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt40363577aed6e7a9/5fdba9d202fd0c7d345f1019/AU_Maleny_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Maleny",
-      "type": "Holiday rentals",
-      "price": "$90",
-      "rating": 4.0
-    },
-    {
-      "id": "41",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf78aec53540b9b34/5fd42cff752123476ba0429c/AU_Stanthorpe_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Stanthorpe",
-      "type": "Pet-friendly rentals",
-      "price": "$110",
-      "rating": 4.2
-    },
-    {
-      "id": "42",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blte9a98540cbe59e54/616677d9dd1cf90b821ded4e/US_Newport_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Newport",
-      "type": "Beach house rentals",
-      "price": "$200",
-      "rating": 4.8
-    },
-    {
-      "id": "43",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6c53c97a0055057b/5fda8975396e65084a9e514f/UK_Glasgow_Scotland_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Glasgow",
-      "type": "House rentals",
-      "price": "$120",
-      "rating": 4.5
-    },
-    {
-      "id": "44",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt438bc7c7a1fe8845/5fdbb1e9396e65084a9e575c/UK_ScottishHighlands_Scotland_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Scottish Highlands",
-      "type": "Holiday rentals",
-      "price": "$110",
-      "rating": 4.4
-    },
-    {
-      "id": "45",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3ce379776aa50b0c/5fd431d7d0df66524b5d4138/UK_StAndrews_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "St Andrews",
-      "type": "Holiday rentals",
-      "price": "$100",
-      "rating": 4.3
-    },
-    {
-      "id": "46",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf4194a08d98dc40b/5fd42ce750460c30dd540e54/AU_McLarenVale_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "McLaren Vale",
-      "type": "House rentals",
-      "price": "$140",
-      "rating": 4.7
-    },
-    {
-      "id": "47",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf3198602bfd42fc8/5fd430c2da1c393383d3fe89/AU_Wallaroo_AU_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Wallaroo",
-      "type": "Holiday rentals",
-      "price": "$95",
-      "rating": 4.1
-    },
-    {
-      "id": "48",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt29db7c8d20dbbca6/5fb7298246f622769b5eff8c/US_Charleston_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Charleston",
-      "type": "Beach house rentals",
-      "price": "$180",
-      "rating": 4.6
-    },
-    {
-      "id": "49",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt40ea79ea59bf4990/5fda8b97a00f8977b7232a8c/UK_Hvar_Croatia_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Hvar",
-      "type": "Flat rentals",
-      "price": "$160",
-      "rating": 4.5
-    },
-    {
-      "id": "50",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2af9679a6663434d/60ab3729909370737ae49842/US_StJohn_U.S._Virgin_Islands_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Saint John",
-      "type": "Holiday rentals",
-      "price": "$120",
-      "rating": 4.4
-    },
-    {
-      "id": "51",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2e4fd48ad7e31f4c/5fda81cdb80b0a1a68f9e57a/US_Chattanooga_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Chattanooga",
-      "type": "Holiday rentals",
-      "price": "$100",
-      "rating": 4.3
-    },
-    {
-      "id": "52",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt29b0c975604238ab/5fd42e7ebed5bf30e30c66f7/US_Concan_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Concan",
-      "type": "House rentals",
-      "price": "$140",
-      "rating": 4.7
-    },
-    {
-      "id": "53",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt9439de8841744485/5fd42e747c43e43bf41973d5/US_Fredericksburg_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Fredericksburg",
-      "type": "House rentals",
-      "price": "$130",
-      "rating": 4.6
-    },
-    {
-      "id": "54",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blte3cf9c3ac486057a/6141cced69b7947c1b3acb1b/US_New_Braunfels_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "New Braunfels",
-      "type": "House rentals",
-      "price": "$150",
-      "rating": 4.8
-    },
-    {
-      "id": "55",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltd4ea7ef99a57b67f/5fd3ba0be5f85744d50f39a2/US_Rockport_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Rockport",
-      "type": "Beach house rentals",
-      "price": "$180",
-      "rating": 4.5
-    },
-    {
-      "id": "56",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blted90748df743ec8d/5fb782fe46f622769b5f006e/US_Waco_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Waco",
-      "type": "Flat rentals",
-      "price": "$160",
-      "rating": 4.4
-    },
-    {
-      "id": "57",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2798cd7086464e5e/6139e2e7dadef826b2db4056/UK_ForestofDeanDistrict_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Forest of Dean District",
-      "type": "Holiday rentals",
-      "price": "$110",
-      "rating": 4.2
-    },
-    {
-      "id": "58",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt598375ab514c4db3/5fdbb7996aab641cd100b587/US_Jersey_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Jersey",
-      "type": "Beach house rentals",
-      "price": "$200",
-      "rating": 4.7
-    },
-    {
-      "id": "59",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2394f384bbe3a2a9/6139d89538fe80253506621c/UK_LymeRegis_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Lyme Regis",
-      "type": "Flat rentals",
-      "price": "$160",
-      "rating": 4.6
-    },
-    {
-      "id": "60",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3554a8bcaa298098/6139d895402ba23dfc223dd0/UK_Manchester_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Manchester",
-      "type": "Cottage rentals",
-      "price": "$130",
-      "rating": 4.5
-    },
-    {
-      "id": "61",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt9a6b68edd0b8f25d/6141cbcfee502d0e1337bbce/UK_Seaview_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Seaview",
-      "type": "Holiday rentals",
-      "price": "$100",
-      "rating": 4.3
-    },
-    {
-      "id": "62",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltbfba8cd07f1ec9ad/6139d917422c0828c0524863/UK_Southwold_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Southwold",
-      "type": "Holiday rentals",
-      "price": "$110",
-      "rating": 4.4
-    },
-    {
-      "id": "63",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5f600b261086119f/6141cc5977d06a0c9835d499/UK_Staithes_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Staithes",
-      "type": "Holiday rentals",
-      "price": "$120",
-      "rating": 4.5
-    },
-    {
-      "id": "64",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb229a20f1f90bfbc/61406dc0436ceb2c79f1586f/UK_Wells-next-the-Sea_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Wells-next-the-Sea",
-      "type": "House rentals",
-      "price": "$140",
-      "rating": 4.6
-    },
-    {
-      "id": "65",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltbdca2ba2613ebf7d/6166707f7c52211d10e31166/US_St._George_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "St. George",
-      "type": "Holiday rentals",
-      "price": "$100",
-      "rating": 4.2
-    },
-    {
-      "id": "66",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf92d04143aa637f3/605d55415a03370f176ced2f/US_Burlington_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Burlington",
-      "type": "Holiday rentals",
-      "price": "$110",
-      "rating": 4.3
-    },
-    {
-      "id": "67",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc9cc3cdad2c0d9db/61810c788544150f29ab10b2/US_Killington_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Killington",
-      "type": "Holiday rentals",
-      "price": "$120",
-      "rating": 4.4
-    },
-    {
-      "id": "68",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc9cc3cdad2c0d9db/61810c788544150f29ab10b2/US_Killington_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Lexington",
-      "type": "Holiday rentals",
-      "price": "$130",
-      "rating": 4.5
-    },
-    {
-      "id": "69",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc9cc3cdad2c0d9db/61810c788544150f29ab10b2/US_Killington_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Ocie",
-      "type": "Cabin rentals",
-      "price": "$140",
-      "rating": 4.6
-    },
-    {
-      "id": "70",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt537fd033f3ba7966/605c0ceb23b7510ecf1edd6e/US_SeasideHeights_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Seaside Heights",
-      "type": "Beach house rentals",
-      "price": "$150",
-      "rating": 4.7
-    },
-    {
-      "id": "71",
-      "url": "https://a0.muscache.com/im/pictures/81dca5d6-5a86-49bc-8eca-4a8610a07d27.jpg?im_w=1440",
-      "location": "Wildwood",
-      "type": "Flat rentals",
-      "price": "$160",
-      "rating": 4.8
-    },
-    {
-      "id": "72",
-      "url": "https://a0.muscache.com/im/pictures/1fc28506-d659-4588-a787-4dd290a7c230.jpg?im_w=1440",
-      "location": "Cedar City",
-      "type": "Holiday rentals",
-      "price": "$90",
-      "rating": 4.0
-    },
-    {
-      "id": "73",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt429d11c43b1558e4/6139d8f551f9bb3aa35e561e/US_Moab_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Moab",
-      "type": "Cottage rentals",
-      "price": "$110",
-      "rating": 4.2
-    },
-    {
-      "id": "74",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3b60cc54e4107f4b/618b5e2effff3679072235bb/US_Park_City_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Park City",
-      "type": "Holiday rentals",
-      "price": "$120",
-      "rating": 4.3
-    },
-    {
-      "id": "75",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt77625b5944e67254/61c17374e5a70e7d5276be44/US_SaltLakeCity_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Salt Lake City",
-      "type": "Holiday rentals",
-      "price": "$130",
-      "rating": 4.4
-    },
-    {
-      "id": "76",
-      "url": "https://a0.muscache.com/im/pictures/1ff6d909-5ba6-42f3-9d2c-fa2327780936.jpg?im_w=1440",
-      "location": "Springdale",
-      "type": "House rentals",
-      "price": "$140",
-      "rating": 4.5
-    },
-    {
-      "id": "77",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt1e2c5a7a7d5c2934/616683a219868352684e042b/UK_Aberystwyth_UK_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Aberystwyth",
-      "type": "Holiday rentals",
-      "price": "$100",
-      "rating": 4.2
-    },
-    {
-      "id": "78",
-      "url": "https://a0.muscache.com/im/pictures/d6ce61b5-87e5-4f45-b54d-42f2f7ef9a55.jpg?im_w=1440",
-      "location": "Lewisburg",
-      "type": "Holiday rentals",
-      "price": "$110",
-      "rating": 4.3
-    },
-    {
-      "id": "79",
-      "url": "https://a0.muscache.com/im/pictures/d6ce61b5-87e5-4f45-b54d-42f2f7ef9a55.jpg?im_w=1440",
-      "location": "Snowshoe",
-      "type": "House rentals",
-      "price": "$120",
-      "rating": 4.4
-    },
-    {
-      "id": "80",
-      "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt70a09b5ecedb7180/5fd43474e53f3355047dd1a0/US_WisconsinDells_US_Header.jpg?width=1440&quality=70&auto=webp",
-      "location": "Wisconsin Dells",
-      "type": "Holiday rentals",
-      "price": "$130",
-      "rating": 4.5
-    }
+{ "Properties":[{
+  "Amazingview": [
+      {
+        "id": 1,
+        "href": "https://www.airbnb.co.in/rooms/694576369161952366?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1490989377&search_mode=flex_destinations_search&check_in=2024-05-13&check_out=2024-05-18&source_impression_id=p3_1715259893_3AjpCzooZWlfX89M&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-694576369161952366/original/0f692363-ea7b-4710-89d6-ad4bef9c4528.jpeg?im_w=720",
+        "location": "Mashobra, India",
+        "views": "Mountain views",
+        "dates": "13–18 May",
+        "price": "₹26,535",
+        "details": "₹26,535 per night"
+      },
+      {
+        "id": 2,
+        "href": "https://www.airbnb.co.in/rooms/36774428?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1663065085&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715259893_bpVwdywbmHJbee%2B%2F&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-36774428/original/15110762-267f-4a08-88ae-2d9d3603284d.jpeg?im_w=720",
+        "location": "Theog, India",
+        "views": "Mountain views",
+        "dates": "12–17 May",
+        "price": "₹8,348",
+        "details": "₹8,348 per night"
+      },
+      {
+        "id": 3,
+        "href": "https://www.airbnb.co.in/rooms/854065432551935839?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1654737168&search_mode=flex_destinations_search&check_in=2024-06-07&check_out=2024-06-12&source_impression_id=p3_1715259893_1sKf1MOC%2FDGlEf8i&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-854065432551935839/original/270e6f4f-5fea-4117-a552-523370f62a74.jpeg?im_w=720",
+        "location": "Jibhi, India",
+        "views": "Mountain views",
+        "dates": "7–12 Jun",
+        "price": "₹13,000",
+        "details": "₹13,000 per night",
+        "average_rating": "4.87 out of 5"
+      },
+      {
+        "id": 4,
+        "href": "https://www.airbnb.co.in/rooms/984786254699522803?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1747391487&search_mode=flex_destinations_search&check_in=2024-05-27&check_out=2024-06-01&source_impression_id=p3_1715259893_RnDJtF5CzGgFbmu6&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/hosting/Hosting-984786254699522803/original/f85b7184-7428-47fa-a41d-8b5dbc9a8eda.jpeg?im_w=720",
+        "location": "Fagu, India",
+        "distance": "485 kilometres away",
+        "dates": "27 May – 1 Jun",
+        "price": "₹11,068",
+        "details": "₹11,068 per night",
+        "average_rating": "5.0 out of 5",
+        "guest_favorite": true
+      },
+      {
+        "id": 5,
+        "href": "https://www.airbnb.co.in/rooms/1007128064099565412?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1764669266&search_mode=flex_destinations_search&check_in=2024-05-29&check_out=2024-06-03&source_impression_id=p3_1715259893_YYhq6gNkzM%2BnW2MR&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1007128064099565412/original/fd637337-76b2-4ff3-84dd-ffa38da7af04.jpeg?im_w=720",
+        "location": "Cheog, India",
+        "distance": "484 kilometres away",
+        "dates": "29 May – 3 Jun",
+        "price": "₹15,406",
+        "details": "₹15,406 per night",
+        "average_rating": "4.97 out of 5"
+      },
+      {
+        "id": 6,
+        "href": "https://www.airbnb.co.in/rooms/254724983761969872?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1655033439&search_mode=flex_destinations_search&check_in=2024-06-15&check_out=2024-06-20&source_impression_id=p3_1715259893_56p6CqWTHbvtR7rN&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-254724983761969872/original/26c09840-7d10-43a5-8d49-23a9ad2130b8.jpeg?im_w=720",
+        "location": "Chail, India",
+        "views": "Mountain views",
+        "dates": "15–20 Jun",
+        "price": "₹9,438",
+        "details": "₹9,438 per night",
+        "average_rating": "4.96 out of 5"
+      },
+      {
+        "id": 7,
+        "href": "https://www.airbnb.co.in/rooms/379808463067199245?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1608414635&search_mode=flex_destinations_search&check_in=2024-06-11&check_out=2024-06-16&source_impression_id=p3_1715259893_UxwM4CtZsOxMLZy2&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-379808463067199245/original/1b49b7fb-32b8-4b49-8b64-49c11979c2df.jpeg?im_w=720",
+        "location": "Narkanda, India",
+        "views": "Mountain views",
+        "dates": "11–16 Jun",
+        "price": "₹6,852",
+        "details": "₹6,852 per night",
+        "average_rating": "4.83 out of 5"
+      },
+      {
+        "id": 8,
+        "href": "https://www.airbnb.co.in/rooms/474180353687491127?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1646153674&search_mode=flex_destinations_search&check_in=2024-06-25&check_out=2024-06-30&source_impression_id=p3_1715259893_iM3e4ch4T5BFcFOz&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-474180353687491127/original/c3f3da9d-f370-4f37-b879-c35465c024c7.jpeg?im_w=720",
+        "location": "Shimla, India",
+        "views": "Mountain views",
+        "dates": "25–30 Jun",
+        "price": "₹13,497",
+        "details": "₹13,497 per night",
+        "average_rating": "4.75 out of 5"
+      },
+      {
+        "id": 9,
+        "href": "https://www.airbnb.co.in/rooms/598526892318879176?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1646767256&search_mode=flex_destinations_search&check_in=2024-06-19&check_out=2024-06-24&source_impression_id=p3_1715259893_QdWg4D5rw9LjLQpG&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-598526892318879176/original/5be5daa8-cf53-45f2-b5b4-eab1a3b48519.jpeg?im_w=720",
+        "location": "Kufri, India",
+        "views": "Mountain views",
+        "dates": "19–24 Jun",
+        "price": "₹12,524",
+        "details": "₹12,524 per night",
+        "average_rating": "4.8 out of 5"
+      },
+      {
+        "id": 10,
+        "href": "https://www.airbnb.co.in/rooms/580748563927509268?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1657842994&search_mode=flex_destinations_search&check_in=2024-06-06&check_out=2024-06-11&source_impression_id=p3_1715259893_JZIk0cCX88nAl47B&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-580748563927509268/original/25d72e2d-649d-4c38-871f-97d787044c25.jpeg?im_w=720",
+        "location": "Manali, India",
+        "views": "Mountain views",
+        "dates": "6–11 Jun",
+        "price": "₹7,269",
+        "details": "₹7,269 per night",
+        "average_rating": "4.83 out of 5"
+      },
+      {
+        "id": 11,
+        "href": "https://www.airbnb.co.in/rooms/744875486732575282?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1670809460&search_mode=flex_destinations_search&check_in=2024-06-30&check_out=2024-07-05&source_impression_id=p3_1715259893_9DPtWTzzapzMEfxn&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-744875486732575282/original/4f32d050-6f3b-45ee-8dc1-10e2f662164e.jpeg?im_w=720",
+        "location": "Kasauli, India",
+        "views": "Mountain views",
+        "dates": "30 Jun – 5 Jul",
+        "price": "₹9,024",
+        "details": "₹9,024 per night",
+        "average_rating": "4.93 out of 5"
+      },
+      {
+        "id": 12,
+        "href": "https://www.airbnb.co.in/rooms/1254746789459811941?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1696843455&search_mode=flex_destinations_search&check_in=2024-06-25&check_out=2024-06-30&source_impression_id=p3_1715259893_KhjVjqK6IsNzZYjH&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-1254746789459811941/original/e30fc209-0ff7-4cc1-905b-845993d47042.jpeg?im_w=720",
+        "location": "Naggar, India",
+        "views": "Mountain views",
+        "dates": "25–30 Jun",
+        "price": "₹14,083",
+        "details": "₹14,083 per night",
+        "average_rating": "5.0 out of 5"
+      },
+      {
+        "id": 13,
+        "href": "https://www.airbnb.co.in/rooms/701116195924568192?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1578450578&search_mode=flex_destinations_search&check_in=2024-05-18&check_out=2024-05-23&source_impression_id=p3_1715259893_bAbJK3mRlLIWE1%2BL&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-701116195924568192/original/0a39b5ad-c547-4b3d-8f0d-10cc6709d9f8.jpeg?im_w=720",
+        "location": "Kalpa, India",
+        "views": "Mountain views",
+        "dates": "18–23 May",
+        "price": "₹8,710",
+        "details": "₹8,710 per night",
+        "average_rating": "4.78 out of 5"
+      },
+      {
+        "id": 14,
+        "href": "https://www.airbnb.co.in/rooms/142879945163394846?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1589001596&search_mode=flex_destinations_search&check_in=2024-06-14&check_out=2024-06-19&source_impression_id=p3_1715259893_9sruy4Do3zXscZ9x&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-142879945163394846/original/299c1b99-ff91-4bcb-9e99-24f46979df50.jpeg?im_w=720",
+        "location": "Shoghi, India",
+        "views": "Mountain views",
+        "dates": "14–19 Jun",
+        "price": "₹11,739",
+        "details": "₹11,739 per night",
+        "average_rating": "4.85 out of 5"
+      },
+      {
+        "id": 15,
+        "href": "https://www.airbnb.co.in/rooms/429638259190977364?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1581500214&search_mode=flex_destinations_search&check_in=2024-05-20&check_out=2024-05-25&source_impression_id=p3_1715259893_5nyc9ytVfZ1g0zIJ&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-429638259190977364/original/6596e2d8-c5c0-4aa5-b160-df022b79d908.jpeg?im_w=720",
+        "location": "Rohru, India",
+        "views": "Mountain views",
+        "dates": "20–25 May",
+        "price": "₹12,988",
+        "details": "₹12,988 per night",
+        "average_rating": "4.76 out of 5"
+      },
+      {
+        "id": 16,
+        "href": "https://www.airbnb.co.in/rooms/219205314297420636?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1659644675&search_mode=flex_destinations_search&check_in=2024-05-16&check_out=2024-05-21&source_impression_id=p3_1715259893_voJw9Zu4o7CZCqLm&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-219205314297420636/original/3b74028a-0c6c-44e7-8df5-fb48ba19b99a.jpeg?im_w=720",
+        "location": "Nainital, India",
+        "views": "Mountain views",
+        "dates": "16–21 May",
+        "price": "₹7,225",
+        "details": "₹7,225 per night",
+        "average_rating": "4.93 out of 5"
+      },
+      {
+        "id": 17,
+        "href": "https://www.airbnb.co.in/rooms/469127630262349064?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1657282663&search_mode=flex_destinations_search&check_in=2024-05-23&check_out=2024-05-28&source_impression_id=p3_1715259893_0USfxD9TNTJj54H2&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-469127630262349064/original/baa31ea1-4c88-4345-af76-2557024445e3.jpeg?im_w=720",
+        "location": "Shimla, India",
+        "views": "Mountain views",
+        "dates": "23–28 May",
+        "price": "₹14,702",
+        "details": "₹14,702 per night",
+        "average_rating": "4.89 out of 5"
+      },
+      {
+        "id": 18,
+        "href": "https://www.airbnb.co.in/rooms/127977232214337058?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1642349357&search_mode=flex_destinations_search&check_in=2024-05-24&check_out=2024-05-29&source_impression_id=p3_1715259893_HRnPN7JLK2vz30Qk&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-127977232214337058/original/30e7c975-6c64-466b-8364-af73a5e55b7d.jpeg?im_w=720",
+        "location": "Jibhi, India",
+        "views": "Mountain views",
+        "dates": "24–29 May",
+        "price": "₹7,428",
+        "details": "₹7,428 per night",
+        "average_rating": "4.95 out of 5"
+      },
+      {
+        "id": 19,
+        "href": "https://www.airbnb.co.in/rooms/775741687278292462?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1649795504&search_mode=flex_destinations_search&check_in=2024-06-01&check_out=2024-06-06&source_impression_id=p3_1715259893_SnZ%2Bjt7ZUKkzrxM0&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-775741687278292462/original/3721aa7e-1538-49d2-912e-04459f853b1b.jpeg?im_w=720",
+        "location": "Chail, India",
+        "views": "Mountain views",
+        "dates": "1–6 Jun",
+        "price": "₹14,165",
+        "details": "₹14,165 per night",
+        "average_rating": "4.89 out of 5"
+      },
+      {
+        "id": 20,
+        "href": "https://www.airbnb.co.in/rooms/763991144447520387?adults=1&category_tag=Tag%3A8536&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1655174080&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715259893_KFWlTg6xPd06eSVW&previous_page_section_name=1000&federated_search_id=6c0d7322-9ca6-4fe0-af69-491784469f4b",
+        "src": "https://a0.muscache.com/im/pictures/miso/Hosting-763991144447520387/original/8e342797-8b7b-45e7-bd2d-2a88d748d104.jpeg?im_w=720",
+        "location": "Sarahan, India",
+        "views": "Mountain views",
+        "dates": "12–17 May",
+        "price": "₹8,021",
+        "details": "₹8,021 per night",
+        "average_rating": "4.93 out of 5"
+      }
+    ],
+  
+  
+    "Amazingpools": [
+      {
+          "id": 1,
+          "location": "Vadholi, India",
+          "distance": "805 kilometres away",
+          "dates": "12–17 May",
+          "price_per_night": "₹16,076",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-777908525036300828/original/8b0f4942-ab59-4286-9961-d30b5e120345.jpeg?im_w=720"
+      },
+      {
+          "id": 2,
+          "location": "Gurugram, India",
+          "distance": "188 kilometres away",
+          "dates": "12–17 May",
+          "price_per_night": "₹28,758",
+          "average_rating": "5.0 out of 5",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-45942402/original/c2edd936-c82f-4c34-b9c2-0d2b2daa465c.jpeg?im_w=720"
+      },
+      {
+          "id": 3,
+          "location": "Reru, India",
+          "distance": "499 kilometres away",
+          "dates": "11–16 May",
+          "price_per_night": "₹31,953",
+          "average_rating": "5.0 out of 5",
+          "image_link": "https://a0.muscache.com/im/pictures/74fc010b-e809-42ff-a1ee-d58bc4cfd202.jpg?im_w=720"
+      },
+      {
+          "id": 4,
+          "location": "Kalwara, India",
+          "distance": "22 kilometres away",
+          "dates": "12–17 May",
+          "price_per_night": "₹14,265",
+          "average_rating": "5.0 out of 5",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-699137822666055425/original/02af1b0c-4e49-440b-b9c3-c875429599b6.jpeg?im_w=720"
+      },
+      {
+          "id": 5,
+          "location": "Neota, India",
+          "distance": "21 kilometres away",
+          "dates": "12–17 May",
+          "price_per_night": "₹9,045",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-948238209740182923/original/45fd0d30-d2b8-4028-b7d5-646397898b12.jpeg?im_w=720"
+      },
+      {
+          "id": 6,
+          "location": "Girnare, India",
+          "distance": "794 kilometres away",
+          "dates": "19–24 May",
+          "price_per_night": "₹12,184",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-872824004889218293/original/3e7b3ee1-43f9-4528-8fcf-af11d7a6a90c.jpeg?im_w=720"
+      },
+      {
+          "id": 7,
+          "location": "Jaipur, India",
+          "distance": "6 kilometres away",
+          "dates": "13–18 May",
+          "price_per_night": "₹17,195",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-973612202639577969/original/b537c57b-300e-4c31-b610-b193b06ea7b1.jpeg?im_w=720"
+      },
+      {
+          "id": 8,
+          "location": "Udaipur, India",
+          "distance": "328 kilometres away",
+          "dates": "17–22 May",
+          "price_per_night": "₹12,898",
+          "average_rating": "5.0 out of 5",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-968152690106445668/original/de884b93-7810-40a9-9d41-8b5a142a1a31.jpeg?im_w=720"
+      },
+      {
+          "id": 9,
+          "location": "Bujra, India",
+          "distance": "340 kilometres away",
+          "dates": "15–20 May",
+          "price_per_night": "₹24,785",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-1035359565816776697/original/bbf7c101-8a3d-4054-9095-aa22935e9032.jpeg?im_w=720"
+      },
+      {
+          "id": 10,
+          "location": "Ghamroj, India",
+          "distance": "198 kilometres away",
+          "dates": "19–24 May",
+          "price_per_night": "₹22,558",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-765673312810778311/original/297399d7-3d12-4b8b-aa88-21dded609c00.jpeg?im_w=720"
+      },
+      {
+          "id": 11,
+          "location": "Dheekli, India",
+          "distance": "328 kilometres away",
+          "dates": "13–18 May",
+          "price_per_night": "₹46,155",
+          "new_place_to_stay": true,
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-1117111091599829826/original/77f5d3e0-7bd8-4e28-adf7-46c591f1a3ca.jpeg?im_w=720"
+      },
+      {
+          "id": 12,
+          "location": "Udaipur, India",
+          "distance": "335 kilometres away",
+          "dates": "10–15 May",
+          "price_per_night": "₹8,527",
+          "average_rating": "5.0 out of 5",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-735905394790576672/original/d436d1a8-9cb1-4bdf-9c73-ab28a8aab5c8.jpeg?im_w=720"
+      }
   ],
-  "wishlist": [],
-  "cart": [],
-  "admin": [
-    {
-      "id": 1,
-      "username": "Admin",
-      "email": "admin@gmail.com",
-      "password": "admin"
-    }
+  "Farms": [
+      {
+          "id": 1,
+          "url": "https://www.airbnb.co.in/rooms/52735115?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1266342977&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715277447_4dTA4MUiWVdU1apd&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-48554731/original/a79e82dc-85a0-463a-b769-ff90eb2b9d17.jpeg?im_w=720",
+          "location": "Pharog, India",
+          "distance": "508 kilometres away",
+          "dates": "12–17 May",
+          "price_per_night": "₹7,999",
+          "average_rating": "₹7,999 per night"
+      },
+      {
+          "id": 2,
+          "url": "https://www.airbnb.co.in/rooms/731672872585103658?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1755000080&search_mode=flex_destinations_search&check_in=2024-06-14&check_out=2024-06-19&source_impression_id=p3_1715277447_wR5Oftqs376BcePu&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-731672872585103658/original/e28db6a3-6932-4c82-809e-546ef1d9f5a9.jpeg?im_w=720",
+          "location": "Manali, India",
+          "distance": "598 kilometres away",
+          "dates": "14–19 Jun",
+          "price_per_night": "₹4,850",
+          "average_rating": "4.8 out of 5"
+      },
+      {
+          "id": 3,
+          "url": "https://www.airbnb.co.in/rooms/654001690497595692?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1428181206&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715277447_nXKXqt6bXXP2gA1S&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-654001690497595692/original/94605df9-10d9-4082-ad2d-3b11ec519386.jpeg?im_w=720",
+          "location": "Badowala, India",
+          "distance": "425 kilometres away",
+          "dates": "10–15 May",
+          "price_per_night": "₹17,451",
+          "average_rating": "₹17,451 per night"
+      },
+      {
+          "id": 4,
+          "url": "https://www.airbnb.co.in/rooms/53408947?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1288248014&search_mode=flex_destinations_search&check_in=2024-07-01&check_out=2024-07-06&source_impression_id=p3_1715277447_YSyemZLJ6AeDHvE8&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-53408947/original/fa04d4b3-76b7-4b46-97fe-e1e2721f5e44.jpeg?im_w=720",
+          "location": "Bir, India",
+          "distance": "575 kilometres away",
+          "dates": "1–6 Jul",
+          "price_per_night": "₹21,340",
+          "average_rating": "₹21,340 per night"
+      },
+      {
+          "id": 5,
+          "url": "https://www.airbnb.co.in/rooms/675108014847583143?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1451958010&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715277447_%2Bg0y%2Bu0t3S9thzJC&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-675108014847583143/original/a40ae4d9-6f8d-45d4-9994-5a004d31bcea.jpeg?im_w=720",
+          "location": "Anjar, India",
+          "distance": "722 kilometres away",
+          "dates": "10–15 May",
+          "price_per_night": "₹18,090",
+          "average_rating": "₹18,090 per night"
+      },
+      {
+          "id": 6,
+          "url": "https://www.airbnb.co.in/rooms/567052995271899506?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1345426951&search_mode=flex_destinations_search&check_in=2024-05-16&check_out=2024-05-21&source_impression_id=p3_1715277447_yY61UfGjrKg7QHGs&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/b6f9c87a-8fcb-48de-9378-fba7f1b89637.jpg?im_w=720",
+          "location": "Gangnani, India",
+          "distance": "524 kilometres away",
+          "dates": "16–21 May",
+          "price_per_night": "₹6,798",
+          "average_rating": "₹6,798 per night"
+      },
+      {
+          "id": 7,
+          "url": "https://www.airbnb.co.in/rooms/23780166?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=820262480&search_mode=flex_destinations_search&check_in=2024-06-17&check_out=2024-06-22&source_impression_id=p3_1715277447_%2B8u9dGcqi6aycz%2FR&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/9533b6e3-a37e-4346-98d8-baeb58fc7718.jpg?im_w=720",
+          "location": "Jibhi, India",
+          "distance": "539 kilometres away",
+          "dates": "17–22 Jun",
+          "price_per_night": "₹6,846",
+          "average_rating": "₹6,846 per night",
+          "guest_favourite": "Guest favourite"
+      },
+      {
+          "id": 8,
+          "url": "https://www.airbnb.co.in/rooms/51833844?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1481101730&search_mode=flex_destinations_search&check_in=2024-05-19&check_out=2024-05-24&source_impression_id=p3_1715277447_xg5QecZ%2F3xvlOfxc&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/7f78dcb6-2e2c-4fa4-8efc-df2ce5053bfc.jpg?im_w=720",
+          "location": "Gurugram, India",
+          "distance": "198 kilometres away",
+          "dates": "19–24 May",
+          "price_per_night": "₹4,592",
+          "average_rating": "₹4,592 per night"
+      },
+      {
+          "id": 9,
+          "url": "https://www.airbnb.co.in/rooms/20575462?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=988441466&search_mode=flex_destinations_search&check_in=2024-05-15&check_out=2024-05-20&source_impression_id=p3_1715277447_IMR23M9ZNxCr7oYr&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/46d38d71-04f7-4188-8ac7-e0a1a29a243c.jpg?im_w=720",
+          "location": "New Delhi, India",
+          "distance": "218 kilometres away",
+          "dates": "15–20 May",
+          "price_per_night": "₹6,276",
+          "average_rating": "₹6,276 per night"
+      },
+      {
+          "id": 10,
+          "url": "https://www.airbnb.co.in/rooms/861287246783947671?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1619749966&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715277447_ajz34%2BSGaDQ2iVWO&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/miso/Hosting-861287246783947671/original/bc7518bc-89ff-4026-8c88-63589685f05b.jpeg?im_w=720",
+          "location": "New Delhi, India",
+          "distance": "223 kilometres away",
+          "dates": "12–17 May",
+          "price_per_night": "₹20,998",
+          "average_rating": "₹20,998 per night"
+      },
+      {
+          "id": 11,
+          "url": "https://www.airbnb.co.in/rooms/32133433?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=907956487&search_mode=flex_destinations_search&check_in=2024-05-11&check_out=2024-05-16&source_impression_id=p3_1715277447_8DICejhDt89PInPd&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/eab913c1-5f28-4d45-841b-0797378216e4.jpg?im_w=720",
+          "location": "New Delhi, India",
+          "distance": "218 kilometres away",
+          "dates": "11–16 May",
+          "price_per_night": "₹6,276",
+          "average_rating": "₹6,276 per night"
+      },
+      {
+          "id": 12,
+          "url": "https://www.airbnb.co.in/rooms/576688380125697655?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1398968086&search_mode=flex_destinations_search&check_in=2024-06-06&check_out=2024-06-11&source_impression_id=p3_1715277447_mK4DVQJmiUaQZXTb&previous_page_section_name=1000",
+          "image_link": "https://a0.muscache.com/im/pictures/5f2ee7aa-5c0b-46ad-b5ff-086417efa951.jpg?im_w=720",
+          "location": "Sainj, India",
+          "distance": "558 kilometres away",
+          "dates": "6–11 Jun",
+          "price_per_night": "₹5,466",
+          "average_rating": "₹5,466 per night",
+          "guest_favourite": "Guest favourite"
+      },
+      {
+          "id": 13,
+          "url": "https://www.airbnb.co.in/rooms/44197938?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1272618378&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715277447_arzo1Zz2eqNVOeMT&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/0f8468c1-8037-48cd-90b5-cef06bcc3df4.jpg?im_w=720",
+          "location": "New Delhi, India",
+          "distance": "218 kilometres away",
+          "dates": "12–17 May",
+          "price": "₹6,276",
+          "rating": "4.91",
+          "average_rating": "4.91 out of 5"
+      },
+      {
+          "id": 14,
+          "url": "https://www.airbnb.co.in/rooms/817089506478969386?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1687758192&search_mode=flex_destinations_search&check_in=2024-05-11&check_out=2024-05-16&source_impression_id=p3_1715277447_ehiFBqS8yHSPg2dk&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/ddd067fc-6ec3-4895-84e8-1832f7818a1b.jpg?im_w=720",
+          "location": "Reru, India",
+          "distance": "499 kilometres away",
+          "dates": "11–16 May",
+          "price": "₹31,953",
+          "rating": "5.0",
+          "average_rating": "5.0"
+      },
+      {
+          "id": 15,
+          "url": "https://www.airbnb.co.in/rooms/809045637575417503?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1590562561&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715277447_8T6tSKynv0iZ5wAU&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/5c4ce6dd-800d-445a-9277-5a18dda7bed1.jpg?im_w=720",
+          "location": "Gurugram, India",
+          "distance": "187 kilometres away",
+          "dates": "12–17 May",
+          "price": "₹8,899",
+          "rating": "5.0",
+          "average_rating": "5.0"
+      },
+      {
+          "id": 16,
+          "url": "https://www.airbnb.co.in/rooms/37487687?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1410173011&search_mode=flex_destinations_search&check_in=2024-05-31&check_out=2024-06-05&source_impression_id=p3_1715277447_u%2F7mZTHi8H638HKb&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/c84335d2-cb97-4ba1-955c-fbd2af26724c.jpg?im_w=720",
+          "location": "Raithal, India",
+          "distance": "511 kilometres away",
+          "dates": "31 May – 5 Jun",
+          "price": "₹1,409",
+          "rating": "4.98",
+          "average_rating": "4.98"
+      },
+      {
+          "id": 17,
+          "url": "https://www.airbnb.co.in/rooms/52410900?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1585841382&search_mode=flex_destinations_search&check_in=2024-05-11&check_out=2024-05-16&source_impression_id=p3_1715277447_Kb%2Fe5gpE0cTDsia0&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/a6fb4acf-e435-4090-94d7-c354e422dce6.jpg?im_w=720",
+          "location": "Shimla, India",
+          "distance": "484 kilometres away",
+          "dates": "11–16 May",
+          "price": "₹2,396",
+          "rating": "4.95",
+          "average_rating": "4.95"
+      },
+      {
+          "id": 18,
+          "url": "https://www.airbnb.co.in/rooms/1126109714849050957?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1874670101&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715277447_MbVsiBtw2gSda7KE&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-1126109714849050957/original/ded03fc0-dd37-43aa-8845-22335fcccda8.jpeg?im_w=720",
+          "location": "Kidawali, India",
+          "distance": "231 kilometres away",
+          "dates": "12–17 May",
+          "price": "₹17,146",
+          "new_place": true
+      },
+      {
+          "id": 19,
+          "url": "https://www.airbnb.co.in/rooms/661952631418143567?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1675530977&search_mode=flex_destinations_search&check_in=2024-05-29&check_out=2024-06-03&source_impression_id=p3_1715277447_5YToTLRJev3XHYPB&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/694f6f16-7ef3-4c94-9d8a-97b73a005240.jpg?im_w=720",
+          "location": "Majkhali, India",
+          "distance": "377 kilometres away",
+          "dates": "29 May – 3 Jun",
+          "price": "₹15,612",
+          "rating": "5.0",
+          "average_rating": "5.0",
+          "guest_favourite": "Guest favourite"
+      },
+      {
+          "id": 20,
+          "url": "https://www.airbnb.co.in/rooms/792653923669919084?adults=1&category_tag=Tag%3A8175&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1864587362&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715277447_gj%2FojE1tL8vZyPFf&previous_page_section_name=1000",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-792653923669919084/original/6708a3ec-3ed8-4f84-92fd-9e31e0a394d0.jpeg?im_w=720",
+          "location": "Nandaprayag, India",
+          "distance": "459 kilometres away",
+          "dates": "12–17 May",
+          "price": "₹17,539",
+          "rating": "5.0",
+          "average_rating": "5.0"
+      }
   ],
-  "users": [
-    {
-      "id": 1,
-      "username": "Madhu",
-      "email": "madhu@gmail.com",
-      "password": "madhu123"
-    },
-    {
-      "id": 2,
-      "username": "Balaji",
-      "email": "balaji@gmail.com",
-      "password": "balaji123"
-    },
-    {
-      "id": 3,
-      "username": "Vibha",
-      "email": "vibha@gmail.com",
-      "password": "vibha123"
-    },
-    {
-      "id": 4,
-      "username": "Mayur",
-      "email": "mayur@gmail.com",
-      "password": "mayur123"
-    },
-    {
-      "id": 5,
-      "username": "Indrani",
-      "email": "indrani@gmail.com",
-      "password": "indrani123"
-    }
-  ]
+  
+  
+      "Luxe": [
+        {
+          "id": 1,
+          "url": "https://www.airbnb.co.in/luxury/listing/873064690436431918?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1657858726&search_mode=flex_destinations_search&check_in=2024-05-31&check_out=2024-06-05&source_impression_id=p3_1715279921_t%2BHFxKD8IGI1vq%2BM&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-873064690436431918/original/d6e4af21-a43d-4d41-af78-735d43d5c085.jpeg?im_w=720",
+          "location": "Mahabaleshwar, India",
+          "distance": "1,024 kilometres away",
+          "dates": "31 May – 5 Jun",
+          "price": "₹60,500",
+          "per_night": "₹60,500 per night"
+        },
+        {
+          "id": 2,
+          "url": "https://www.airbnb.co.in/luxury/listing/904157499728672218?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1673052679&search_mode=flex_destinations_search&check_in=2024-05-09&check_out=2024-05-14&source_impression_id=p3_1715279921_YrReF0lZCQ9OAxIs&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-904157499728672218/original/2ff8bec1-49fe-4976-a0b8-e0b5d0e5abdf.jpeg?im_w=720",
+          "location": "Castellammare del Golfo, Italy",
+          "distance": "5,923 kilometres away",
+          "dates": "9–14 May",
+          "price": "₹38,122",
+          "per_night": "₹38,122 per night"
+        },
+        {
+          "id": 3,
+          "url": "https://www.airbnb.co.in/luxury/listing/814167510478568514?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1671949081&search_mode=flex_destinations_search&check_in=2024-06-03&check_out=2024-06-08&source_impression_id=p3_1715279921_9sBN7B3ZXenyk0nA&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-814167510478568514/original/f5fca80b-f5ec-4ff8-a773-6ea92382826e.jpeg?im_w=720",
+          "location": "Lefkogeia, Greece",
+          "distance": "4,927 kilometres away",
+          "dates": "3–8 Jun",
+          "price": "₹61,067",
+          "per_night": "₹61,067 per night",
+          "rating": "5.0",
+          "average_rating": "5.0 out of 5 average rating"
+        },
+        {
+          "id": 4,
+          "url": "https://www.airbnb.co.in/luxury/listing/873033346108536407?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1649127334&search_mode=flex_destinations_search&check_in=2024-05-27&check_out=2024-06-01&source_impression_id=p3_1715279921_qxhwfrPGW6MJh%2FI6&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-873033346108536407/original/11f43171-dbed-4c25-bfa6-ce3e3099650a.jpeg?im_w=720",
+          "location": "Vagator, India",
+          "distance": "1,277 kilometres away",
+          "dates": "27 May – 1 Jun",
+          "price": "₹1,03,900",
+          "per_night": "₹1,03,900 per night"
+        },
+        {
+          "id": 5,
+          "url": "https://www.airbnb.co.in/luxury/listing/873031692833121871?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1649074916&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715279921_HcHwiQybHGWgrqcZ&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-873031692833121871/original/acc1f42b-46cc-42fc-bfa3-c2e5305aea27.jpeg?im_w=720",
+          "location": "Morjim, India",
+          "distance": "1,272 kilometres away",
+          "dates": "10–15 May",
+          "price": "₹1,27,100",
+          "per_night": "₹1,27,100 per night"
+        },
+        {
+          "id": 6,
+          "url": "https://www.airbnb.co.in/luxury/listing/873069117835483193?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1657937961&search_mode=flex_destinations_search&check_in=2024-05-13&check_out=2024-05-18&source_impression_id=p3_1715279921_cL4m9csT6TEx%2FkFT&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-873069117835483193/original/e27bc5b4-4c0c-41f2-af58-67b6a0fba84e.jpeg?im_w=720",
+          "location": "Canacona, India",
+          "distance": "1,319 kilometres away",
+          "dates": "13–18 May",
+          "price": "₹1,08,300",
+          "per_night": "₹1,08,300 per night"
+        },
+        {
+          "id": 7,
+          "url": "https://www.airbnb.co.in/luxury/listing/904201271217344156?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1672656321&search_mode=flex_destinations_search&check_in=2024-05-07&check_out=2024-05-12&source_impression_id=p3_1715279921_zYmTg45N2MkRt%2FUn&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-904201271217344156/original/0058942d-1b0f-45e2-9efb-19fc05e8ebd3.jpeg?im_w=720",
+          "location": "Santorini, Greece",
+          "distance": "6,010 kilometres away",
+          "dates": "7–12 May",
+          "price": "₹1,22,110",
+          "per_night": "₹1,22,110 per night"
+        },
+        {
+          "id": 8,
+          "url": "https://www.airbnb.co.in/luxury/listing/904187010246414101?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1672596865&search_mode=flex_destinations_search&check_in=2024-06-01&check_out=2024-06-06&source_impression_id=p3_1715279921_x1K3IEo8bQcvzhcV&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-904187010246414101/original/4e6c6096-1ed9-4f51-8858-6877a156e9a6.jpeg?im_w=720",
+          "location": "Agios Ioannis Diakoftis, Greece",
+          "distance": "5,448 kilometres away",
+          "dates": "1–6 Jun",
+          "price": "₹69,195",
+          "per_night": "₹69,195 per night"
+        },
+        {
+          "id": 9,
+          "url": "https://www.airbnb.co.in/luxury/listing/904187843292784236?adults=1&category_tag=Tag%3A8253&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1673043705&search_mode=flex_destinations_search&check_in=2024-06-06&check_out=2024-06-11&source_impression_id=p3_1715279921_0cIShCtCUfthU92Z&previous_page_section_name=1000&federated_search_id=54501108-30c3-46dd-b232-057792c11ddb",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-904187843292784236/original/ab9cd15e-fba4-4930-a06f-8aaf1042e0c2.jpeg?im_w=720",
+          "location": "Psarou, Greece",
+          "distance": "5,449 kilometres away",
+          "dates": "6–11 Jun",
+          "price": "₹78,960",
+          "per_night": "₹78,960 per night"
+        }
+      ],
+    
+          "Countryside": [
+              {
+                  "id": 1,
+                  "url": "https://www.airbnb.co.in/rooms/837315422629442025?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1597722063&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280865_EmC30PZOpvzMBwHR&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-837315422629442025/original/dd6e35a7-eeaa-4144-8c66-b05936ba1c77.jpeg?im_w=720",
+                  "location": "Nagla Megha, India",
+                  "distance": "326 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹19,478",
+                  "per_night": "₹19,478 per night"
+              },
+              {
+                  "id": 2,
+                  "url": "https://www.airbnb.co.in/rooms/52915665?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1560416349&search_mode=flex_destinations_search&check_in=2024-06-01&check_out=2024-06-06&source_impression_id=p3_1715280866_rKnUEYC2uWRk%2FyB4&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/481931ec-2ca9-41b0-9304-77ec5425560c.jpg?im_w=720",
+                  "location": "Lansdowne, India",
+                  "distance": "424 kilometres away",
+                  "dates": "1–6 Jun",
+                  "price": "₹6,276",
+                  "per_night": "₹6,276 per night",
+                  "rating": "4.95 out of 5 average rating",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 3,
+                  "url": "https://www.airbnb.co.in/rooms/930251234069973152?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1692257638&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280866_pR2AdCiJUj6wD2Gh&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/9cf66423-0d0d-4b86-94f5-2d0c6151393e.jpg?im_w=720",
+                  "location": "Bhoodli, India",
+                  "distance": "173 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹5,382",
+                  "per_night": "₹5,382 per night",
+                  "rating": "5.0 out of 5 average rating",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 4,
+                  "url": "https://www.airbnb.co.in/rooms/798936113212592067?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1727842057&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280866_P9c7JeiSJGWeIJ5d&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-798936113212592067/original/b4ab0e96-fde5-4820-9577-f28e52961e4c.jpeg?im_w=720",
+                  "location": "Sohna, India",
+                  "distance": "196 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹67,766",
+                  "per_night": "₹67,766 per night"
+              },
+              {
+                  "id": 5,
+                  "url": "https://www.airbnb.co.in/rooms/924308427652735874?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1686088478&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280866_0Z7W%2BzGa5JBm8GEJ&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/9cf66423-0d0d-4b86-94f5-2d0c6151393e.jpg?im_w=720",
+                  "location": "Ladpuri, India",
+                  "distance": "173 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹5,492",
+                  "per_night": "₹5,492 per night",
+                  "rating": "5.0 out of 5 average rating",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 6,
+                  "url": "https://www.airbnb.co.in/rooms/34462367?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1107609644&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280866_XYcfWEGnwf6SyTKw&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-34462367/original/eaaa1935-ecc1-4afa-b0c8-eec13aef1ee6.jpeg?im_w=720",
+                  "location": "Shahbaad Markanda, India",
+                  "distance": "379 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹4,008",
+                  "per_night": "₹4,008 per night",
+                  "rating": "4.91 out of 5 average rating"
+              },
+              {
+                  "id": 7,
+                  "url": "https://www.airbnb.co.in/rooms/802527335005476404?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1564068683&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280866_BGHgJbr3bWCsIz0z&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-802527335005476404/original/2107317a-3a60-407e-a263-ce80cb692b0b.jpeg?im_w=720",
+                  "location": "Sohna, India",
+                  "distance": "191 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹25,300",
+                  "per_night": "₹25,300 per night"
+              },
+              {
+                  "id": 8,
+                  "url": "https://www.airbnb.co.in/rooms/1038943119429138728?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1794142555&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715280866_cQWy4sQgzv0Kf10N&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-1038943119429138728/original/caf1305f-c397-4036-9284-ad387eb118b3.jpeg?im_w=720",
+                  "location": "Sohna, India",
+                  "distance": "197 kilometres away",
+                  "dates": "12–17 May",
+                  "price": "₹36,000",
+                  "per_night": "₹36,000 per night"
+              },
+              {
+                  "id": 9,
+                  "url": "https://www.airbnb.co.in/rooms/988384659184032821?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1746814336&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280866_wq5LxUwMbxdn6GVa&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-988384659184032821/original/402da228-0f3e-42ce-8068-e35fdddee693.jpeg?im_w=720",
+                  "location": "Agra, India",
+                  "distance": "219 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹10,557",
+                  "per_night": "₹10,557 per night",
+                  "rating": "5.0 out of 5 average rating",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 10,
+                  "url": "https://www.airbnb.co.in/rooms/33502735?adults=1&category_tag=Tag%3A4104&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1146116569&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715280866_NetUWU7%2FtStYQ7XN&previous_page_section_name=1000&federated_search_id=f832aaec-4c25-4047-876d-16d6c14916b4",
+                  "image_url": "https://a0.muscache.com/im/pictures/7951d0cb-bdc0-4436-a570-f8d45c61251b.jpg?im_w=720",
+                  "location": "Haridwar, India",
+                  "distance": "168 kilometres away",
+                  "dates": "10–15 May",
+                  "price": "₹20,098",
+                  "per_night": "₹20,098 per night",
+                  "rating": "4.88 out of 5 average rating"
+              }
+          ],
+      
+          "omg": [
+              {
+                  "id": 1,
+                  "listing_url": "https://www.airbnb.co.in/rooms/45694252?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1075780878&search_mode=flex_destinations_search&check_in=2024-05-19&check_out=2024-05-24&source_impression_id=p3_1715281779_c0xnXGS%2FleJl6Iul&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/d0e3bb05-a96a-45cf-af92-980269168096.jpg?im_w=720",
+                  "location": "Sindun-myeon, Icheon-si, South Korea",
+                  "distance": "4,930 kilometres away",
+                  "date_range": "19–24 May",
+                  "price": "₹6,312",
+                  "price_per_night": "₹6,312 per night",
+                  "average_rating": "4.83 out of 5",
+                  "guest_favorite": null
+              },
+              {
+                  "id": 2,
+                  "listing_url": "https://www.airbnb.co.in/rooms/682474721416529522?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1813239691&search_mode=flex_destinations_search&check_in=2024-06-21&check_out=2024-06-26&source_impression_id=p3_1715281779_8lr9YdhvADyHRDRJ&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NjgyNDc0NzIxNDE2NTI5NTIy/original/c329a04a-51b7-477d-9fc7-7aa4a3a998e7.jpeg?im_w=720",
+                  "location": "Langkawi, Malaysia",
+                  "distance": "3,409 kilometres away",
+                  "date_range": "21–26 Jun",
+                  "price": "₹12,311",
+                  "price_per_night": "₹12,311 per night",
+                  "average_rating": "4.92 out of 5",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 3,
+                  "listing_url": "https://www.airbnb.co.in/rooms/5264493?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1331524666&search_mode=flex_destinations_search&check_in=2024-12-13&check_out=2024-12-18&source_impression_id=p3_1715281779_o8ZJwDDbowl75uQ%2B&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-5264493/original/10d2c21f-84c2-46c5-b20b-b51d1c2c971a.jpeg?im_w=720",
+                  "location": "Ponta Delgada, Portugal",
+                  "distance": "9,141 kilometres away",
+                  "date_range": "13–18 Dec",
+                  "price": "₹13,455",
+                  "price_per_night": "₹13,455 per night",
+                  "average_rating": "4.93 out of 5",
+                  "guest_favorite": null
+              },
+              {
+                  "id": 4,
+                  "listing_url": "https://www.airbnb.co.in/rooms/34113796?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=734951127&search_mode=flex_destinations_search&check_in=2024-09-02&check_out=2024-09-07&source_impression_id=p3_1715281779_r9%2BZx83f5Q3X4B%2Fx&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720",
+                  "location": "Abiansemal, Indonesia",
+                  "distance": "5,797 kilometres away",
+                  "date_range": "2–7 Sep",
+                  "price": "₹41,649",
+                  "price_per_night": "₹41,649 per night",
+                  "average_rating": "4.83 out of 5",
+                  "guest_favorite": null
+              },
+              {
+                  "id": 5,
+                  "listing_url": "https://www.airbnb.co.in/rooms/803315735424235341?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1565585787&search_mode=flex_destinations_search&check_in=2024-10-07&check_out=2024-10-12&source_impression_id=p3_1715281779_9y8aZOvED3wkAYVE&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-803315735424235341/original/1c40c6a2-c098-481b-8b10-e0b91a6d86df.jpeg?im_w=720",
+                  "location": "Kerambitan, Indonesia",
+                  "distance": "5,782 kilometres away",
+                  "date_range": "7–12 Oct",
+                  "price": "₹65,154",
+                  "price_per_night": "₹65,154 per night",
+                  "average_rating": null,
+                  "guest_favorite": null
+              },
+              {
+                  "id": 6,
+                  "listing_url": "https://www.airbnb.co.in/rooms/53163431?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1279795120&search_mode=flex_destinations_search&check_in=2024-05-13&check_out=2024-05-18&source_impression_id=p3_1715281779_PkyHC656KafM%2FXSr&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/448bee34-7416-4262-a02f-b39e29d7ce4f.jpg?im_w=720",
+                  "location": "Hua Hin District, Thailand",
+                  "distance": "2,988 kilometres away",
+                  "date_range": "13–18 May",
+                  "price": "₹9,821",
+                  "price_per_night": "₹9,821 per night",
+                  "average_rating": "4.97 out of 5",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 7,
+                  "listing_url": "https://www.airbnb.co.in/rooms/676044415326884478?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1453093631&search_mode=flex_destinations_search&check_in=2024-06-02&check_out=2024-06-07&source_impression_id=p3_1715281779_EhlK4SMX8vfx%2FlWf&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-676044415326884478/original/e32429f8-56bd-4ba1-a98a-46efc64e3e69.jpeg?im_w=720",
+                  "location": "Râșnov Romacril, Romania",
+                  "distance": "4,874 kilometres away",
+                  "date_range": "2–7 Jun",
+                  "price": "₹9,915",
+                  "price_per_night": "₹9,915 per night",
+                  "average_rating": "4.93 out of 5",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 8,
+                  "listing_url": "https://www.airbnb.co.in/rooms/22235004?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=674303283&search_mode=flex_destinations_search&check_in=2024-05-11&check_out=2024-05-16&source_impression_id=p3_1715281779_Bz7Y7Fv0dtY%2FxfC3&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/1587524e-f8f5-4c20-8507-c809dffda998.jpg?im_w=720",
+                  "location": "Mueang Chiang Mai District, Thailand",
+                  "distance": "2,532 kilometres away",
+                  "date_range": "11–16 May",
+                  "price": "₹3,722",
+                  "price_per_night": "₹3,722 per night",
+                  "average_rating": "4.87 out of 5",
+                  "guest_favorite": null
+              },
+              {
+                  "id": 9,
+                  "listing_url": "https://www.airbnb.co.in/rooms/32022013?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=712601560&search_mode=flex_destinations_search&check_in=2024-05-18&check_out=2024-05-23&source_impression_id=p3_1715281779_58mBqnZmq5T9cHr6&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/3648aed7-f383-4b74-ab5d-f444e20a85f2.jpg?im_w=720",
+                  "location": "El Nido, Philippines",
+                  "distance": "4,869 kilometres away",
+                  "date_range": "18–23 May",
+                  "price": "₹17,557",
+                  "price_per_night": "₹17,557 per night",
+                  "average_rating": "4.84 out of 5",
+                  "guest_favorite": null
+              },
+              {
+                  "id": 10,
+                  "listing_url": "https://www.airbnb.co.in/rooms/43316780?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1067062630&search_mode=flex_destinations_search&check_in=2024-08-20&check_out=2024-08-25&source_impression_id=p3_1715281779_G1fVM59YTJRGUgcu&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-43316780/original/e5f00c7b-ed64-4d88-b386-631ca1d42b92.jpeg?im_w=720",
+                  "location": "Ubud, Indonesia",
+                  "distance": "5,800 kilometres away",
+                  "date_range": "20–25 Aug",
+                  "price": "₹77,000",
+                  "price_per_night": "₹77,000 per night",
+                  "average_rating": "4.9 out of 5",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 11,
+                  "listing_url": "https://www.airbnb.co.in/rooms/34749360?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=787492846&search_mode=flex_destinations_search&check_in=2024-05-19&check_out=2024-05-24&source_impression_id=p3_1715281779_fsUoqYniI%2B5dSGKi&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/337660c5-939a-439b-976f-19219dbc80c7.jpg?im_w=720",
+                  "location": "Korithi, Greece",
+                  "distance": "5,239 kilometres away",
+                  "date_range": "19–24 May",
+                  "price": "₹25,386",
+                  "price_per_night": "₹25,386 per night",
+                  "average_rating": "4.92 out of 5",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 12,
+                  "listing_url": "https://www.airbnb.co.in/rooms/17030803?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=280838913&search_mode=flex_destinations_search&check_in=2024-05-29&check_out=2024-06-03&source_impression_id=p3_1715281779_vJsyVEGdKmVq64iv&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/798984ba-fef5-46c1-aa07-137d2d2998e9.jpg?im_w=720",
+                  "location": "Kuta Utara, Indonesia",
+                  "distance": "5,797 kilometres away",
+                  "date_range": "29 May – 3 Jun",
+                  "price": "₹20,731",
+                  "price_per_night": "₹20,731 per night",
+                  "average_rating": "4.91 out of 5",
+                  "guest_favorite": "Guest favourite"
+              },
+              {
+                  "id": 13,
+                  "listing_url": "https://www.airbnb.co.in/rooms/46130832?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1304813987&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715281779_%2Bso9t4RNIfpSLTAz&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-46130832/original/65de82db-e347-461e-a66b-5d15f16afbe3.jpeg?im_w=720",
+                  "location": "Tambon Khao Hin Son, Thailand",
+                  "distance": "3,034 kilometres away",
+                  "date_range": "10–15 May",
+                  "price": "₹5,196",
+                  "price_per_night": "₹5,196 per night",
+                  "average_rating": "4.83 out of 5",
+                  "guest_favorite": null
+              },
+              {
+                  "id": 14,
+                  "listing_url": "https://www.airbnb.co.in/rooms/52068342?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1249270204&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715281779_IGqM4mzzDtaOHZ5U&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-52068342/original/a02a7d4d-a1bc-418f-a6de-970d41beade0.jpeg?im_w=720",
+                  "location": "Chittorgarh, India",
+                  "distance": "257 kilometres away",
+                  "date_range": "10–15 May",
+                  "price": "₹3,840",
+                  "price_per_night": "₹3,840 per night",
+                  "average_rating": null,
+                  "guest_favorite": null
+              },
+              {
+                  "id": 15,
+                  "listing_url": "https://www.airbnb.co.in/rooms/43629767?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1014474096&search_mode=flex_destinations_search&check_in=2024-07-07&check_out=2024-07-12&source_impression_id=p3_1715281779_f3u%2FJ3qOn6Et79vh&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/4f70b681-a792-4530-8c52-f2a8d262942d.jpg?im_w=720",
+                  "location": "Sidemen, Indonesia",
+                  "distance": "5,807 kilometres away",
+                  "date_range": "7–12 Jul",
+                  "price": "₹50,958",
+                  "price_per_night": "₹50,958 per night",
+                  "average_rating": "4.84 out of 5",
+                  "guest_favorite": null
+              },
+              {
+                  "id": 16,
+                  "listing_url": "https://www.airbnb.co.in/rooms/34605588?adults=1&category_tag=Tag%3A8225&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=835000314&search_mode=flex_destinations_search&check_in=2024-05-20&check_out=2024-05-25&source_impression_id=p3_1715281779_PrBXDNQnXPUUitlY&previous_page_section_name=1000",
+                  "image_url": "https://a0.muscache.com/im/pictures/d91b74b6-e49d-418d-a742-13a3c45a3f18.jpg?im_w=720",
+                  "location": "Abiansemal, Indonesia",
+                  "distance": "5,797 kilometres away",
+                  "date_range": "20–25 May",
+                  "price": "₹63,776",
+                  "price_per_night": "₹63,776 per night",
+                  "average_rating": "4.88 out of 5",
+                  "guest_favorite": null
+              }
+          ],
+  
+      "Historicalhomes": [
+        {
+          "id": 1,
+          "listing_url": "https://www.airbnb.co.in/rooms/22352795?adults=1&category_tag=Tag%3A8524&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=424225351&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715282644_g4pa%2BctW5sYsiECI&previous_page_section_name=1000&federated_search_id=095d9289-4bf7-4f70-90b1-d93b99a1a259",
+          "image_url": "https://a0.muscache.com/im/pictures/454710cc-6052-4669-9019-d347e87d9a26.jpg?im_w=720",
+          "location": "Udaipur, India",
+          "distance": "336 kilometres away",
+          "date_range": "10–15 May",
+          "price": "₹7,189",
+          "price_per_night": "₹7,189 per night",
+          "average_rating": "4.94 out of 5",
+          "guest_favorite": "Guest favourite"
+        },
+        {
+          "id": 2,
+          "listing_url": "https://www.airbnb.co.in/rooms/44159885?adults=1&category_tag=Tag%3A8524&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1035829566&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715282644_Xxpwmnsk4uQTKJG9&previous_page_section_name=1000&federated_search_id=095d9289-4bf7-4f70-90b1-d93b99a1a259",
+          "image_url": "https://a0.muscache.com/im/pictures/9e8d088f-54ee-463c-bd77-7a9d32e363de.jpg?im_w=720",
+          "location": "Jaipur, India",
+          "distance": "1 kilometre away",
+          "date_range": "10–15 May",
+          "price": "₹12,553",
+          "price_per_night": "₹12,553 per night",
+          "average_rating": "4.94 out of 5",
+          "guest_favorite": "Guest favourite"
+        },
+        {
+          "id": 3,
+          "listing_url": "https://www.airbnb.co.in/rooms/686470499256388421?adults=1&category_tag=Tag%3A8524&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1466693316&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715282644_Vk4ANVDtxAtITrHf&previous_page_section_name=1000&federated_search_id=095d9289-4bf7-4f70-90b1-d93b99a1a259",
+          "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-686470499256388421/original/b9c8f977-cf85-48a3-a027-dc877be284e3.jpeg?im_w=720",
+          "location": "Jodhpur, India",
+          "distance": "322 kilometres away",
+          "date_range": "10–15 May",
+          "price": "₹28,415",
+          "price_per_night": "₹28,415 per night",
+          "average_rating": null,
+          "guest_favorite": null
+        },
+        {
+          "id": 4,
+          "listing_url": "https://www.airbnb.co.in/rooms/5109292?adults=1&category_tag=Tag%3A8524&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=565234266&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715282644_sRkNCFBa8rpUpfJb&previous_page_section_name=1000&federated_search_id=095d9289-4bf7-4f70-90b1-d93b99a1a259",
+          "image_url": "https://a0.muscache.com/im/pictures/b1d41ee1-034a-4ba5-900c-c5261995dc24.jpg?im_w=720",
+          "location": "Agra, India",
+          "distance": "223 kilometres away",
+          "date_range": "10–15 May",
+          "price": "₹3,424",
+          "price_per_night": "₹3,424 per night",
+          "average_rating": "4.84 out of 5",
+          "guest_favorite": null
+        },
+        {
+          "id": 5,
+          "listing_url": "https://www.airbnb.co.in/rooms/43145152?adults=1&category_tag=Tag%3A8524&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=993999054&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715282644_hKu2XyIFcZbN2rno&previous_page_section_name=1000&federated_search_id=095d9289-4bf7-4f70-90b1-d93b99a1a259",
+          "image_url": "https://a0.muscache.com/im/pictures/f928f26f-f9af-4f2e-aad3-5de5ee3950a8.jpg?im_w=720",
+          "location": "Kalwar, India",
+          "distance": "25 kilometres away",
+          "date_range": "10–15 May",
+          "price": "₹90,000",
+          "price_per_night": "₹90,000 per night",
+          "average_rating": null,
+          "guest_favorite": null
+        },
+        {
+          "id": 6,
+          "listing_url": "https://www.airbnb.co.in/rooms/21914860?adults=1&category_tag=Tag%3A8524&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=99510882&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715282644_UdPUbrbRSGIQENsK&previous_page_section_name=1000&federated_search_id=095d9289-4bf7-4f70-90b1-d93b99a1a259",
+          "image_url": "https://a0.muscache.com/im/pictures/8cf39b6e-d417-45bb-9d47-96d2746e956b.jpg?im_w=720",
+          "location": "Pushkar, India",
+          "distance": "334 kilometres away",
+          "date_range": "10–15 May",
+          "price": "₹5,500",
+          "price_per_night": "₹5,500 per night",
+          "average_rating": "4.53 out of 5",
+          "guest_favorite": null
+        }
+      ],
+      "Castles": [
+          {
+              "id": 1,
+              "listing_url": "https://www.airbnb.co.in/rooms/53519419?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1566070964&search_mode=flex_destinations_search&check_in=2024-05-15&check_out=2024-05-20&source_impression_id=p3_1715283192_r34wA90WA5m77%2B2d&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-53519419/original/f0f0a291-65a9-442b-9036-45b7e5e25676.jpeg?im_w=720",
+              "location": "Bujra, India",
+              "distance": "Built in 2020",
+              "date_range": "15–20 May",
+              "price": "₹80,000",
+              "price_per_night": "₹80,000 per night",
+              "average_rating": null,
+              "guest_favorite": null
+          },
+          {
+              "id": 2,
+              "listing_url": "https://www.airbnb.co.in/rooms/47086741?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1111191855&search_mode=flex_destinations_search&check_in=2024-05-11&check_out=2024-05-16&source_impression_id=p3_1715283192_DwhMe1KCd3UnoRYt&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-47086741/original/89035847-1f96-4269-af1e-120a19e1cfd7.jpeg?im_w=720",
+              "location": "Sinaia, Romania",
+              "distance": "Built in the 19th century",
+              "date_range": "11–16 May",
+              "price": "₹56,300",
+              "price_per_night": "₹56,300 per night",
+              "average_rating": null,
+              "guest_favorite": null
+          },
+          {
+              "id": 3,
+              "listing_url": "https://www.airbnb.co.in/rooms/985063?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=9851015&search_mode=flex_destinations_search&check_in=2024-05-09&check_out=2024-05-16&source_impression_id=p3_1715283192_WTFV8Bj%2B8rWr441z&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/16741847/6cdb4377_original.jpg?im_w=720",
+              "location": "Lakonia, Greece",
+              "distance": "Built in the 19th century",
+              "date_range": "9–16 May",
+              "price": "₹14,421",
+              "price_per_night": "₹14,421 per night",
+              "average_rating": "4.81 out of 5",
+              "guest_favorite": "4.81"
+          },
+          {
+              "id": 4,
+              "listing_url": "https://www.airbnb.co.in/rooms/1041398366372889590?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1796789118&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715283192_Rt62gLwQK8dh2%2FVj&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-1041398366372889590/original/37eec4e5-40fe-4167-a296-7db08ac68d9f.jpeg?im_w=720",
+              "location": "Vilemov, Czechia",
+              "distance": "Built in 1680",
+              "date_range": "12–17 May",
+              "price": "₹2,29,610",
+              "price_per_night": "₹2,29,610 per night",
+              "average_rating": null,
+              "guest_favorite": null
+          },
+          {
+              "id": 5,
+              "listing_url": "https://www.airbnb.co.in/rooms/13414392?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1019634876&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715283193_8%2FpbFPVrNmUnmWV1&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/b87046c6-c860-4469-87b5-62b5201f2310.jpg?im_w=720",
+              "location": "Mikra Mantinia, Greece",
+              "distance": "5,118 kilometres away",
+              "date_range": "10–15 May",
+              "price": "₹30,767",
+              "price_per_night": "₹30,767 per night",
+              "average_rating": "4.94 out of 5",
+              "guest_favorite": "4.94"
+          },
+          {
+              "id": 6,
+              "listing_url": "https://www.airbnb.co.in/rooms/8228169?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=651476092&search_mode=flex_destinations_search&check_in=2024-07-08&check_out=2024-07-13&source_impression_id=p3_1715283193_AsNcX4aXWmPUNjGv&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/9f028184-f893-4789-9b09-6739274ee7a2.jpg?im_w=720",
+              "location": "Positano, Italy",
+              "distance": "5,752 kilometres away",
+              "date_range": "8–13 Jul",
+              "price": "₹2,42,905",
+              "price_per_night": "₹2,42,905 per night",
+              "average_rating": "5.0 out of 5",
+              "guest_favorite": "5.0"
+          },
+          {
+              "id": 7,
+              "listing_url": "https://www.airbnb.co.in/rooms/832355501498041527?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1593501499&search_mode=flex_destinations_search&check_in=2024-05-09&check_out=2024-05-14&source_impression_id=p3_1715283193_7Hq4XAfbEQFuoEn4&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/miso/Hosting-832355501498041527/original/551de2c9-6981-4222-b21d-75dd8792bd2d.jpeg?im_w=720",
+              "location": "Bad Wimsbach-Neydharting, Austria",
+              "distance": "Built in 1650",
+              "date_range": "9–14 May",
+              "price": "₹20,928",
+              "price_per_night": "₹20,928 per night",
+              "average_rating": "5.0 out of 5",
+              "guest_favorite": "5.0"
+          },
+          {
+              "id": 8,
+              "listing_url": "https://www.airbnb.co.in/rooms/7643279?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=53057512&search_mode=flex_destinations_search&check_in=2024-05-11&check_out=2024-05-16&source_impression_id=p3_1715283193_kiBTYhX%2B8qK1LRmb&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/97056228/b18ec929_original.jpg?im_w=720",
+              "location": "Neumarkt in der Steiermark, Austria",
+              "distance": "5,729 kilometres away",
+              "date_range": "11–16 May",
+              "price": "₹21,572",
+              "price_per_night": "₹21,572 per night",
+              "average_rating": null,
+              "guest_favorite": null
+          },
+          {
+              "id": 9,
+              "listing_url": "https://www.airbnb.co.in/rooms/35538426?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1901705583&search_mode=flex_destinations_search&check_in=2024-05-10&check_out=2024-05-15&source_impression_id=p3_1715283193_0gZYAE7loZAaMM0S&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MzU1Mzg0MjY%3D/original/75c77e7c-8c03-48ea-9ec6-409f817d0850.jpeg?im_w=720",
+              "location": "Osowa Sień, Poland",
+              "distance": "Built in 1878",
+              "date_range": "10–15 May",
+              "price": "₹2,86,225",
+              "price_per_night": "₹2,86,225 per night",
+              "average_rating": "5.0 out of 5",
+              "guest_favorite": "5.0"
+          },
+          {
+              "id": 10,
+              "listing_url": "https://www.airbnb.co.in/rooms/17281334?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=691346352&search_mode=flex_destinations_search&check_in=2024-05-31&check_out=2024-06-05&source_impression_id=p3_1715283193_fShc3K1vHlokCAmm&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/a3e41a30-dc6a-4cd8-9941-e8ec106b179f.jpg?im_w=720",
+              "location": "Mascalucia, Italy",
+              "distance": "Built in 1901",
+              "date_range": "31 May – 5 Jun",
+              "price": "₹8,739",
+              "price_per_night": "₹8,739 per night",
+              "average_rating": "4.82 out of 5",
+              "guest_favorite": "4.82"
+          },
+          {
+              "id": 11,
+              "listing_url": "https://www.airbnb.co.in/rooms/839718493675048252?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=1599936286&search_mode=flex_destinations_search&check_in=2024-05-12&check_out=2024-05-17&source_impression_id=p3_1715283193_5s%2FptagVxrf8TjMH&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/6d7b8e4b-5abf-4994-bd53-843695f00ad0.jpg?im_w=720",
+              "location": "Třebešice, Czechia",
+              "distance": "5,671 kilometres away",
+              "date_range": "12–17 May",
+              "price": "₹11,772",
+              "price_per_night": "₹11,772 per night",
+              "average_rating": null,
+              "guest_favorite": null
+          },
+          {
+              "id": 12,
+              "listing_url": "https://www.airbnb.co.in/rooms/16170090?adults=1&category_tag=Tag%3A8047&children=0&enable_m3_private_room=true&infants=0&pets=0&photo_id=238360348&search_mode=flex_destinations_search&check_in=2024-06-01&check_out=2024-06-06&source_impression_id=p3_1715283193_3YSKEMqlvH1Nc%2FHT&previous_page_section_name=1000&federated_search_id=0f3ac1eb-f852-45be-b8bd-4c50cefb54c1",
+              "image_url": "https://a0.muscache.com/im/pictures/95db834b-2df8-43b8-b3cf-85709a3ab82e.jpg?im_w=720",
+              "location": "Launceston, Australia",
+              "distance": "11,310 kilometres away",
+              "date_range": "1–6 Jun",
+              "price": "₹8,451",
+              "price_per_night": "₹8,451 per night",
+              "average_rating": "4.79 out of 5",
+              "guest_favorite": "4.79"
+          }
+      ]
+  }
+],
+      "wishlist": [],
+"cart": [],
+"admin": [
+  {
+    "id": 1,
+    "username": "Admin",
+    "email": "admin@gmail.com",
+    "password": "admin"
+  }
+],
+"users": [
+  {
+    "id": 1,
+    "username": "Madhu",
+    "email": "madhu@gmail.com",
+    "password": "madhu123"
+  },
+  {
+    "id": 2,
+    "username": "Balaji",
+    "email": "balaji@gmail.com",
+    "password": "balaji123"
+  },
+  {
+    "id": 3,
+    "username": "Vibha",
+    "email": "vibha@gmail.com",
+    "password": "vibha123"
+  },
+  {
+    "id": 4,
+    "username": "Mayur",
+    "email": "mayur@gmail.com",
+    "password": "mayur123"
+  },
+  {
+    "id": 5,
+    "username": "Indrani",
+    "email": "indrani@gmail.com",
+    "password": "indrani123"
+  }
+]
+  
 }
