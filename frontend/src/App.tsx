@@ -1,19 +1,18 @@
 
 import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar"
-// import React from 'react';
-import {  Routes, Route } from 'react-router-dom'; // Use Routes and Route, not Router
-import { Stays } from './pages/Stays';
-import { Experiences } from './pages/Experiences';
-import { OnlineExperiences } from './pages/OnlineExperiences';
-import { TopNavbar } from './components/topNavbar/TopNavbar';
-// import Admin from './components/admin/Admin';
-// import { Link } from 'react-router-dom';
+import {  Routes, Route } from "react-router-dom"; 
+import { Stays } from "./pages/Stays";
+import { Experiences } from "./pages/Experiences";
+import { OnlineExperiences } from "./pages/OnlineExperiences";
+import { TopNavbar } from "./components/topNavbar/TopNavbar";
+import { AllRoutes } from "./components/allRoutes/AllRoutes";
 
 const App = () => {
   return (
     <>
       <BottomNavbar/>
       <TopNavbar />
+      <AllRoutes />
       <Routes>
         <Route path="/" element={<Stays />} />
         <Route path="/experiences" element={<Experiences />} />
@@ -23,6 +22,4 @@ const App = () => {
   );
 };
 
-
 export default App;
-

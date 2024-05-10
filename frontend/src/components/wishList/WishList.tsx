@@ -111,4 +111,3 @@ export const WishList: React.FC = () => {
   );
 };
 
-{/* <h1>Hello</h1> */}
