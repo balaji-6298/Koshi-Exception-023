@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Input, Stack, useDisclosure } from '@chakra-ui/react'
+import { Box,  Input,  Stack, useDisclosure } from '@chakra-ui/react'
 import {
   Modal,
   ModalContent,
@@ -10,6 +10,8 @@ import {
 
 export const Stays=() => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+ 
   const background: string="lightGray"
  
     return(
@@ -60,6 +62,7 @@ export const Stays=() => {
 <Box as='button' borderRadius='100px'bg="white" fontWeight="bold" _hover={{ bg: "gray.100"}} px={4} h={8}  height="65px" width="150px" border="none">
  Check  in 
  <Input variant='unstyled' placeholder='Add dates' ml={5} />
+
 </Box>
 <Box as='button' borderRadius='100px' bg="white" fontWeight="bold" _hover={{ bg: "gray.100"}} px={4} h={8}  height="65px" width="150px" border="none">
   Check out
@@ -68,8 +71,9 @@ export const Stays=() => {
 <Box as='button' borderRadius='100px' bg="white" fontWeight="bold" _hover={{ bg: "gray.100"}} px={4} h={8} height="65px" width="250px" border="none">
   Who
   <Input variant='unstyled' placeholder='Add guests' ml={20} />
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style={{display: "block ", fill:" none ",height: "16px", width: "16px", stroke: "currentcolor", strokeWidth: "4", overflow: "visible"}}><path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path></svg>
 </Box>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style={{display: "block ", fill:" none ",height: "16px", width: "16px", stroke: "currentcolor", strokeWidth: "4", overflow: "visible"}}><path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path></svg>
+
 </Stack>
     )
 };
