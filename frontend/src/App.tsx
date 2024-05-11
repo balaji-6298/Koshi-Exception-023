@@ -1,9 +1,13 @@
 
+
+
+
+
 import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar"
 
 import Admin from "./components/admin/Admin";
 
-// import { Link } from 'react-router-dom';
+
 
 import {  Routes, Route } from "react-router-dom"; 
 import { Stays } from "./pages/Stays";
@@ -16,6 +20,8 @@ import { AllRoutes } from "./components/allRoutes/AllRoutes";
 export const App = () => {
   return (
     <>
+
+
       <TopNavbar />
 
       <Admin />
@@ -28,7 +34,9 @@ export const App = () => {
         <Route path="/online-experiences" element={<OnlineExperiences />} />
       </Routes>
       <BottomNavbar/>
+
     </>
+    
   );
 };
 
