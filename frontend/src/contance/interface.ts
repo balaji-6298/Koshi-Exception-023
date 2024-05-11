@@ -20,3 +20,6 @@ export interface WishList {
     data: null,
     error: null,
   };
+
+
+
