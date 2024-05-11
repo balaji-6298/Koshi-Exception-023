@@ -6,7 +6,8 @@ import { Stays } from './pages/Stays';
 import { Experiences } from './pages/Experiences';
 import { OnlineExperiences } from './pages/OnlineExperiences';
 import { TopNavbar } from './components/topNavbar/TopNavbar';
-// import Admin from './components/admin/Admin';
+import Admin from "./components/admin/Admin";
+
 // import { Link } from 'react-router-dom';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     <>
       <BottomNavbar/>
       <TopNavbar />
+      <Admin />
       <Routes>
         <Route path="/" element={<Stays />} />
         <Route path="/experiences" element={<Experiences />} />

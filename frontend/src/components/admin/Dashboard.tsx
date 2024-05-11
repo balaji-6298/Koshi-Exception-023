@@ -6,7 +6,7 @@ const Dashboard = () => {
   return (
     <div className="adminContainer">
      <AdminSideBar />
-     <main>gfd</main>
+     <main className="dashBoardDetails" style={{backgroundColor:"white"}}>rgyujh</main>
     </div>
   )
 }
