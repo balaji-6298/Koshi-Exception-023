@@ -12,13 +12,13 @@ import { TopNavbar } from './components/topNavbar/TopNavbar';
 const App = () => {
   return (
     <>
-      <BottomNavbar/>
       <TopNavbar />
       <Routes>
         <Route path="/" element={<Stays />} />
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/online-experiences" element={<OnlineExperiences />} />
       </Routes>
+      <BottomNavbar/>
     </>
   );
 };
