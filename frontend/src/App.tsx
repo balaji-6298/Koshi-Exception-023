@@ -10,7 +10,6 @@ import { AllRoutes } from "./components/allRoutes/AllRoutes";
 const App = () => {
   return (
     <>
-      <BottomNavbar/>
       <TopNavbar />
       <AllRoutes />
       <Routes>
@@ -18,6 +17,7 @@ const App = () => {
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/online-experiences" element={<OnlineExperiences />} />
       </Routes>
+      <BottomNavbar/>
     </>
   );
 };
