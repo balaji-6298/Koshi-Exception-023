@@ -7,7 +7,7 @@ import { OnlineExperiences } from "./pages/OnlineExperiences";
 import { TopNavbar } from "./components/topNavbar/TopNavbar";
 import { AllRoutes } from "./components/allRoutes/AllRoutes";
 
-const App = () => {
+export const App = () => {
   return (
     <>
       <TopNavbar />
@@ -22,4 +22,3 @@ const App = () => {
   );
 };
 
-export default App;
