@@ -6,7 +6,7 @@ export const ChartBar = () => {
     console.log("hi");
     
   return (
-    <div>
+    <div  style={{backgroundColor:"white"}}>
       <h2>Revenue and Transactions</h2>
          <TransactionandRevenue data_1={[300, 144, 433, 655, 237, 755, 190]} 
          data_2={[400, 544, 433, 555, 137, 755, 490]}
