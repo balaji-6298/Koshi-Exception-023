@@ -1,73 +1,84 @@
+import { Box, Image, Grid } from '@chakra-ui/react';
+import { StarIcon } from '@chakra-ui/icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart, faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
-import { useEffect, useState } from 'react'
-import { Amazingpool, categories } from '../Bottom Navbar constants/data';
-import { icondata } from '../Bottom Navbar constants/Icons';
-import { Box, Image, Badge, Text } from '@chakra-ui/react';
 
-export const Icons = () => {
-  const [obj, setObj] = useState<categories[]>([]);
-  const [arr, setArr] = useState<Amazingpool[]>([]);
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+
+interface AirbnbCardProps {
+  id: string;
+  url: string;
+  location: string;
+  type: string;
+  price: string;
+  rating: number;
+}
+
+export const Icondata: React.FC = () => {
+  const [arr, setArr] = useState<AirbnbCardProps[]>([]);
 
   useEffect(() => {
-    icondata().then((res: categories[]) => {
-      setObj(res);
-    }).catch((err) => {
-      console.error(err);
-      throw err;
-    })
+    async function fetchData() {
+      try {
+        const res = await axios.get("https://koshi-exception-023-3.onrender.com/newData");
+        setArr(res.data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
 
+    fetchData();
   }, []);
 
 
-  useEffect(() => {
-    if (obj.length > 0) {
-      const pools: Amazingpool[] = obj.flatMap((ele) => ele.Amazingpools);
-      setArr(pools);
-    }
-  }, [obj]);
 
-   console.log("hii");
   return (
     <>
-      {arr.map((ele,ind) => {
-        return (
-          <>
-          <div key={ind} >
-              <Box key={ele.id} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                <Image src={ele.image_link} alt="" />
+      <div>
+        {arr && (
+          <ul>
+            <Grid templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)', 'repeat(4, 1fr)']} gap={6}>
+              {arr.map((item: AirbnbCardProps) => (
+                <li key={item.id}>
+                  <Box maxW='sm' borderWidth='1px' borderRadius='lg' overflow='hidden' p={3} mb={3}>
+                    {item.url ? (
+                      <Image src={item.url} alt={item.location} />
+                    ) : (
+                      <div>No Image Available</div>
+                    )}
+                    <div>
+                      <h3>{item.location}</h3>
+                      <p>Type: {item.type}</p>
+                      <p>Price: {item.price}</p>
+                      <Box display='flex' mt='2' alignItems='center'>
+                        {Array(5).fill('').map((_, i) => (
+                          <StarIcon
+                            key={i}
+                            color={i < item.rating ? 'teal.500' : 'gray.300'}
+                          />
+                        ))}
+                        <Box as='span' ml='2' color='gray.600' fontSize='sm'>
+                          Rating: {item.rating}
+                        </Box>
+                      </Box>
 
-                <Box p="6">
-                  <Box display="flex" alignItems="baseline">
-                    <Badge borderRadius="full" px="2" colorScheme="teal">
-                      New
-                    </Badge>
-                    <Box
-                      color="gray.500"
-                      fontWeight="semibold"
-                      letterSpacing="wide"
-                      fontSize="xs"
-                      textTransform="uppercase"
-                      ml="2"
-                    >
-                      {ele.location}
-                    </Box>
-                  </Box>
+                      <Box marginLeft={"240px"} marginTop={"-20px"} display={'flex'} gap={"10px"}>
+                        <FontAwesomeIcon icon={faHeart} />
+                        <FontAwesomeIcon icon={faCartPlus} />
+                      </Box>
+                       
+                    </div>
 
-                  <Box mt="1" fontWeight="semibold" as="h4" lineHeight="tight" isTruncated>
-                    {ele.distance}
                   </Box>
+                </li>
+              ))}
+            </Grid>
+          </ul>
+        )}
+      </div>
 
-                  <Box>
-                    <Text fontSize="sm" color="gray.500">
-                      {ele.price_per_night}
-                    </Text>
-                  </Box>
-                </Box>
-              </Box>
-              </div>
-          </>
-        )
-      })}
     </>
-  )
-}
+  );
+};
