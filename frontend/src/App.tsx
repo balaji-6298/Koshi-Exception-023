@@ -14,6 +14,7 @@ import { Login } from "./components/login & singup/Login";
 const App = () => {
   return (
     <>
+    <SignUp />
       <AllRoutes />
       {/* <TopNavbar />
       <SignUp />
