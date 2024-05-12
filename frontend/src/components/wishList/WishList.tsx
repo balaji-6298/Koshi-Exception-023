@@ -31,7 +31,7 @@ interface State {
   data: Item[] | null;
 }
 
-export const WishList: React.FC = () => {
+const WishList: React.FC = () => {
   const dispatch = useDispatch();
   const { loading, error, data } = useSelector((state: { data: State }) => state.data);
 
@@ -134,3 +134,4 @@ export const WishList: React.FC = () => {
   );
 };
 
+export default WishList
