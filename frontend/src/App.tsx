@@ -1,51 +1,18 @@
+import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar";
+import { TopNavbar } from "./components/topNavbar/TopNavbar";
+import { AllRoutes } from "./components/allRoutes/AllRoutes";
+import Footer from "./pages/Footer";
 
-
-
-
-
-// import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar"
-
-// import WishList from "./components/wishList/WishList";
-
-
-// import Icondata from "./components/IconData";
-// import {Cart} from "./components/cart/Cart";
-
-
-// import Admin from "./components/admin/Admin";
-
-
-
-// import {  Routes, Route } from "react-router-dom"; 
-// import { Stays } from "./pages/Stays";
-// import { Experiences } from "./pages/Experiences";
-// import { OnlineExperiences } from "./pages/OnlineExperiences";
-// import { TopNavbar } from "./components/topNavbar/TopNavbar";
-// import { AllRoutes } from "./components/allRoutes/AllRoutes";
-
-
-
- const App = () => {
+const App = () => {
   return (
     <>
-
-
-      {/* <TopNavbar /> */}
-
-      {/* <Admin />
-
+    <TopNavbar />
       <AllRoutes />
-
-      <Routes>
-        <Route path="/" element={<Stays />} />
-        <Route path="/experiences" element={<Experiences />} />
-        <Route path="/online-experiences" element={<OnlineExperiences />} />
-      </Routes>
-      <BottomNavbar/> */}
-   
+      <BottomNavbar/>
+      <BottomNavbar /> 
+<Footer/>
     </>
-    
   );
 };
 
-export default App
+export default App;

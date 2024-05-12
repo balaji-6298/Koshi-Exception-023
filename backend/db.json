@@ -1164,6 +1164,647 @@
           }
       ]
   }
+],"newData":[
+  {
+    "id": "1",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltced225f702d88c5c/5fd42f908593bc52457eeca2/US_LaSerena_Chile_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "La Serena",
+    "type": "Beachfront rentals",
+    "price": "$100",
+    "rating": 4.5
+  },
+  {
+    "id": "2",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5d50b90bd2bb4dbb/61bae70b9793463f93f41eb8/AU_Dubai_UAE_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Dubai",
+    "type": "Flat rentals",
+    "price": "$150",
+    "rating": 4.8
+  },
+  {
+    "id": "3",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltec19f88f6fb50adc/5fd42b357c43e43bf41973b5/UK_Birmingham_UK_Header.jpeg?width=1440&quality=70&auto=webp",
+    "location": "Birmingham",
+    "type": "House rentals",
+    "price": "$120",
+    "rating": 4.2
+  },
+  {
+    "id": "4",
+    "url": "https://a0.muscache.com/im/pictures/f48f0cca-2382-461a-88ec-f490d1b11101.jpg?im_w=1440",
+    "location": "Brighton",
+    "type": "Beach house rentals",
+    "price": "$200",
+    "rating": 4.6
+  },
+  {
+    "id": "5",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt631054a39f6e160b/5fd43145ee448a54fd0cdd57/UK_Bude_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Bude",
+    "type": "Holiday rentals",
+    "price": "$90",
+    "rating": 4
+  },
+  {
+    "id": "6",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt4707abae22c75216/5fd4319c69cce544cffa623d/UK_NewcastleUponTyne_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Newcastle upon Tyne",
+    "type": "Holiday rentals",
+    "price": "$110",
+    "rating": 4.3
+  },
+  {
+    "id": "7",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt0133ec730c111c99/5fd42d9650460c30dd540e60/UK_Padstow_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Padstow",
+    "type": "Cottage rentals",
+    "price": "$130",
+    "rating": 4.7
+  },
+  {
+    "id": "8",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt75bc530af4dd41de/5fdbb415e7fdff751b791c96/UK_SouthWestEngland_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "South West England",
+    "type": "House rentals",
+    "price": "$140",
+    "rating": 4.4
+  },
+  {
+    "id": "9",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltdf2eb593abc86867/5fdbb5c4a7955d1a6a88f689/UK_Whitby_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Whitby",
+    "type": "Holiday rentals",
+    "price": "$95",
+    "rating": 4.1
+  },
+  {
+    "id": "10",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltdf2eb593abc86867/5fdbb5c4a7955d1a6a88f689/UK_Whitby_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Fort Myers",
+    "type": "Beach house rentals",
+    "price": "$180",
+    "rating": 4.9
+  },
+  {
+    "id": "11",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6431226b87eede05/5fb782af97f9f35d942ed32d/US_Jacksonville_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Jacksonville",
+    "type": "Apartment rentals",
+    "price": "$160",
+    "rating": 4.7
+  },
+  {
+    "id": "12",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6f4a650c6d4c40f9/5fd42da8bed5bf30e30c66eb/UK_Kissimmee_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Kissimmee",
+    "type": "Beachfront rentals",
+    "price": "$200",
+    "rating": 4.6
+  },
+  {
+    "id": "13",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt4ff6fd04439c1b11/5fd42f8ed0df66524b5d4122/US_Longboat_Key_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Longboat Key",
+    "type": "Villa rentals",
+    "price": "$250",
+    "rating": 4.9
+  },
+  {
+    "id": "14",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3e9d12875b971f07/5fd91f1a752123476ba0519c/US_Orlando_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Orlando",
+    "type": "Apartment rentals",
+    "price": "$170",
+    "rating": 4.8
+  },
+  {
+    "id": "15",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt137d80298e8ac500/61667080e29d690734ff0538/US_St._Petersburg_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "St Petersburg",
+    "type": "Pet-friendly rentals",
+    "price": "$120",
+    "rating": 4.4
+  },
+  {
+    "id": "16",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt4269dc13381e7406/5fd433c659bd313bf8313573/US_StAugustineBeach_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "St. Augustine",
+    "type": "Beach house rentals",
+    "price": "$190",
+    "rating": 4.7
+  },
+  {
+    "id": "17",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt19eb44ef9cb583a4/5fd42a1c90483e3eb51c37fd/US_TheVillages_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "The Villages",
+    "type": "Pet-friendly rentals",
+    "price": "$110",
+    "rating": 4.2
+  },
+  {
+    "id": "18",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb96aa053158092ca/6139e2d0773f99381f742c2c/US_Dahlonega_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Dahlonega",
+    "type": "Holiday rentals",
+    "price": "$100",
+    "rating": 4.6
+  },
+  {
+    "id": "19",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blta8a361d580b4d7b4/5fd42b7ad0df66524b5d40fe/UK_Crete_Greece_Header.jpeg?width=1440&quality=70&auto=webp",
+    "location": "Crete",
+    "type": "Flat rentals",
+    "price": "$150",
+    "rating": 4.8
+  },
+  {
+    "id": "20",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltab0a03eda3eb928d/5fdb9a92b529867fcec24369/UK_Mykonos_Greece_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Mykonos",
+    "type": "Beachfront rentals",
+    "price": "$200",
+    "rating": 4.9
+  },
+  {
+    "id": "21",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc4076bf86a618ee6/5fb782aa72a3526f28dbda92/UK_Santorini_Greece_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Santorini",
+    "type": "Villa rentals",
+    "price": "$250",
+    "rating": 4.7
+  },
+  {
+    "id": "22",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5544d7fdf0cd8b23/5fdba0bae7fdff751b791c2c/US_WSL-232967_08_0315_R.jpg?width=1440&quality=70&auto=webp",
+    "location": "O‘ahu",
+    "type": "Beachfront rentals",
+    "price": "$180",
+    "rating": 4.5
+  },
+  {
+    "id": "23",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltec68d150fe060dfb/6139e2682a5af126b3663b59/US_Capri_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Capri",
+    "type": "Flat rentals",
+    "price": "$160",
+    "rating": 4.6
+  },
+  {
+    "id": "24",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt46f4ba76845a14f5/5fb72977c1502b76a169e277/US_BarHarbor_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Bar Harbor",
+    "type": "Cottage rentals",
+    "price": "$130",
+    "rating": 4.2
+  },
+  {
+    "id": "25",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf9b5d7b5202fe63d/5fd4335e752123476ba042c8/US_MackinacIsland_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Mackinac Island",
+    "type": "Lakehouse rentals",
+    "price": "$220",
+    "rating": 4.8
+  },
+  {
+    "id": "26",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt1b155afa3defa687/5fd42a1750460c30dd540e3c/US_StJoseph_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "St. Joseph",
+    "type": "Cabin rentals",
+    "price": "$170",
+    "rating": 4.5
+  },
+  {
+    "id": "27",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5e6623e07ccedbe8/5fd432e015555a337d775092/US_Larsmont_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Larsmont",
+    "type": "Holiday rentals",
+    "price": "$90",
+    "rating": 4
+  },
+  {
+    "id": "28",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt75a638e3a737f5ea/61bae72b9d4a976169b6fe04/AU_LasVegas_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Las Vegas",
+    "type": "Holiday rentals",
+    "price": "$150",
+    "rating": 4.6
+  },
+  {
+    "id": "29",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt1e78b938854363e9/5fdbb9291ebd9777b168e58b/AdobeStock_338407310.jpeg?width=1440&quality=70&auto=webp",
+    "location": "Madrid",
+    "type": "Holiday rentals",
+    "price": "$120",
+    "rating": 4.4
+  },
+  {
+    "id": "30",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3a58525a010e43a2/5fb729a109ed4c6f277eee6d/US_SantaFe_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Santa Fe",
+    "type": "Apartment rentals",
+    "price": "$160",
+    "rating": 4.7
+  },
+  {
+    "id": "31",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6dd494cd1b7b76ee/5fd42cd5e53f3355047dd158/AU_Bermagui_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Bermagui",
+    "type": "Pet-friendly rentals",
+    "price": "$110",
+    "rating": 4.3
+  },
+  {
+    "id": "32",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb93565f747ae01e3/5fd42cd5752123476ba04298/AU_EvansHead_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Evans Head",
+    "type": "Holiday rentals",
+    "price": "$95",
+    "rating": 4.1
+  },
+  {
+    "id": "33",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt751fddc88cb790ec/5fd4306bd5cc7947663418b5/AU_Sawtell_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Sawtell",
+    "type": "Beach house rentals",
+    "price": "$180",
+    "rating": 4.6
+  },
+  {
+    "id": "34",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt0d5d8a2d86fda75c/5fd430bed5cc7947663418b9/AU_Young_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Young",
+    "type": "Holiday rentals",
+    "price": "$90",
+    "rating": 4
+  },
+  {
+    "id": "35",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blte8d13b646e64b575/5fd42fd459bd313bf8313557/US_Ocracoke_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Ocracoke",
+    "type": "Pet-friendly rentals",
+    "price": "$120",
+    "rating": 4.2
+  },
+  {
+    "id": "36",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltbbbd8b598cac4660/5fd42e7950460c30dd540e74/US_Florence_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Florence",
+    "type": "Apartment rentals",
+    "price": "$150",
+    "rating": 4.5
+  },
+  {
+    "id": "37",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blta70c6eb83a920a61/5fd42c3bbed5bf30e30c66d5/US_Lakeside_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Lakeside",
+    "type": "Holiday rentals",
+    "price": "$100",
+    "rating": 4.3
+  },
+  {
+    "id": "38",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blta2ea6ea440e1125c/5fd432dee53f3355047dd18c/US_LincolnCity_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Lincoln City",
+    "type": "Holiday rentals",
+    "price": "$110",
+    "rating": 4.4
+  },
+  {
+    "id": "39",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt44451560d1f5ec87/5fd42d8c7c43e43bf41973cd/UK_Paphos_Cyprus_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Paphos",
+    "type": "Holiday rentals",
+    "price": "$130",
+    "rating": 4.6
+  },
+  {
+    "id": "40",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt40363577aed6e7a9/5fdba9d202fd0c7d345f1019/AU_Maleny_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Maleny",
+    "type": "Holiday rentals",
+    "price": "$90",
+    "rating": 4
+  },
+  {
+    "id": "41",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf78aec53540b9b34/5fd42cff752123476ba0429c/AU_Stanthorpe_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Stanthorpe",
+    "type": "Pet-friendly rentals",
+    "price": "$110",
+    "rating": 4.2
+  },
+  {
+    "id": "42",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blte9a98540cbe59e54/616677d9dd1cf90b821ded4e/US_Newport_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Newport",
+    "type": "Beach house rentals",
+    "price": "$200",
+    "rating": 4.8
+  },
+  {
+    "id": "43",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt6c53c97a0055057b/5fda8975396e65084a9e514f/UK_Glasgow_Scotland_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Glasgow",
+    "type": "House rentals",
+    "price": "$120",
+    "rating": 4.5
+  },
+  {
+    "id": "44",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt438bc7c7a1fe8845/5fdbb1e9396e65084a9e575c/UK_ScottishHighlands_Scotland_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Scottish Highlands",
+    "type": "Holiday rentals",
+    "price": "$110",
+    "rating": 4.4
+  },
+  {
+    "id": "45",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3ce379776aa50b0c/5fd431d7d0df66524b5d4138/UK_StAndrews_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "St Andrews",
+    "type": "Holiday rentals",
+    "price": "$100",
+    "rating": 4.3
+  },
+  {
+    "id": "46",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf4194a08d98dc40b/5fd42ce750460c30dd540e54/AU_McLarenVale_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "McLaren Vale",
+    "type": "House rentals",
+    "price": "$140",
+    "rating": 4.7
+  },
+  {
+    "id": "47",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf3198602bfd42fc8/5fd430c2da1c393383d3fe89/AU_Wallaroo_AU_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Wallaroo",
+    "type": "Holiday rentals",
+    "price": "$95",
+    "rating": 4.1
+  },
+  {
+    "id": "48",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt29db7c8d20dbbca6/5fb7298246f622769b5eff8c/US_Charleston_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Charleston",
+    "type": "Beach house rentals",
+    "price": "$180",
+    "rating": 4.6
+  },
+  {
+    "id": "49",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt40ea79ea59bf4990/5fda8b97a00f8977b7232a8c/UK_Hvar_Croatia_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Hvar",
+    "type": "Flat rentals",
+    "price": "$160",
+    "rating": 4.5
+  },
+  {
+    "id": "50",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2af9679a6663434d/60ab3729909370737ae49842/US_StJohn_U.S._Virgin_Islands_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Saint John",
+    "type": "Holiday rentals",
+    "price": "$120",
+    "rating": 4.4
+  },
+  {
+    "id": "51",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2e4fd48ad7e31f4c/5fda81cdb80b0a1a68f9e57a/US_Chattanooga_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Chattanooga",
+    "type": "Holiday rentals",
+    "price": "$100",
+    "rating": 4.3
+  },
+  {
+    "id": "52",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt29b0c975604238ab/5fd42e7ebed5bf30e30c66f7/US_Concan_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Concan",
+    "type": "House rentals",
+    "price": "$140",
+    "rating": 4.7
+  },
+  {
+    "id": "53",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt9439de8841744485/5fd42e747c43e43bf41973d5/US_Fredericksburg_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Fredericksburg",
+    "type": "House rentals",
+    "price": "$130",
+    "rating": 4.6
+  },
+  {
+    "id": "54",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blte3cf9c3ac486057a/6141cced69b7947c1b3acb1b/US_New_Braunfels_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "New Braunfels",
+    "type": "House rentals",
+    "price": "$150",
+    "rating": 4.8
+  },
+  {
+    "id": "55",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltd4ea7ef99a57b67f/5fd3ba0be5f85744d50f39a2/US_Rockport_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Rockport",
+    "type": "Beach house rentals",
+    "price": "$180",
+    "rating": 4.5
+  },
+  {
+    "id": "56",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blted90748df743ec8d/5fb782fe46f622769b5f006e/US_Waco_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Waco",
+    "type": "Flat rentals",
+    "price": "$160",
+    "rating": 4.4
+  },
+  {
+    "id": "57",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2798cd7086464e5e/6139e2e7dadef826b2db4056/UK_ForestofDeanDistrict_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Forest of Dean District",
+    "type": "Holiday rentals",
+    "price": "$110",
+    "rating": 4.2
+  },
+  {
+    "id": "58",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt598375ab514c4db3/5fdbb7996aab641cd100b587/US_Jersey_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Jersey",
+    "type": "Beach house rentals",
+    "price": "$200",
+    "rating": 4.7
+  },
+  {
+    "id": "59",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt2394f384bbe3a2a9/6139d89538fe80253506621c/UK_LymeRegis_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Lyme Regis",
+    "type": "Flat rentals",
+    "price": "$160",
+    "rating": 4.6
+  },
+  {
+    "id": "60",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3554a8bcaa298098/6139d895402ba23dfc223dd0/UK_Manchester_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Manchester",
+    "type": "Cottage rentals",
+    "price": "$130",
+    "rating": 4.5
+  },
+  {
+    "id": "61",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt9a6b68edd0b8f25d/6141cbcfee502d0e1337bbce/UK_Seaview_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Seaview",
+    "type": "Holiday rentals",
+    "price": "$100",
+    "rating": 4.3
+  },
+  {
+    "id": "62",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltbfba8cd07f1ec9ad/6139d917422c0828c0524863/UK_Southwold_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Southwold",
+    "type": "Holiday rentals",
+    "price": "$110",
+    "rating": 4.4
+  },
+  {
+    "id": "63",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt5f600b261086119f/6141cc5977d06a0c9835d499/UK_Staithes_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Staithes",
+    "type": "Holiday rentals",
+    "price": "$120",
+    "rating": 4.5
+  },
+  {
+    "id": "64",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb229a20f1f90bfbc/61406dc0436ceb2c79f1586f/UK_Wells-next-the-Sea_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Wells-next-the-Sea",
+    "type": "House rentals",
+    "price": "$140",
+    "rating": 4.6
+  },
+  {
+    "id": "65",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltbdca2ba2613ebf7d/6166707f7c52211d10e31166/US_St._George_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "St. George",
+    "type": "Holiday rentals",
+    "price": "$100",
+    "rating": 4.2
+  },
+  {
+    "id": "66",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf92d04143aa637f3/605d55415a03370f176ced2f/US_Burlington_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Burlington",
+    "type": "Holiday rentals",
+    "price": "$110",
+    "rating": 4.3
+  },
+  {
+    "id": "67",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc9cc3cdad2c0d9db/61810c788544150f29ab10b2/US_Killington_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Killington",
+    "type": "Holiday rentals",
+    "price": "$120",
+    "rating": 4.4
+  },
+  {
+    "id": "68",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc9cc3cdad2c0d9db/61810c788544150f29ab10b2/US_Killington_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Lexington",
+    "type": "Holiday rentals",
+    "price": "$130",
+    "rating": 4.5
+  },
+  {
+    "id": "69",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltc9cc3cdad2c0d9db/61810c788544150f29ab10b2/US_Killington_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Ocie",
+    "type": "Cabin rentals",
+    "price": "$140",
+    "rating": 4.6
+  },
+  {
+    "id": "70",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt537fd033f3ba7966/605c0ceb23b7510ecf1edd6e/US_SeasideHeights_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Seaside Heights",
+    "type": "Beach house rentals",
+    "price": "$150",
+    "rating": 4.7
+  },
+  {
+    "id": "71",
+    "url": "https://a0.muscache.com/im/pictures/81dca5d6-5a86-49bc-8eca-4a8610a07d27.jpg?im_w=1440",
+    "location": "Wildwood",
+    "type": "Flat rentals",
+    "price": "$160",
+    "rating": 4.8
+  },
+  {
+    "id": "72",
+    "url": "https://a0.muscache.com/im/pictures/1fc28506-d659-4588-a787-4dd290a7c230.jpg?im_w=1440",
+    "location": "Cedar City",
+    "type": "Holiday rentals",
+    "price": "$90",
+    "rating": 4
+  },
+  {
+    "id": "73",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt429d11c43b1558e4/6139d8f551f9bb3aa35e561e/US_Moab_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Moab",
+    "type": "Cottage rentals",
+    "price": "$110",
+    "rating": 4.2
+  },
+  {
+    "id": "74",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt3b60cc54e4107f4b/618b5e2effff3679072235bb/US_Park_City_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Park City",
+    "type": "Holiday rentals",
+    "price": "$120",
+    "rating": 4.3
+  },
+  {
+    "id": "75",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt77625b5944e67254/61c17374e5a70e7d5276be44/US_SaltLakeCity_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Salt Lake City",
+    "type": "Holiday rentals",
+    "price": "$130",
+    "rating": 4.4
+  },
+  {
+    "id": "76",
+    "url": "https://a0.muscache.com/im/pictures/1ff6d909-5ba6-42f3-9d2c-fa2327780936.jpg?im_w=1440",
+    "location": "Springdale",
+    "type": "House rentals",
+    "price": "$140",
+    "rating": 4.5
+  },
+  {
+    "id": "77",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt1e2c5a7a7d5c2934/616683a219868352684e042b/UK_Aberystwyth_UK_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Aberystwyth",
+    "type": "Holiday rentals",
+    "price": "$100",
+    "rating": 4.2
+  },
+  {
+    "id": "78",
+    "url": "https://a0.muscache.com/im/pictures/d6ce61b5-87e5-4f45-b54d-42f2f7ef9a55.jpg?im_w=1440",
+    "location": "Lewisburg",
+    "type": "Holiday rentals",
+    "price": "$110",
+    "rating": 4.3
+  },
+  {
+    "id": "79",
+    "url": "https://a0.muscache.com/im/pictures/d6ce61b5-87e5-4f45-b54d-42f2f7ef9a55.jpg?im_w=1440",
+    "location": "Snowshoe",
+    "type": "House rentals",
+    "price": "$120",
+    "rating": 4.4
+  },
+  {
+    "id": "80",
+    "url": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt70a09b5ecedb7180/5fd43474e53f3355047dd1a0/US_WisconsinDells_US_Header.jpg?width=1440&quality=70&auto=webp",
+    "location": "Wisconsin Dells",
+    "type": "Holiday rentals",
+    "price": "$130",
+    "rating": 4.5
+  }
 ],
       "wishlist": [],
 "cart": [],
