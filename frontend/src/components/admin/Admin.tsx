@@ -12,6 +12,10 @@ import { IoIosPeople } from 'react-icons/io';
 import { AiFillFileText } from 'react-icons/ai';
 import { FaChartBar, FaChartLine, FaChartPie } from 'react-icons/fa';
 import { ChartBar } from './bar';
+import PieChart1 from './PieChart';
+import { LineChart, PieChart } from 'recharts';
+import Piee from './pie';
+import Coupon from './Cuopon';
 
 
 
@@ -23,10 +27,10 @@ const Admin = () => {
   };
 
   return (
-    <div>
+    <div style={{background: '#64B5F6' , width:"100%", height:"1500px"}}>
       {/* Toggle button */}
       {!sidebarOpen && (
-        <button className="toggle-btn" onClick={toggleSidebar}>
+        <button className="toggle-btn" onClick={toggleSidebar} style={{borderRadius:"20px"}}>
           Admin
         </button>
       )}
@@ -35,7 +39,7 @@ const Admin = () => {
         <button className="close-btn" onClick={toggleSidebar}>
           &times;
         </button>
-        <h4 style={{marginBlock:"20px" , paddingLeft:"40px"}}>Dashboard</h4>
+        <h4 style={{marginBlock:"20px" , paddingLeft:"40px", color:"white"}}>Dashboard</h4>
         {/* Icon alongside Dashboard link */}
         <Link to="/" style={{marginBlock:"20px" , paddingLeft:"20px"}}>
           <Icon as={RiDashboardFill} style={{marginRight:"10px"}}/>
@@ -47,16 +51,15 @@ const Admin = () => {
         <Link to="/customers"style={{marginBlock:"20px",paddingLeft:"20px"}}><Icon as={IoIosPeople}  style={{marginRight:"10px"}}/>Customers</Link>
         <Link to="/transaction"style={{marginBlock:"20px",paddingLeft:"20px"}}><Icon as={AiFillFileText}  style={{marginRight:"10px"}}/>Transactions</Link>
         
-        <h4 style={{marginBlock:"20px" , paddingLeft:"40px", marginTop:"20px"}}>Charts</h4>
+        <h4 style={{marginBlock:"20px" , paddingLeft:"40px", marginTop:"20px",color:"white"}}>Charts</h4>
         {/* Icon alongside Dashboard link */}
         {/* Other sidebar links */}
         <Link to="/bar" style={{marginBlock:"20px", paddingLeft:"20px"}}><Icon as={FaChartBar}  style={{marginRight:"10px"}}/>Bar</Link>
         <Link to="/pie"style={{marginBlock:"20px",paddingLeft:"20px"}}><Icon as={FaChartPie}  style={{marginRight:"10px"}}/>Pie</Link>
-        <Link to="/line"style={{marginBlock:"20px",paddingLeft:"20px"}}><Icon as={FaChartLine}  style={{marginRight:"10px"}}/>Line</Link>
 
-        <h4 style={{marginBlock:"20px" , paddingLeft:"40px"}}>Coupon</h4>
+        <h4 style={{marginBlock:"20px" , paddingLeft:"40px", color:"white"}}>Coupon</h4>
         {/* Icon alongside Dashboard link */}
-        <Link to="/cupon" style={{marginBlock:"20px" , paddingLeft:"20px"}}>
+        <Link to="/coupon" style={{marginBlock:"20px" , paddingLeft:"20px"}}>
           <Icon as={RiCoupon2Fill} style={{marginRight:"10px"}}/>
             Coupon
         </Link>
@@ -69,6 +72,8 @@ const Admin = () => {
           <Route path="/customers" element={<Customers />} />
           <Route path="/transaction" element={<Transaction />} />
           <Route path="/bar" element={<ChartBar />} />
+          <Route path="/pie" element={<Piee />} />
+          <Route path="/coupon" element={<Coupon />} />
         </Routes>
       </div>
     </div>

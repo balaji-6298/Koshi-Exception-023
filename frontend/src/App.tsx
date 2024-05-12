@@ -17,7 +17,7 @@ import { TopNavbar } from "./components/topNavbar/TopNavbar";
 import { AllRoutes } from "./components/allRoutes/AllRoutes";
 
 
-export const App = () => {
+const App = () => {
   return (
     <>
 
@@ -40,4 +40,4 @@ export const App = () => {
     
   );
 };
-
+export default App;

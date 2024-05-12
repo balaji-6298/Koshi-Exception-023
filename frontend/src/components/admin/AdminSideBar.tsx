@@ -50,26 +50,26 @@ const AdminSideBar = () => {
   
   return (
     <aside className="asidebar" >
-       <div className="count-box" style={{display:"flex", gap: "20px", fontWeight:"bold", fontSize:"larger",padding:"50px"}}>
-          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px" }}>
-            <h4>Total Destinations</h4>
-            <h4 style={{marginTop:"50px"}}>{totalCount} <CircularProgress value={80} /></h4>
-            
-          </div>
-          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px"}}>
-            <h4 >Total Users</h4>
-            <h4 style={{marginTop:"70px"}}>{userCount} <CircularProgress value={60} /></h4>
+       <div className="count-box" style={{ display: "flex", gap: "20px", fontWeight: "bold", fontSize: "larger", padding: "50px" }}>
+  <div className="count-item" style={{ height: "200px", width: "200px",  padding: "20px", borderRadius: "10px", transition: "transform 0.3s",backgroundColor:"#1A237E",color:"white" }}>
+    <h4>Total Destinations</h4>
+    <h4 style={{ marginTop: "50px" }}>{totalCount} <CircularProgress value={80} /></h4>
+  </div>
+  <div className="count-item" style={{ height: "200px", width: "200px",  padding: "20px", borderRadius: "10px", transition: "transform 0.3s",backgroundColor:"#1A237E",color:"white"  }}>
+    <h4>Total Users</h4>
+    <h4 style={{ marginTop: "70px" }}>{userCount} <CircularProgress value={60} /></h4>
+  </div>
+  <div className="count-item" style={{ height: "200px", width: "200px", padding: "20px", borderRadius: "10px", transition: "transform 0.3s",backgroundColor:"#1A237E",color:"white"  }}>
+    <h4>Revenue</h4>
+    <h4 style={{ marginTop: "70px" }}>$34000<CircularProgress value={80} /></h4>
+  </div>
+  <div className="count-item" style={{ height: "200px", width: "200px", padding: "20px", borderRadius: "10px", transition: "transform 0.3s" ,backgroundColor:"#1A237E",color:"white" }}>
+    <h4>Transactions</h4>
+    <h4 style={{ marginTop: "70px" }}>$2500<CircularProgress value={40} /></h4>
+  </div>
+</div>
 
-          </div>
-          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px"}}>
-            <h4>Revenue</h4>
-            <h4 style={{marginTop:"70px"}}>$34000<CircularProgress value={80} /></h4>
-          </div>
-          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px"}}>
-            <h4>Transactions</h4>
-            <h4 style={{marginTop:"70px"}}>$2500<CircularProgress value={40} /></h4>
-          </div>
-        </div>
+    
       
     </aside>
   );
