@@ -65,6 +65,7 @@ const WishList: React.FC = () => {
   const sendItemToCart = async (item: Item) => {
     try {
       await axios.post('https://koshi-exception-023-1.onrender.com/cart', item);
+      alert('Added to cart!');
     } catch (error) {
       console.error('Failed to send item to cart:', error);
     }
