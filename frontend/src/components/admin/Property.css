@@ -1,0 +1,16 @@
+th, td {
+    padding: 10px; /* Adjust as needed */
+  }
+  
+  table {
+    margin-block: 30px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
