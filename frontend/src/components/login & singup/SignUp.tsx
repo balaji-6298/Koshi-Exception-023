@@ -296,26 +296,33 @@ export function SignUp() {
         .catch((error) => console.log(error));
      
     } else {
-      alert("Please enter valid credential");
+      toast({
+        title: 'Please enter valid email and password',
+        duration: 9000,
+        isClosable: true,
+      })
+      
     }
   };
 
   return (
     
-    <Center h="100vh" w="100vw" backgroundImage="url('https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dHJhdmVsJTIwd29ybGR8ZW58MHx8MHx8fDA%3D')" backgroundSize="cover" backgroundPosition="center"
+    <Center h="100vh" w="100vw" 
     >
       <Box maxW="md" mx="auto" mt="8" >
-       
+      <Heading as="h1" mb="4" textAlign="center" size="lg" >
+          Sign Up
+        </Heading>
         <Box
+        mt="30px"
           bg="white"
           p="8"
           rounded="lg"
-          boxShadow="0px 4px 6px rgba(0, 0, 0, 0.2)"
+          boxShadow= "rgba(0, 0, 0, 0.35) 0px 5px 15px"
+          
          
         >
-             <Heading as="h1" mb="4" textAlign="center" size="lg" >
-          Sign Up
-        </Heading>
+            
           <form onSubmit={handleSubmit}>
             <Input
               mb="4"
@@ -424,7 +431,17 @@ export function SignUp() {
               Sign Up
             </Button>
           </form>
+          <Box mt={4} textAlign="center">
+              <Button
+                variant="link"
+                color="blue.500"
+                onClick={() => navigate("/login")}
+              >
+               Login
+              </Button>
+            </Box>
         </Box>
+        
       </Box>
     </Center>
   );
