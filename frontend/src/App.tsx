@@ -3,28 +3,36 @@
 
 
 
-import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar"
+// import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar"
 
-import Admin from "./components/admin/Admin";
-
-
-
-import {  Routes, Route } from "react-router-dom"; 
-import { Stays } from "./pages/Stays";
-import { Experiences } from "./pages/Experiences";
-import { OnlineExperiences } from "./pages/OnlineExperiences";
-import { TopNavbar } from "./components/topNavbar/TopNavbar";
-import { AllRoutes } from "./components/allRoutes/AllRoutes";
+// import WishList from "./components/wishList/WishList";
 
 
-export const App = () => {
+// import Icondata from "./components/IconData";
+// import {Cart} from "./components/cart/Cart";
+
+
+// import Admin from "./components/admin/Admin";
+
+
+
+// import {  Routes, Route } from "react-router-dom"; 
+// import { Stays } from "./pages/Stays";
+// import { Experiences } from "./pages/Experiences";
+// import { OnlineExperiences } from "./pages/OnlineExperiences";
+// import { TopNavbar } from "./components/topNavbar/TopNavbar";
+// import { AllRoutes } from "./components/allRoutes/AllRoutes";
+
+
+
+ const App = () => {
   return (
     <>
 
 
-      <TopNavbar />
+      {/* <TopNavbar /> */}
 
-      <Admin />
+      {/* <Admin />
 
       <AllRoutes />
 
@@ -33,10 +41,11 @@ export const App = () => {
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/online-experiences" element={<OnlineExperiences />} />
       </Routes>
-      <BottomNavbar/>
-
+      <BottomNavbar/> */}
+   
     </>
     
   );
 };
 
+export default App
