@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom'
-import { Icons } from './Bottom nav pages/Icons'
 import { Amazingpools } from './Bottom nav pages/Amazingpools'
 import { Amazingviews } from './Bottom nav pages/Amazingview'
 import { Beach } from './Bottom nav pages/Beach'
@@ -15,6 +14,7 @@ import { Luxee } from './Bottom nav pages/Luxe'
 import { Omg } from './Bottom nav pages/Omg'
 import { Treehouse } from './Bottom nav pages/Treehouse'
 import { Box } from '@chakra-ui/react';
+import { Icondata } from './Bottom nav pages/Icons';
 
 export const BottomNavbar = () => {
   return (
@@ -88,10 +88,9 @@ export const BottomNavbar = () => {
 
       </Box>
 
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "30px" }}>
+       
           <Routes>
-            <Route path='/' element={<Icons />} />
+            <Route path='/' element={< Icondata/>} />
             <Route path='/Amazingpools' element={<Amazingpools />} />
             <Route path='/Amazingviews' element={<Amazingviews />} />
             <Route path='/Beach' element={<Beach />} />
@@ -105,8 +104,7 @@ export const BottomNavbar = () => {
             <Route path='/Omg' element={<Omg />} />
             <Route path='/Treehouse' element={<Treehouse />} />
           </Routes>
-        </div>
-      </div>
+        
     </>
   )
 }
