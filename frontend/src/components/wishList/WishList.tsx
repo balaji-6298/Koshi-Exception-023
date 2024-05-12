@@ -31,7 +31,7 @@ interface State {
   data: Item[] | null;
 }
 
-export const WishList: React.FC = () => {
+const WishList: React.FC = () => {
   const dispatch = useDispatch();
   const { loading, error, data } = useSelector((state: { data: State }) => state.data);
 
@@ -65,6 +65,7 @@ export const WishList: React.FC = () => {
   const sendItemToCart = async (item: Item) => {
     try {
       await axios.post('https://koshi-exception-023-1.onrender.com/cart', item);
+      alert('Added to cart!');
     } catch (error) {
       console.error('Failed to send item to cart:', error);
     }
@@ -134,3 +135,4 @@ export const WishList: React.FC = () => {
   );
 };
 
+export default WishList

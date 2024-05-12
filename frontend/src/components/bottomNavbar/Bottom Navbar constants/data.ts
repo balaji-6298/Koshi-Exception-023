@@ -31,8 +31,8 @@ export interface Farms{
     id:number;
     image_url:string;
     Location:string;
-    distance:String;
-    dates:String;
+    distance:string;
+    dates:string;
     price_per_night:number;
 
 }

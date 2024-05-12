@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Box,  Input,  Stack, useDisclosure } from '@chakra-ui/react'
 import {
   Modal,
@@ -6,11 +6,22 @@ import {
   ModalHeader,
   ModalBody,
   Text,
+  Card,
 } from '@chakra-ui/react';
+import Calendar from 'react-calendar';
+
+
+
 
 export const Stays=() => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
 
+  const { isOpen, onOpen, onClose } = useDisclosure();
+ 
+  const [showCalendar, setShowCalendar] = useState(false);
+
+  const handleBoxClick = () => {
+    setShowCalendar(!showCalendar);
+  };
  
   const background: string="lightGray"
  
@@ -59,11 +70,28 @@ export const Stays=() => {
       </Modal>
 </Box>
 
-<Box as='button' borderRadius='100px'bg="white" fontWeight="bold" _hover={{ bg: "gray.100"}} px={4} h={8}  height="65px" width="150px" border="none">
- Check  in 
- <Input variant='unstyled' placeholder='Add dates' ml={5} />
+<Box
+        as='button'
+        borderRadius='100px'
+        bg="white"
+        fontWeight="bold"
+        _hover={{ bg: "gray.100"}}
+        px={4}
+        h={8}
+        height="65px"
+        width="150px"
+        border="none"
+        onClick={handleBoxClick}
+      >
+        Check in
+        <Input variant='unstyled' placeholder='Add dates' ml={5} />
+      </Box>
+      {showCalendar && (
+        <Card p={6} mt={360} ml={-150} h={250}> {/* Card component */}
+          <Calendar />
+        </Card>
+      )}
 
-</Box>
 <Box as='button' borderRadius='100px' bg="white" fontWeight="bold" _hover={{ bg: "gray.100"}} px={4} h={8}  height="65px" width="150px" border="none">
   Check out
   <Input variant='unstyled' placeholder='Add dates' ml={5} />
