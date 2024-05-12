@@ -6,18 +6,23 @@ import { Experiences } from "./pages/Experiences";
 import { OnlineExperiences } from "./pages/OnlineExperiences";
 import { TopNavbar } from "./components/topNavbar/TopNavbar";
 import { AllRoutes } from "./components/allRoutes/AllRoutes";
+import { SignUp } from "./components/login & singup/SignUp";
 
+import { Login } from "./components/login & singup/Login";
 const App = () => {
   return (
     <>
-      <BottomNavbar/>
+    {/* <SignUp/> */}
+    <Login/>
+    <AllRoutes />
+      {/* <BottomNavbar/>
       <TopNavbar />
-      <AllRoutes />
+      // <AllRoutes />
       <Routes>
         <Route path="/" element={<Stays />} />
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/online-experiences" element={<OnlineExperiences />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 };
