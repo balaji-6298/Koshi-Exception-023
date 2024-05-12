@@ -1,9 +1,12 @@
+import User from "./user"
+
+
 
 
 const Customers = () => {
   return (
-    <div>
-      cust
+    <div style={{width:"100%", height: "510px"}}>
+      <User/>
     </div>
   )
 }

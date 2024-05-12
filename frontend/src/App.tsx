@@ -18,7 +18,7 @@ export const App = () => {
     <>
       <TopNavbar />
 
-      <Admin />
+      
 
       <AllRoutes />
 
@@ -27,6 +27,7 @@ export const App = () => {
         <Route path="/experiences" element={<Experiences />} />
         <Route path="/online-experiences" element={<OnlineExperiences />} />
       </Routes>
+      <Admin />
       <BottomNavbar/>
     </>
   );
