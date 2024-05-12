@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import { HiTrendingUp } from 'react-icons/hi';
+import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
+
+
 
 const AdminSideBar = () => {
   const location = useLocation();
@@ -44,39 +47,27 @@ const AdminSideBar = () => {
       console.error('Error fetching user data:', error);
     }
   };
-
+  
   return (
-    <aside className="asidebar">
-       <div className="count-box" style={{display:"flex", gap: "200px", fontWeight:"bold", fontSize:"larger",padding:"50px"}}>
-          <div className="count-item" style={{height:"200px", width:"300px", border:"1px solid black", padding:"20px"}}>
-            <h1>Total Destinations</h1>
-            <h1 style={{marginTop:"50px"}}>{totalCount}</h1>
-            <div className="custom-progressbar">
-              <CircularProgressbar 
-                value={75}
-                text={`${75}%`}
-                styles={buildStyles({
-                  textColor: '#3498db',
-                  pathColor: '#3498db',
-                  trailColor: '#d6d6d6',
-                })}
-              />
-            </div>
+    <aside className="asidebar" >
+       <div className="count-box" style={{display:"flex", gap: "20px", fontWeight:"bold", fontSize:"larger",padding:"50px"}}>
+          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px" }}>
+            <h4>Total Destinations</h4>
+            <h4 style={{marginTop:"50px"}}>{totalCount} <CircularProgress value={80} /></h4>
+            
           </div>
-          <div className="count-item" style={{height:"200px", width:"300px", border:"1px solid black", padding:"20px"}}>
-            <h1 >Total Users</h1>
-            <h1 style={{marginTop:"50px"}}>{userCount}</h1>
-            <div className="custom-progressbar">
-              <CircularProgressbar 
-                value={75}
-                text={`${75}%`}
-                styles={buildStyles({
-                  textColor: '#3498db',
-                  pathColor: '#3498db',
-                  trailColor: '#d6d6d6',
-                })}
-              />
-            </div>
+          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px"}}>
+            <h4 >Total Users</h4>
+            <h4 style={{marginTop:"70px"}}>{userCount} <CircularProgress value={60} /></h4>
+
+          </div>
+          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px"}}>
+            <h4>Revenue</h4>
+            <h4 style={{marginTop:"70px"}}>$34000<CircularProgress value={80} /></h4>
+          </div>
+          <div className="count-item" style={{height:"200px", width:"200px", border:"1px solid black", padding:"20px"}}>
+            <h4>Transactions</h4>
+            <h4 style={{marginTop:"70px"}}>$2500<CircularProgress value={40} /></h4>
           </div>
         </div>
       

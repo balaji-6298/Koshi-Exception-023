@@ -53,20 +53,108 @@
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
     /* height: 100vh; */
-    background-color: rgb(221, 214, 214);
+   
     >.asidebar{
       width: 100%;
-      background-color: white;
       /* padding: 1rem; */
       /* z-index: 10; */
       overflow-y: auto;
       
     }
   }
-  .custom-progressbar {
-    width: 130px; 
-    height: 130px; 
-    margin-top: -65px;
-    margin-left: 40px;
-  }
+/* properties styling */
+/* App container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+}
+
+/* Item container */
+.item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* Image */
+.item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Update form */
+.update-form {
+  margin-top: 10px;
+}
+
+.update-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.update-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.update-form button:hover {
+  background-color: #45a049;
+}
+
+/* Add form */
+.add-form {
+  margin-top: 20px;
+}
+
+.add-form input {
+  width: calc(33.33% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.add-form button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background-color: #0073e6;
+}
+.TransactionsAndRevenue{
+  display: flex;
+  flex: column;
+  justify-content:center;
+  background-color: white;
+  padding: 0 2rem 2rem 0;
+  width: 100%;
   
+}
+.Shares{
+  width:"200px";
+  >span{
+    background-color: "red";
+  }
+}
+.CountryRatio{
+ display: flex;
+ gap: 2rem;
+ padding: 0 2rem 2rem 0;
+ 
+
+}
+.countryChart{
+  position: relative;
+}
