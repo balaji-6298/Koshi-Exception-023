@@ -15,10 +15,15 @@ const App = () => {
   return (
     <>
       <AllRoutes />
+
+     
+      <BottomNavbar/>
+
       {/* <TopNavbar />
       <SignUp />
       <Admin />
       <BottomNavbar /> */}
+
     </>
   );
 };
