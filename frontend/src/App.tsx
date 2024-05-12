@@ -6,11 +6,10 @@ import Footer from "./pages/Footer";
 const App = () => {
   return (
     <>
-    <TopNavbar />
+      <TopNavbar />
       <AllRoutes />
-      <BottomNavbar/>
-      <BottomNavbar /> 
-<Footer/>
+      <BottomNavbar />
+      <Footer />
     </>
   );
 };
