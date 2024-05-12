@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 import { Amazingpool, categories } from '../Bottom Navbar constants/data';
 import { icondata } from '../Bottom Navbar constants/Icons';
 import { Box, Image, Badge, Text } from '@chakra-ui/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart, faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 export const Farmss = () => {
   const [obj, setObj] = useState<categories[]>([]);
@@ -28,9 +30,12 @@ export const Farmss = () => {
 
   return (
     <>
+          <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "30px" }}>
       {arr.map((ele) => {
         return (
           <>
+
             <div key={ele.id} >
               <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
                 <Image src={ele.image_link} alt="" />
@@ -61,12 +66,20 @@ export const Farmss = () => {
                       {ele.price_per_night}
                     </Text>
                   </Box>
+
+
+                  <Box marginLeft={"300px"} marginTop={"-20px"} display={'flex'} gap={"10px"}>
+                        <FontAwesomeIcon icon={faHeart} />
+                        <FontAwesomeIcon icon={faCartPlus} />
+                      </Box>
                 </Box>
               </Box>
             </div>
           </>
         )
       })}
+        </div>
+        </div>
     </>
   )
 }
