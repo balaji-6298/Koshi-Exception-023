@@ -1,11 +1,12 @@
 import { Box, Image, Grid } from '@chakra-ui/react';
 import { StarIcon } from '@chakra-ui/icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart, faCartPlus } from '@fortawesome/free-solid-svg-icons';
+
 
 
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import HeartIcon from '../../wishList/WishListIcon';
+import CartIcon from '../../cart/cardTcons';
 
 interface AirbnbCardProps {
   id: string;
@@ -65,8 +66,8 @@ export const Icondata: React.FC = () => {
                       </Box>
 
                       <Box marginLeft={"240px"} marginTop={"-20px"} display={'flex'} gap={"10px"}>
-                        <FontAwesomeIcon icon={faHeart} />
-                        <FontAwesomeIcon icon={faCartPlus} />
+                        <HeartIcon data={item}/>
+                        <CartIcon  data={item}/>
                       </Box>
                        
                     </div>
