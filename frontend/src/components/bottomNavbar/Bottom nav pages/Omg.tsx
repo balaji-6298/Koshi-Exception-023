@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react'
 import { categories, omg } from '../Bottom Navbar constants/data';
 import { icondata } from '../Bottom Navbar constants/Icons';
 import { Box, Image, Badge, Text } from '@chakra-ui/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 export const Omg = () => {
   const [obj, setObj] = useState<categories[]>([]);
@@ -60,6 +63,10 @@ export const Omg = () => {
                     <Text fontSize="sm" color="gray.500">
                       {ele.price}
                     </Text>
+                  </Box>
+                  <Box height={"20px"} marginLeft={"300px"} marginTop={"-40px"} display={'flex'} gap={"10px"}>
+                    <FontAwesomeIcon icon={faCartShopping}  />
+                    <FontAwesomeIcon icon={faHeart} />
                   </Box>
                 </Box>
               </Box>

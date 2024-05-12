@@ -1,8 +1,12 @@
-import React from 'react'
+
 import { useEffect, useState } from 'react'
 import { Amazingpool, categories } from '../Bottom Navbar constants/data';
 import { icondata } from '../Bottom Navbar constants/Icons';
 import { Box, Image, Badge, Text } from '@chakra-ui/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+
 
 export const Amazingpools = () => {
   const [obj, setObj] = useState<categories[]>([]);
@@ -60,6 +64,10 @@ export const Amazingpools = () => {
                     <Text fontSize="sm" color="gray.500">
                       {ele.price_per_night}
                     </Text>
+                  </Box>
+                  <Box height={"20px"} marginLeft={"300px"} marginTop={"-40px"} display={'flex'} gap={"10px"}>
+                    <FontAwesomeIcon icon={faCartShopping}  />
+                    <FontAwesomeIcon icon={faHeart} />
                   </Box>
                 </Box>
               </Box>

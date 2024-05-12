@@ -2,7 +2,11 @@
 import { useEffect, useState } from 'react'
 import { Amazingpool, categories } from '../Bottom Navbar constants/data';
 import { icondata } from '../Bottom Navbar constants/Icons';
-import { Box, Image, Badge, Text } from '@chakra-ui/react';
+import { Box, Image, Badge, Text} from '@chakra-ui/react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+
 
 export const Icons = () => {
   const [obj, setObj] = useState<categories[]>([]);
@@ -26,14 +30,13 @@ export const Icons = () => {
     }
   }, [obj]);
 
-   console.log("hii");
   return (
     <>
-      {arr.map((ele,ind) => {
+      {arr.map((ele, ind) => {
         return (
           <>
-          <div key={ind} >
-              <Box key={ele.id} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+            <div key={ind} >
+              <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
                 <Image src={ele.image_link} alt="" />
 
                 <Box p="6">
@@ -62,9 +65,14 @@ export const Icons = () => {
                       {ele.price_per_night}
                     </Text>
                   </Box>
+                  <Box height={"20px"} marginLeft={"300px"} marginTop={"-40px"} display={'flex'} gap={"10px"}>
+                    <FontAwesomeIcon icon={faCartShopping}  />
+                    <FontAwesomeIcon icon={faHeart} />
+
+                  </Box>
                 </Box>
               </Box>
-              </div>
+            </div>
           </>
         )
       })}
