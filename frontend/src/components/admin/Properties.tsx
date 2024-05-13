@@ -1,10 +1,11 @@
-import Property from "./Property"
+// import Property from "./Property"
+
 
 
 const Properties = () => {
   return (
     <div style={{width:"100%", height: "510px"}}>
-      <Property />
+      {/* <Property/> */}
     </div>
   )
 }
