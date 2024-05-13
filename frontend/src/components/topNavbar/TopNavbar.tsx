@@ -12,7 +12,7 @@ import { useState } from "react";
 import { FaBars, FaUser } from "react-icons/fa";
 
 import { Link, useNavigate } from "react-router-dom";
-
+import logoImage from "../../image/Wondro (1).png";
 export const TopNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ export const TopNavbar = () => {
   const handleSignUp = () => {
     navigate("/signup");
   };
-
+ 
   const handleLogin = () => {
     navigate("/login");
   };
@@ -39,7 +39,8 @@ export const TopNavbar = () => {
     <>
 
       <Box bg="white.800" p={3} ml={50}  height="80px" border="none" width="1250px" display={"flex"} >
-         <img src='/Koshi-Exception-023/frontend/src/image/Wondro (1).png' alt='Logo' style={{marginTop:"15px"}}/>
+         {/* <img src={logo} alt='Logo' style={{marginTop:"15px"}}/> */}
+         <img src={logoImage} alt="Logo" style={{ marginTop: "15px" }} />
         <Flex justify="space-around" align="center" gap="80px" mt="15px" ml="350px">
           <ChakraLink as={Link} to="/" color="gray.500" fontWeight="bold" _hover={{ color: "black" }}>
             Stays
