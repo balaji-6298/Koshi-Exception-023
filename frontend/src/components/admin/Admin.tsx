@@ -12,7 +12,7 @@ import Dashboard from './Dashboard';
 import AdminSideBar from './AdminSideBar';
 import Properties from './Properties';
 import Customers from './Customers';
-import Transactions from './Transactions';
+
 
 
 
