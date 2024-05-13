@@ -6,7 +6,7 @@ import { FaBars, FaUser } from 'react-icons/fa';
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Footer from './Footer';
+//import Footer from './Footer';
 import { icondata } from '../components/bottomNavbar/Bottom Navbar constants/Icons';
 import { Amazingpool, categories } from '../components/bottomNavbar/Bottom Navbar constants/data';
 
@@ -77,7 +77,7 @@ export const OnlineExperiences = () => {
             </Box>
 
 
-            {/* Your other content */}
+            
             <h1 style={{ padding: "20px 80px", fontSize: "35px", fontWeight: "600" }}>New this week</h1>
 
             <Box w="100%" marginLeft="40px" >
@@ -199,13 +199,13 @@ export const OnlineExperiences = () => {
 
             {/* ********************* */}
 
-            <h3 style={{ marginLeft: "40px" }}>Plan a trip with help from local Hosts around the world</h3>
+            <h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Plan a trip with help from local Hosts around the world</h3>
 
 
 
-            <Box width="1000px" marginLeft="-5px">
-
-                <Carousel >
+            <Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"}>
+{/* 
+                <Carousel > */}
                     {arr.map((ele, ind) => {
                         return (
                             <div key={ind} >
@@ -243,16 +243,16 @@ export const OnlineExperiences = () => {
                             </div>
                         )
                     })}
-                </Carousel>
+                {/* </Carousel> */}
 
             </Box>
 
 {/* 2nd */}
-            <h3 style={{ marginLeft: "40px" }}>Top sellers</h3>
+            <h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Top sellers</h3>
 
-            <Box width="1000px" marginLeft="-5px">
-
-                <Carousel >
+            <Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"} >
+{/* 
+                <Carousel > */}
                     {arr.map((ele, ind) => {
                         return (
                             <div key={ind} >
@@ -290,18 +290,18 @@ export const OnlineExperiences = () => {
                             </div>
                         )
                     })}
-                </Carousel>
+                {/* </Carousel> */}
 
             </Box>
 
 
 {/* 3rd */}
 
-<h3 style={{ marginLeft: "40px" }}>Great for groups</h3>
+<h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Great for groups</h3>
 
-            <Box width="1000px" marginLeft="-5px">
-
-                <Carousel >
+<Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"} >
+{/* 
+                <Carousel > */}
                     {arr.map((ele, ind) => {
                         return (
                             <div key={ind} >
@@ -339,17 +339,17 @@ export const OnlineExperiences = () => {
                             </div>
                         )
                     })}
-                </Carousel>
+                {/* </Carousel> */}
 
             </Box>
 
             {/* 4th */}
 
-            <h3 style={{ marginLeft: "40px" }}>Make plans this weekend</h3>
+            <h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Make plans this weekend</h3>
 
-            <Box width="1000px" marginLeft="-5px">
-
-                <Carousel >
+            <Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"}  marginBottom={"40px"}>
+{/* 
+                <Carousel > */}
                     {arr.map((ele, ind) => {
                         return (
                             <div key={ind} >
@@ -387,10 +387,10 @@ export const OnlineExperiences = () => {
                             </div>
                         )
                     })}
-                </Carousel>
+                {/* </Carousel> */}
 
             </Box>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 };

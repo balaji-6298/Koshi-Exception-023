@@ -14,9 +14,9 @@ export const TopNavbar = () => {
   return (
     <>
 
-      <Box bg="white.800" p={3} ml={400}  height="80px" border="none" width="900px" display={"flex"} >
-
-        <Flex justify="space-around" align="center" gap="20px" mt="15px">
+      <Box bg="white.800" p={3} ml={50}  height="80px" border="none" width="1250px" display={"flex"} >
+         <img src='/Koshi-Exception-023/image/Wondro (1).jpg' alt='Logo' style={{marginTop:"15px"}}/>
+        <Flex justify="space-around" align="center" gap="80px" mt="15px" ml="350px">
           <ChakraLink as={Link} to="/" color="gray.500" fontWeight="bold" _hover={{ color: "black" }}>
             Stays
           </ChakraLink>
@@ -27,10 +27,6 @@ export const TopNavbar = () => {
             Online Experiences
           </ChakraLink>
 
-
-
-
-
         </Flex>
 
         <Button
@@ -38,7 +34,8 @@ export const TopNavbar = () => {
           w="80px"
           h="45px"
           borderRadius="30px"
-          marginLeft="450px"
+          marginLeft="300px"
+          marginTop={"10px"}
           onClick={() => setIsOpen(true)}
         >
           <Icon as={FaBars} marginRight="10px" />

@@ -4,20 +4,22 @@ import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar";
 
 import { TopNavbar } from "./components/topNavbar/TopNavbar";
 import { AllRoutes } from "./components/allRoutes/AllRoutes";
+import { FooterFirst } from "./pages/FooterFirst";
+//import { Footer1 } from "./components/footer/Footer1";
 
 
 const App = () => {
   return (
     <>
-    <TopNavbar />
+      <TopNavbar />
       <AllRoutes />
+      <BottomNavbar />
+      {/*  */}
+      <FooterFirst />
 
-     
-      <BottomNavbar/>
 
-       
-       {/* <Stays/> */}
-       {/* <Admin /> */}
+      {/* <Stays/> */}
+      {/* <Admin /> */}
       {/*<SignUp />
       
       <BottomNavbar /> */}
