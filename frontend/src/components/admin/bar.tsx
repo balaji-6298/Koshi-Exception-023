@@ -1,11 +1,12 @@
 import React from 'react'
 import { HorizontalGraph } from './Horizontal';
 import { TransactionandRevenue } from './Transactionsandrevenuegraph';
+import AdminSideBar from './AdminSideBar';
 
 export const ChartBar = () => {
     console.log("hi");
     
-  return (
+  return (<>
     <div  style={{backgroundColor:"white"}}>
       <h2>Revenue and Transactions</h2>
          <TransactionandRevenue data_1={[300, 144, 433, 655, 237, 755, 190]} 
@@ -27,7 +28,7 @@ export const ChartBar = () => {
             bgColor_1="rgb(0,155,255)"
             horizontal={true} data_2={[]} title_2={""} bgColor_2={""}/>
       </div>
-    
+      </>
   )
 }
 

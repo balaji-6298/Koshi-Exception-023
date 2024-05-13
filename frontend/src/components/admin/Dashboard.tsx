@@ -6,11 +6,23 @@ import { HorizontalGraph } from "./Horizontal"
 import { BiAddToQueue, BiMaleFemale } from "react-icons/bi"
 import CountryRatio from "./BarChart"
 import TableHOC from "./Table"
+import { useState } from "react"
 
 
 
 const Dashboard = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
   return (
+    <>
+    {!sidebarOpen && (
+      <button className="toggle-btn" onClick={toggleSidebar} style={{borderRadius:"20px"}}>
+        Admin
+      </button>
+    )}
     <div className="adminContainer">
      <AdminSideBar />
      <section className="TransactionsAndRevenue">
@@ -40,8 +52,8 @@ const Dashboard = () => {
          <p>Finology <span><Progress value={650} size='xs' colorScheme='blue' /></span> 65%</p>
       </div>
      </section>
-     <section className="CountryRatio" style={{display:"flex"}}>
-      <div className="countryChart">
+     <section className="CountryRatio" style={{display:"flex", marginLeft:"320px"}}>
+      <div className="countryChart" >
         <h2>Country Ratio</h2>
         <CountryRatio labels={["India", "America","United Kingdom","Other Countries"]} data_1={[70, 40, 35, 30]} backgroundColor_1={['yellow', 'blue','green','orange']}/>
         </div>
@@ -50,9 +62,9 @@ const Dashboard = () => {
         <h2>Visitors Table</h2>
         <TableHOC />
         </div>
-     
      </section>
     </div>
+    </>
   )
 }
 

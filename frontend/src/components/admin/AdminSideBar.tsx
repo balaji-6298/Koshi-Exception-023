@@ -50,7 +50,7 @@ const AdminSideBar = () => {
   
   return (
     <aside className="asidebar" >
-       <div className="count-box" style={{ display: "flex", gap: "20px", fontWeight: "bold", fontSize: "larger", padding: "50px" }}>
+       <div className="count-box" style={{ display: "flex", gap: "20px", fontWeight: "bold", fontSize: "larger", padding: "50px", marginLeft:"330px"}}>
   <div className="count-item" style={{ height: "200px", width: "200px",  padding: "20px", borderRadius: "10px", transition: "transform 0.3s",backgroundColor:"#1A237E",color:"white" }}>
     <h4>Total Destinations</h4>
     <h4 style={{ marginTop: "50px" }}>{totalCount} <CircularProgress value={80} /></h4>
