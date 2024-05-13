@@ -4,7 +4,7 @@ import './Admin.css'
 import { TransactionandRevenue } from "./Transactionsandrevenuegraph"
 import { HorizontalGraph } from "./Horizontal"
 import { BiAddToQueue, BiMaleFemale } from "react-icons/bi"
-import CountryRatio from "./CountryRatio"
+import CountryRatio from "./BarChart"
 import TableHOC from "./Table"
 
 

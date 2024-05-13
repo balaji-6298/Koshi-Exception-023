@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom'
-import { Icons } from './Bottom nav pages/Icons'
 import { Amazingpools } from './Bottom nav pages/Amazingpools'
 import { Amazingviews } from './Bottom nav pages/Amazingview'
 import { Beach } from './Bottom nav pages/Beach'
@@ -15,6 +14,12 @@ import { Luxee } from './Bottom nav pages/Luxe'
 import { Omg } from './Bottom nav pages/Omg'
 import { Treehouse } from './Bottom nav pages/Treehouse'
 import { Box } from '@chakra-ui/react';
+import { Icondata } from './Bottom nav pages/Icons';
+import WishList from '../wishList/WishList';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { Cart } from '../cart/Cart';
 
 export const BottomNavbar = () => {
   return (
@@ -86,12 +91,20 @@ export const BottomNavbar = () => {
           <p>Treehouse</p>
         </div></Link>
 
+        <Link to="/WishList"><div style={{display:"flex",flexDirection:"column", justifyContent:"center" , alignItems:"center"}}>
+          <FontAwesomeIcon icon={faHeart} />
+          <p>WishList</p>
+        </div></Link>
+
+        <Link to="/Cart"><div style={{display:"flex",flexDirection:"column", justifyContent:"center" , alignItems:"center"}}>
+        <FontAwesomeIcon icon={faCartPlus} />
+          <p>Cart</p>
+        </div></Link>
       </Box>
 
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "30px" }}>
+       
           <Routes>
-            <Route path='/' element={<Icons />} />
+            <Route path='/' element={< Icondata/>} />
             <Route path='/Amazingpools' element={<Amazingpools />} />
             <Route path='/Amazingviews' element={<Amazingviews />} />
             <Route path='/Beach' element={<Beach />} />
@@ -104,9 +117,10 @@ export const BottomNavbar = () => {
             <Route path='/Luxe' element={<Luxee />} />
             <Route path='/Omg' element={<Omg />} />
             <Route path='/Treehouse' element={<Treehouse />} />
+            <Route path='/WishList' element={<WishList />} />
+            <Route path='/Cart' element={<Cart />} />
           </Routes>
-        </div>
-      </div>
+        
     </>
   )
 }

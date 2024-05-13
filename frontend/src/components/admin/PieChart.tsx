@@ -1,5 +1,5 @@
 import React from 'react';
-import { Doughnut } from 'react-chartjs-2';
+import { Doughnut, Pie } from 'react-chartjs-2';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -25,24 +25,20 @@ import {
     ArcElement
   );
 
-interface DoughnutChartProps {
+interface PieChartProps {
   labels: string[];
   data_1: number[];
   backgroundColor_1: string[];
-  cutout?: number | string;
-  legends?: boolean;
   offset?: number[];
 }
 
-export const CountryRatio = ({
+export const PieChart1 = ({
   labels,
   data_1,
   backgroundColor_1,
-  cutout,
-  legends = true,
   offset,
-}: DoughnutChartProps) => {
-  const doughnutData: ChartData<'doughnut', number[], string> = {
+}: PieChartProps) => {
+  const piechartData: ChartData<'pie', number[], string> = {
     labels,
     datasets: [
       {
@@ -54,25 +50,23 @@ export const CountryRatio = ({
     ],
   };
 
-  const doughnutOptions: ChartOptions<'doughnut'> = {
+  const piechartOptions: ChartOptions<'pie'> = {
     responsive: true,
     plugins: {
       legend: {
-        display: legends,
+        display: false,
         position: 'bottom',
-        labels: {
-          padding: 20,
-        },
+       
       },
     },
-    cutout,
+   
   };
 
   return (
     <div>
-      <Doughnut data={doughnutData} options={doughnutOptions} />
+      <Pie data={piechartData} options={piechartOptions} />
     </div>
   );
 };
 
-export default CountryRatio;
+export default PieChart1;
