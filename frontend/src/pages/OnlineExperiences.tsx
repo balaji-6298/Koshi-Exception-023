@@ -86,10 +86,8 @@ export const OnlineExperiences = () => {
        
       </Box>
 
-      {/* Your other content */}
-      <h1 style={{ padding: "20px 80px", fontSize: "35px", fontWeight: "600" }}>
-        New this week
-      </h1>
+            
+            <h1 style={{ padding: "20px 80px", fontSize: "35px", fontWeight: "600" }}>New this week</h1>
 
       <Box w="100%" marginLeft="40px">
         <Carousel
@@ -515,23 +513,18 @@ export const OnlineExperiences = () => {
 
       {/* ********************* */}
 
-      <h3 style={{ marginLeft: "40px" }}>
-        Plan a trip with help from local Hosts around the world
-      </h3>
+            <h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Plan a trip with help from local Hosts around the world</h3>
 
-      <Box width="1000px" marginLeft="-5px">
-        <Carousel>
-          {arr.map((ele, ind) => {
-            return (
-              <div key={ind}>
-                <Box
-                  key={ele.id}
-                  maxW="sm"
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  overflow="hidden"
-                >
-                  <Image src={ele.image_link} alt="" />
+
+
+            <Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"}>
+{/* 
+                <Carousel > */}
+                    {arr.map((ele, ind) => {
+                        return (
+                            <div key={ind} >
+                                <Box key={ele.id} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                                    <Image src={ele.image_link} alt="" />
 
                   <Box p="6">
                     <Box display="flex" alignItems="baseline">
@@ -560,35 +553,31 @@ export const OnlineExperiences = () => {
                       {ele.distance}
                     </Box>
 
-                    <Box>
-                      <Text fontSize="sm" color="gray.500">
-                        {ele.price_per_night}
-                      </Text>
-                    </Box>
-                  </Box>
-                </Box>
-              </div>
-            );
-          })}
-        </Carousel>
-      </Box>
+                                        <Box>
+                                            <Text fontSize="sm" color="gray.500">
+                                                {ele.price_per_night}
+                                            </Text>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </div>
+                        )
+                    })}
+                {/* </Carousel> */}
 
-      {/* 2nd */}
-      <h3 style={{ marginLeft: "40px" }}>Top sellers</h3>
+            </Box>
 
-      <Box width="1000px" marginLeft="-5px">
-        <Carousel>
-          {arr.map((ele, ind) => {
-            return (
-              <div key={ind}>
-                <Box
-                  key={ele.id}
-                  maxW="sm"
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  overflow="hidden"
-                >
-                  <Image src={ele.image_link} alt="" />
+{/* 2nd */}
+            <h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Top sellers</h3>
+
+            <Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"} >
+{/* 
+                <Carousel > */}
+                    {arr.map((ele, ind) => {
+                        return (
+                            <div key={ind} >
+                                <Box key={ele.id} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                                    <Image src={ele.image_link} alt="" />
 
                   <Box p="6">
                     <Box display="flex" alignItems="baseline">
@@ -617,36 +606,32 @@ export const OnlineExperiences = () => {
                       {ele.distance}
                     </Box>
 
-                    <Box>
-                      <Text fontSize="sm" color="gray.500">
-                        {ele.price_per_night}
-                      </Text>
-                    </Box>
-                  </Box>
-                </Box>
-              </div>
-            );
-          })}
-        </Carousel>
-      </Box>
+                                        <Box>
+                                            <Text fontSize="sm" color="gray.500">
+                                                {ele.price_per_night}
+                                            </Text>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </div>
+                        )
+                    })}
+                {/* </Carousel> */}
+
+            </Box>
 
       {/* 3rd */}
 
-      <h3 style={{ marginLeft: "40px" }}>Great for groups</h3>
+<h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Great for groups</h3>
 
-      <Box width="1000px" marginLeft="-5px">
-        <Carousel>
-          {arr.map((ele, ind) => {
-            return (
-              <div key={ind}>
-                <Box
-                  key={ele.id}
-                  maxW="sm"
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  overflow="hidden"
-                >
-                  <Image src={ele.image_link} alt="" />
+<Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"} >
+{/* 
+                <Carousel > */}
+                    {arr.map((ele, ind) => {
+                        return (
+                            <div key={ind} >
+                                <Box key={ele.id} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                                    <Image src={ele.image_link} alt="" />
 
                   <Box p="6">
                     <Box display="flex" alignItems="baseline">
@@ -675,36 +660,32 @@ export const OnlineExperiences = () => {
                       {ele.distance}
                     </Box>
 
-                    <Box>
-                      <Text fontSize="sm" color="gray.500">
-                        {ele.price_per_night}
-                      </Text>
-                    </Box>
-                  </Box>
-                </Box>
-              </div>
-            );
-          })}
-        </Carousel>
-      </Box>
+                                        <Box>
+                                            <Text fontSize="sm" color="gray.500">
+                                                {ele.price_per_night}
+                                            </Text>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </div>
+                        )
+                    })}
+                {/* </Carousel> */}
+
+            </Box>
 
       {/* 4th */}
 
-      <h3 style={{ marginLeft: "40px" }}>Make plans this weekend</h3>
+            <h3 style={{ marginLeft: "40px" ,marginTop:"20px" }}>Make plans this weekend</h3>
 
-      <Box width="1000px" marginLeft="-5px">
-        <Carousel>
-          {arr.map((ele, ind) => {
-            return (
-              <div key={ind}>
-                <Box
-                  key={ele.id}
-                  maxW="sm"
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  overflow="hidden"
-                >
-                  <Image src={ele.image_link} alt="" />
+            <Box width="1300px" marginLeft="40px" gap={"40px"} display={"flex"} flexWrap={"wrap"} marginTop={"20px"}  marginBottom={"40px"}>
+{/* 
+                <Carousel > */}
+                    {arr.map((ele, ind) => {
+                        return (
+                            <div key={ind} >
+                                <Box key={ele.id} maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                                    <Image src={ele.image_link} alt="" />
 
                   <Box p="6">
                     <Box display="flex" alignItems="baseline">
@@ -733,19 +714,20 @@ export const OnlineExperiences = () => {
                       {ele.distance}
                     </Box>
 
-                    <Box>
-                      <Text fontSize="sm" color="gray.500">
-                        {ele.price_per_night}
-                      </Text>
-                    </Box>
-                  </Box>
-                </Box>
-              </div>
-            );
-          })}
-        </Carousel>
-      </Box>
-      <Footer />
-    </>
-  );
+                                        <Box>
+                                            <Text fontSize="sm" color="gray.500">
+                                                {ele.price_per_night}
+                                            </Text>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </div>
+                        )
+                    })}
+                {/* </Carousel> */}
+
+            </Box>
+            {/* <Footer /> */}
+        </>
+    )
 };

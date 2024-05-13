@@ -1,7 +1,9 @@
 import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar";
 import { TopNavbar } from "./components/topNavbar/TopNavbar";
 import { AllRoutes } from "./components/allRoutes/AllRoutes";
-import Footer from "./pages/Footer";
+import { FooterFirst } from "./pages/FooterFirst";
+//import { Footer1 } from "./components/footer/Footer1";
+
 
 const App = () => {
   return (
@@ -9,7 +11,16 @@ const App = () => {
       <TopNavbar />
       <AllRoutes />
       <BottomNavbar />
-      <Footer />
+      {/*  */}
+      <FooterFirst />
+
+
+      {/* <Stays/> */}
+      {/* <Admin /> */}
+      {/*<SignUp />
+      
+      <BottomNavbar /> */}
+
     </>
   );
 };
