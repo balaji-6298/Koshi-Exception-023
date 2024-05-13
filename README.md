@@ -16,3 +16,9 @@ Our travel platform offers a seamless user experience, allowing individuals to c
 
 Frontend | Backend | Fullstack
 
+#Features:
+User Authentication: Easily log in, log out, and sign up to access the platform's features.
+Wishlist: Save your favorite destinations for future reference.
+Admin Dashboard: Manage site content and user data efficiently from the backend.
+Intuitive Interface: Enjoy a user-friendly experience for seamless navigation and interaction.
+Customization: Tailor your travel preferences and save destinations according to your interests.
