@@ -1,147 +1,194 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import './Property.css';
-import AdminSideBar from './AdminSideBar'; // Import the AdminSideBar component
 
-function Property() {
-  const [data, setData] = useState([]);
-  const [updateId, setUpdateId] = useState(null); // State to track the item to update
+const API_URL = 'https://koshi-exception-023-3.onrender.com/newData';
+
+const Property = () => {
+  const [rentals, setRentals] = useState<any[]>([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [rentalsPerPage] = useState(5);
+  const [formData, setFormData] = useState({
+    location: '',
+    type: '',
+    price: '',
+    rating: '',
+    url: ''
+  });
+  const [editingRentalId, setEditingRentalId] = useState(null); // Track which rental is being edited
 
   useEffect(() => {
-    fetchData();
+    const fetchRentals = async () => {
+      try {
+        const response = await axios.get(API_URL);
+        setRentals(response.data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+    fetchRentals();
   }, []);
 
-  const fetchData = async () => {
+  const indexOfLastRental = currentPage * rentalsPerPage;
+  const indexOfFirstRental = indexOfLastRental - rentalsPerPage;
+  const currentRentals = rentals.slice(indexOfFirstRental, indexOfLastRental);
+
+  const paginate = (pageNumber:number) => setCurrentPage(pageNumber);
+
+  const handleDelete = async (id:number) => {
     try {
-      // Fetch data from API or local JSON file
-      const response = await fetch('https://koshi-exception-023-2.onrender.com/Properties');
-      const jsonData = await response.json();
-      setData(jsonData); // Assuming your data is an array
+      await axios.delete(`${API_URL}/${id}`);
+      setRentals((prevRentals) => prevRentals.filter((rental) => rental.id !== id));
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error('Error deleting rental:', error);
     }
   };
 
-  const handleDelete = (id) => {
-    // Implement delete functionality
-    setData(data.filter(item => item.id !== id));
+  const handleUpdate = async () => {
+    console.log("Hello");
+        try {
+      await axios.put(`${API_URL}/${editingRentalId}`, formData);
+      setRentals((prevRentals) =>
+        prevRentals.map((rental) => (rental.id === editingRentalId ? { ...rental, ...formData } : rental))
+      );
+
+      console.log("Test")
+      setFormData({
+        location: '',
+        type: '',
+        price: '',
+        rating: '',
+        url: ''
+      });
+    } catch (error) {
+      console.error('Error updating rental:', error);
+    }
   };
 
-  const handleUpdate = (id) => {
-    // Set the ID of the item to update
-    setUpdateId(id);
+
+ 
+  
+
+  const handleAdd = async () => {
+    console.log("add");
+    try {
+      const response = await axios.post(API_URL, formData);
+      const newRental = response.data;
+      const getRes=await axios.get(API_URL);
+      const data=await getRes.data;
+      console.log(data);
+
+      setRentals([newRental, ...rentals]);
+      setFormData({
+        location: '',
+        type: '',
+        price: '',
+        rating: '',
+        url: ''
+      });
+    } catch (error) {
+      console.error('Error adding rental:', error);
+    }
   };
-
-  const handleEditChange = (e, id) => {
-    // Find the item to update
-    const updatedItem = data.find(item => item.id === id);
-    // Update the item's data based on the input change
-    const newData = { ...updatedItem, [e.target.name]: e.target.value };
-    // Update the data state with the modified item
-    setData(data.map(item => (item.id === id ? newData : item)));
-  };
-
-  const handleEditSubmit = (e, id) => {
-    e.preventDefault();
-    // Exit update mode
-    setUpdateId(null);
-  };
-
-  const handleAdd = (formData) => {
-    // Implement add functionality
-    const newData = { ...formData, id: data.length + 1 }; // Generate unique ID
-    setData([...data, newData]);
-
-    // Call updateDataCount to update the data count
-    updateDataCount(data.length + 1);
-  };
-
-  return (
-    <div>
-      {/* Add form */}
-      <AddForm onAdd={handleAdd} />
-
-      {/* Display table of fetched data */}
-      <table>
-        <thead>
-          <tr>
-            <th>Location</th>
-            <th>Price</th>
-            <th>Image</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map(item => (
-            <tr key={item.id}>
-              <td>{item.location}</td>
-              <td>{item.price}</td>
-              <td><img src={item.image_url} alt={item.location} /></td>
-              <td>
-                {/* Render update form conditionally based on updateId */}
-                {updateId === item.id ? (
-                  <form onSubmit={(e) => handleEditSubmit(e, item.id)}>
-                    <input
-                      type="text"
-                      name="location"
-                      value={item.location}
-                      onChange={(e) => handleEditChange(e, item.id)}
-                    />
-                    <input
-                      type="text"
-                      name="price"
-                      value={item.price}
-                      onChange={(e) => handleEditChange(e, item.id)}
-                    />
-                    <input
-                      type="text"
-                      name="image_url"
-                      value={item.image_url}
-                      onChange={(e) => handleEditChange(e, item.id)}
-                    />
-                    <button type="submit"style={{backgroundColor:"green", padding:"10px", marginRight:"20px"}}>Save</button>
-                  </form>
-                ) : (
-                  <>
-                    <button onClick={() => handleUpdate(item.id)} style={{backgroundColor:"yellowgreen", padding:"10px", marginRight:"20px"}}>Update</button>
-                    <button onClick={() => handleDelete(item.id)} style={{backgroundColor:"red", padding:"10px", marginRight:"20px"}}>Delete</button>
-                  </>
-                )}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-}
-
-function AddForm({ onAdd }) {
-  const [formData, setFormData] = useState({});
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onAdd(formData);
-    setFormData({});
+  const handleEdit = (id) => {
+    setEditingRentalId(id); // Set the id of the rental being edited
+    const rentalToEdit = rentals.find((rental) => rental.id === id);
+    setFormData({ ...rentalToEdit });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="location" style={{marginRight:"10px"}}>Location:</label>
-      <input type="text" id="location" name="location" placeholder="Location" onChange={handleChange} />
-
-      <label htmlFor="price" style={{marginRight:"10px"}}>Price:</label>
-      <input type="text" id="price" name="price" placeholder="Price" onChange={handleChange} />
-
-      <label htmlFor="image_url" >Image URL:</label>
-      <input type="text" id="image_url" name="image_url" placeholder="Image URL" onChange={handleChange} />
-
-      <button type="submit"style={{backgroundColor:"skyblue", padding:"10px", marginRight:"20px"}}>Add</button>
-    </form>
+    <div className="property-container">
+      <h1 className="property-heading">Rental List</h1>
+      <form className="rental-form" onSubmit={ editingRentalId ? handleUpdate: handleAdd}>
+        <input
+          type="text"
+          name="location"
+          value={formData.location}
+          placeholder="Location"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          name="type"
+          value={formData.type}
+          placeholder="Type"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          name="price"
+          value={formData.price}
+          placeholder="Price"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          name="rating"
+          value={formData.rating}
+          placeholder="Rating"
+          onChange={handleChange}
+        />
+        <input
+          type="text"
+          name="url"
+          value={formData.url}
+          placeholder="Image URL"
+          onChange={handleChange}
+        />
+        <button type="submit" className="add-rental-button">
+          {editingRentalId ? 'Update Rental' : 'Add Rental'}
+        </button>
+      </form>
+      <ul className="rental-list">
+        {currentRentals.map((rental) => (
+          <li key={rental.id} className="rental-item">
+            <div className="rental-details">
+              <img className="rental-image" src={rental.url} alt={rental.location} />
+              <div className="rental-info">
+                <h3 className="rental-location">{rental.location}</h3>
+                <p className="rental-type">Type: {rental.type}</p>
+                <p className="rental-price">Price: {rental.price}</p>
+                <p className="rental-rating">Rating: {rental.rating}</p>
+                <button className="delete-button" onClick={() => handleDelete(rental.id)}>Delete</button>
+                <button className="update-button" onClick={() => handleEdit(rental.id)}>Update</button>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+      <Pagination
+        rentalsPerPage={rentalsPerPage}
+        totalRentals={rentals.length}
+        paginate={paginate}
+      />
+    </div>
   );
-}
+};
+
+const Pagination = ({ rentalsPerPage, totalRentals, paginate }) => {
+  const pageNumbers = [];
+
+  for (let i = 1; i <= Math.ceil(totalRentals / rentalsPerPage); i++) {
+    pageNumbers.push(i);
+  }
+
+
+  return (
+    <nav>
+      <ul className="pagination">
+        {pageNumbers.map((number) => (
+          <li key={number} className="page-item">
+            <button className="page-link" onClick={() => paginate(number)}>{number}</button>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+};
 
 export default Property;
