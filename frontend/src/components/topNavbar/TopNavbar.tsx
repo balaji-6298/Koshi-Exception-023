@@ -39,7 +39,7 @@ export const TopNavbar = () => {
     <>
 
       <Box bg="white.800" p={3} ml={50}  height="80px" border="none" width="1250px" display={"flex"} >
-         <img src='/Koshi-Exception-023/image/Wondro (1).jpg' alt='Logo' style={{marginTop:"15px"}}/>
+         <img src='/Koshi-Exception-023/frontend/src/image/Wondro (1).png' alt='Logo' style={{marginTop:"15px"}}/>
         <Flex justify="space-around" align="center" gap="80px" mt="15px" ml="350px">
           <ChakraLink as={Link} to="/" color="gray.500" fontWeight="bold" _hover={{ color: "black" }}>
             Stays
