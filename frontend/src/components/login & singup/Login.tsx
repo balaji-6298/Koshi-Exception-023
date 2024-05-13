@@ -4,7 +4,6 @@ import { useState } from "react";
 import { usersUrl } from "../../utils/server";
 import { useNavigate } from "react-router-dom";
 
-
 export function Login() {
   const navigate = useNavigate();
   const [adminPass, setAdminPass] = useState<boolean>(false);
@@ -30,7 +29,7 @@ export function Login() {
     if (userData.email == "admin@gmail.com") {
       if (userData.pass == "admin") {
         localStorage.setItem("admin", "1");
-        navigate("/admin"); 
+        navigate("/admin");
       } else {
         setAdminPass(true);
       }
@@ -63,7 +62,7 @@ export function Login() {
             bg="white"
             p="8"
             rounded="lg"
-            boxShadow="0px 4px 6px rgba(0, 0, 0, 0.2)"
+            boxShadow= "rgba(0, 0, 0, 0.35) 0px 5px 15px"
           >
             <form onSubmit={handleSubmit}>
               <Input

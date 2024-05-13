@@ -12,9 +12,16 @@ import { IoIosPeople } from 'react-icons/io';
 import { AiFillFileText } from 'react-icons/ai';
 import { FaChartBar, FaChartLine, FaChartPie } from 'react-icons/fa';
 import { ChartBar } from './bar';
+<<<<<<< HEAD
 import Piee from './piemain';
 import Coupon from './Coupon';
 
+=======
+import PieChart1 from './PieChart';
+import { LineChart, PieChart } from 'recharts';
+import Piee from './pie';
+import Coupon from './Cuopon';
+>>>>>>> 55090b1026723095740636c73a42d0ff335992a2
 
 
 
@@ -26,10 +33,14 @@ const Admin = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div style={{width:"100%", height:"1500px"}}>
+=======
+    <div style={{background: '#64B5F6' , width:"100%", height:"1500px"}}>
+>>>>>>> 55090b1026723095740636c73a42d0ff335992a2
       {/* Toggle button */}
       {!sidebarOpen && (
-        <button className="toggle-btn" onClick={toggleSidebar}>
+        <button className="toggle-btn" onClick={toggleSidebar} style={{borderRadius:"20px"}}>
           Admin
         </button>
       )}
@@ -38,7 +49,11 @@ const Admin = () => {
         <button className="close-btn" onClick={toggleSidebar}>
           &times;
         </button>
+<<<<<<< HEAD
         <h4 style={{marginBlock:"20px" , paddingLeft:"40px",color:"white"}}>Dashboard</h4>
+=======
+        <h4 style={{marginBlock:"20px" , paddingLeft:"40px", color:"white"}}>Dashboard</h4>
+>>>>>>> 55090b1026723095740636c73a42d0ff335992a2
         {/* Icon alongside Dashboard link */}
         <Link to="/" style={{marginBlock:"20px" , paddingLeft:"20px"}}>
           <Icon as={RiDashboardFill} style={{marginRight:"10px"}}/>
@@ -56,7 +71,11 @@ const Admin = () => {
         <Link to="/bar" style={{marginBlock:"20px", paddingLeft:"20px"}}><Icon as={FaChartBar}  style={{marginRight:"10px"}}/>Bar</Link>
         <Link to="/pie"style={{marginBlock:"20px",paddingLeft:"20px"}}><Icon as={FaChartPie}  style={{marginRight:"10px"}}/>Pie</Link>
 
+<<<<<<< HEAD
         <h4 style={{marginBlock:"20px" , paddingLeft:"40px",color:"white"}}>Coupon</h4>
+=======
+        <h4 style={{marginBlock:"20px" , paddingLeft:"40px", color:"white"}}>Coupon</h4>
+>>>>>>> 55090b1026723095740636c73a42d0ff335992a2
         {/* Icon alongside Dashboard link */}
         <Link to="/coupon" style={{marginBlock:"20px" , paddingLeft:"20px"}}>
           <Icon as={RiCoupon2Fill} style={{marginRight:"10px"}}/>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import { Doughnut, Pie } from 'react-chartjs-2';
 import {
@@ -71,19 +70,3 @@ export const PieChart1 = ({
 };
 
 export default PieChart1;
-=======
-import React from 'react'
-import { PieChart } from 'recharts'
-import PieChart1 from './PieChart'
-
-const Piee = () => {
-  return (
-    <div style={{width: "300px", height:"400px" , marginLeft:"300px"}}>
-      <PieChart1 labels={["processing", "Register", "Final"]} data_1={[12,9,13]} backgroundColor_1={["green", "lightgreen", "yellowgreen"]}/>
-      <h2 style={{marginLeft:"90px"}}>Order Fulfilment Ratio</h2>
-    </div>
-  )
-}
-
-export default Piee
->>>>>>> 55090b1026723095740636c73a42d0ff335992a2

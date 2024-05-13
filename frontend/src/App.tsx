@@ -1,35 +1,28 @@
-
-import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar"
-
-import Admin from "./components/admin/Admin";
-
-// import { Link } from 'react-router-dom';
-
-import {  Routes, Route } from "react-router-dom"; 
-import { Stays } from "./pages/Stays";
-import { Experiences } from "./pages/Experiences";
-import { OnlineExperiences } from "./pages/OnlineExperiences";
+import { BottomNavbar } from "./components/bottomNavbar/BottomNavbar";
 import { TopNavbar } from "./components/topNavbar/TopNavbar";
 import { AllRoutes } from "./components/allRoutes/AllRoutes";
+import { FooterFirst } from "./pages/FooterFirst";
+//import { Footer1 } from "./components/footer/Footer1";
 
 
-export const App = () => {
+const App = () => {
   return (
     <>
       <TopNavbar />
-
-      
-
       <AllRoutes />
+      <BottomNavbar />
+      {/*  */}
+      <FooterFirst />
 
-      <Routes>
-        <Route path="/" element={<Stays />} />
-        <Route path="/experiences" element={<Experiences />} />
-        <Route path="/online-experiences" element={<OnlineExperiences />} />
-      </Routes>
-      <Admin />
-      <BottomNavbar/>
+
+      {/* <Stays/> */}
+      {/* <Admin /> */}
+      {/*<SignUp />
+      
+      <BottomNavbar /> */}
+
     </>
   );
 };
 
+export default App;

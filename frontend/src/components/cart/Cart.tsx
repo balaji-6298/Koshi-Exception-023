@@ -1,9 +1,8 @@
+
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchDataFromAPI } from '../../utils/wishListApi';
 
-
-import { fetchDataRequest, fetchDataSuccess, fetchDataFailure, deleteItem, addToCart } from '../../redux/action';
+import { fetchDataRequest, fetchDataSuccess, fetchDataFailure, deleteItem } from '../../redux/action';
 import { Box, Image, Grid } from '@chakra-ui/react';
 import { StarIcon } from '@chakra-ui/icons';
 import { Button } from '@chakra-ui/react';
@@ -14,7 +13,7 @@ import {
   AlertTitle,
   AlertDescription,
 } from '@chakra-ui/react';
-import axios from 'axios';
+import { fetchDataFromCart } from '../../utils/cart';
 
 interface Item {
   id: string;
@@ -31,7 +30,7 @@ interface State {
   data: Item[] | null;
 }
 
-const WishList: React.FC = () => {
+export const Cart: React.FC = () => {
   const dispatch = useDispatch();
   const { loading, error, data } = useSelector((state: { data: State }) => state.data);
 
@@ -39,7 +38,7 @@ const WishList: React.FC = () => {
     const fetchData = async () => {
       dispatch(fetchDataRequest());
       try {
-        const res = await fetchDataFromAPI();
+        const res = await fetchDataFromCart();
         dispatch(fetchDataSuccess(res));
       } catch (error) {
         dispatch(fetchDataFailure(error));
@@ -50,25 +49,8 @@ const WishList: React.FC = () => {
   }, [dispatch]);
 
   const handleDeleteItem = (id: string) => {
+    
     dispatch(deleteItem(id));
-  };
-
-  const handleAddToCart = async (item: Item) => {
-    try {
-      dispatch(addToCart(item));
-      await sendItemToCart(item);
-    } catch (error) {
-      console.error('Failed to add item to cart:', error);
-    }
-  };
-
-  const sendItemToCart = async (item: Item) => {
-    try {
-      await axios.post('https://koshi-exception-023-1.onrender.com/cart', item);
-      alert('Added to cart!');
-    } catch (error) {
-      console.error('Failed to send item to cart:', error);
-    }
   };
 
   return (
@@ -114,10 +96,10 @@ const WishList: React.FC = () => {
                     </Box>
                   </div>
                   <Box w='100%'>
-                    <Button colorScheme='gray' onClick={() => handleAddToCart(item)}>ADD TO CART</Button>
+                    
                     <Button
                       colorScheme='red'
-                      ml={10}
+                     
                       pl={6}
                       pr={6}
                       onClick={() => handleDeleteItem(item.id)} 
@@ -134,5 +116,3 @@ const WishList: React.FC = () => {
     </div>
   );
 };
-
-export default WishList

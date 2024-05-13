@@ -47,7 +47,7 @@
   
   /* Hover effect */
   .close-btn:hover {
-    background-color: #902828; /* Change the background color on hover */
+    background-color: hsl(0, 6%, 35%); /* Change the background color on hover */
   }
   .adminContainer{
     /* display: grid;
@@ -157,4 +157,52 @@
 }
 .countryChart{
   position: relative;
+}
+/* Admin.css */
+.hotelForm {
+  margin-bottom: 20px;
+}
+
+.addButton {
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #218838;
+}
+
+.hotelTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.hotelTable th, .hotelTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.hotelTable th {
+  background-color: #f2f2f2;
+}
+
+.actionButton {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  background-color: #0056b3;
 }
