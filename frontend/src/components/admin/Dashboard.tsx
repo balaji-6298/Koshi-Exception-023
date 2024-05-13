@@ -10,6 +10,7 @@ import TableHOC from "./Table"
 
 
 const Dashboard = () => {
+
   return (
     <div className="adminContainer">
      <AdminSideBar />

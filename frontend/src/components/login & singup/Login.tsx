@@ -29,7 +29,7 @@ export function Login() {
     if (userData.email == "admin@gmail.com") {
       if (userData.pass == "admin") {
         localStorage.setItem("admin", "1");
-        navigate("/admin");
+        navigate("/admin/*");
       } else {
         setAdminPass(true);
       }
