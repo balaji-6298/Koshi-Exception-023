@@ -19,6 +19,7 @@ const App = () => {
       <AllRoutes />
      {check && <BottomNavbar />} 
       {check && <FooterFirst />}
+      <BottomNavbar/>
     </>
   );
 };
