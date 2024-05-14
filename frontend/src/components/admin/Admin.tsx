@@ -9,9 +9,9 @@ import { AiFillFileText } from 'react-icons/ai';
 import { FaChartBar, FaChartPie } from 'react-icons/fa';
 import { useState } from 'react';
 import Dashboard from './Dashboard';
-import AdminSideBar from './AdminSideBar';
-import Properties from './Properties';
-import Customers from './Customers';
+// import AdminSideBar from './AdminSideBar';
+// import Properties from './Properties';
+// import Customers from './Customers';
 
 
 
